@@ -19,7 +19,7 @@ Electricity transformed countless industries: AI will bring about an equally-pow
 * Course 5:  NLP / Sequence Models
   - RNN, LSTM, etc
   
-
+# Week 1
 ## What is a Neural Network?
 * DL just refers to building "deep" neural networks
 
@@ -65,4 +65,18 @@ Structured and Unstructured Data
   * unstructured: audio, images, text 
     - DL has really helped here (in that before DL, this stuff was not always possible)
   
- 
+ Scale drivers DL progress
+ * note that in the small data regime, hand-crafting features often dominates the NN approach
+ * the dominant driver theoretically has been the amount of data (see figure)
+ * however, in practice, this driver was only realizable with the rise of compute power (e.g., parallel processing, GPUs)
+ * more recently, refined/new algorithms have driven progress as well
+  - e.g., switching from a sigmoid activation to a relu activation
+  - sigmoids slow down learning b/c of has near-zero gradients in its saturation regions, however, the gradient for relue is nonzero for all positive values
+  - relu make gradient descent work much faster
+  
+Random note:  in this course, m will denote # of training examples
+
+# Week 2: Basics of NN Programming
+
+
+# Week 3: One Hidden Layer Networks
