@@ -50,5 +50,19 @@ Electricity transformed countless industries: AI will bring about an equally-pow
     * we say that the hidden layer is fully/densely connected b/c each neuron is connected to every input feature 
     
     
- 
+ The Hype
+  * some of it is justified
+  * the only real economic value has derived from applications of DL to supervised learning
+    - online advertising has been most lucrative application of neural networks
+    - applications to computer vision (e.g., photo tagging) has also been a practical application
+    - speech recognition 
+    - machine translation (e.g., English to Chinese)
+    - autonomous driving
+  * a lot of power of DL/SL is cleverly choosing what should be x, what should be y
+  
+Structured and Unstructured Data
+  * structured: most of the stuff (each feature is well-defined)
+  * unstructured: audio, images, text 
+    - DL has really helped here (in that before DL, this stuff was not always possible)
+  
  
