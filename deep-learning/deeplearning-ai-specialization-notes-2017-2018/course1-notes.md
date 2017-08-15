@@ -76,6 +76,16 @@ Structured and Unstructured Data
   
 Random note:  in this course, m will denote # of training examples
 
+## Interview w/ Geoffrey Hinton
+* Are memories holographic?
+  - that is, are they distributed holistically/globally over the brain?
+* A concept is a big bundle of features...
+* 1980s/90s: already were doing some text translation, etc
+* Of all his work, Hinton is still enamored by his work on Boltzmann machines
+  - these were too slow in practice though
+  - however, if you give up "some of the beauty" of Boltzmann machines, you can make them practical (restricted BMs)
+* ...lots of cool stuff: worth rewatching
+
 # Week 2: Basics of NN Programming
 
 
