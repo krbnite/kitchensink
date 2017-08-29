@@ -358,7 +358,8 @@ vectorize computations across the data set.
 B is the broadcast of b. That is, in Python/NumPy lingo, adding a scalar to a vector is called
 broadcasting...which means that the scalar is treated as <b, b, ..., b>.  This abuse of notation
 is used all over math and physics, but I've never seen it called broadcasting outside of the various
-ML/DL courses I've taken.
+ML/DL courses I've taken.  At any rate, it's not only an abuse of notation in code, apparently it 
+is computationally more efficient (Ng has a video on this; note below).
 
 So we have vectorized Z, but what do we do about the sigmoid activation of Z?
 Fortunately, NumPy's exponential function, np.exp, is already vectorized, so we
@@ -410,4 +411,29 @@ this for loop is not parallelizable / vectorizable.
 Moral:  Avoid all unnecessary for loops, however some for loops are unavoidable.
 
 -------------------------------------------------------------
+
+## Broadcasting in Python
+Broadcasting is more than just "adding scalars to vectors," like we covered above.
+It can also apply to dividing matrices by matrices.... "Say what?" says the well-informed
+mathematician. No need to fret though.  Broadcasting is a way of defining what we mean when
+we say "dividing matrices by matrices." More importantly, the definition usually amounts to
+what we would want it to mean.  
+
+For example, say we have `A = np.array([[1,2,3], [4,5,6]])` and `b = np.array([[1,2,3]])`. 
+Then `A/b` is defined in NumPy by broadcast.  That is, it is "stacked, componentwise division."
+
+A/b := A[i,j]/b[j]
+
+```python
+Apples = [56.0, 1.2, 1.8]
+Beef = [0.0, 104.0, 135.0]
+Eggs = [4.4, 52.0, 99.0]
+Potatoes = [68.0, 8.0, 0.9]
+carb_prot_fat = np.array([Apples, Beef, Eggs, Potatoes]).T  # 3x4 matrix
+tot_cals = carb_pro_fat.sum(axis=0, keepdims=True) # axis=0: sum over rows
+pc_cpf = 100 * carb_prot_fat / tot_cals
+    array([[ 0.94915254,  0.        ,  0.02831403,  0.88426528],
+           [ 0.02033898,  0.43514644,  0.33462033,  0.10403121],
+           [ 0.03050847,  0.56485356,  0.63706564,  0.01170351]])
+```
 
