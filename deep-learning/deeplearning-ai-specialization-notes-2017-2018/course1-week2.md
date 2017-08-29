@@ -145,7 +145,7 @@ finally minimizing the action to solve for the equations of motion.
 
 Recap: 
 * The function to fit:  p = sigmoid(<w,x>+b), where sigmoid(z) = 1/(1+exp(-z))
-* The loss incurred at a single data point: L(p[i],y[i]) = (1-y[i])log(1-p[i]) + y[i]log(p[i]) 
+* The loss incurred at a single data point: L(p[i],y[i]) = -((1-y[i])log(1-p[i]) + y[i]log(p[i]))
 * The cost (avg loss) of that fit: J(w,b) = avg{i}{L(p[i],y[i])}
 
 This cost function is convex:
@@ -239,4 +239,175 @@ previously computed derivatives to compute left-ward derivatives via the chain r
 <img src=./images/log-reg-grad-desc.png>
 
 ## Gradient Descent on m-Sized Batches
-...stopped here for the night...
+Recap:
+* J(w,b) = avg{i}{L(p[i],y[i])}
+* p[i] = sigmoid(z[i]) = sigmoid(<w,x[i]>+b)
+
+Derivative of the cost function: instead of just taking the derivative of the loss function 
+at a single data point, we compute the derivative at a batch of data points:
+* Equation:  dJ/dw[i] = avg{i}{dL/dw[i]}
+* In Code: dw\_avg = mean(dw)
+
+Here is a "naive" implementation:
+```python
+J=0; dw1=0; dw2=0; db=0  # J(w,b), dJ/dw1, dJ/dw2, dJ/db
+for i in range(0,m):
+  z[i] = np.dot(w, x[:,i])
+  p[i] = sigmoid(z[i])
+  J += -( y[i]*log(p[i]) + (1-y[i])*log(1-p[i]) )
+  dz = p[i] - y[i]  # dJ/dz
+  dw1 += x[1,i]*dz  # coeff of feature1, dJ/dw1
+  dw2 += x[2,i]*dz  # coeff of feature2, dJ/dw2
+  db  += dz         # dJ/db
+# Currently have summed loss and summed derivatives
+#  -- want cost (average loss) and avg derivatives
+J /= m;  dw1 /= m;  dw2 /= m;  db /= m
+# Gradient Descent: Where is our next step in parameter space?
+w1 = w1 - lrn_rt*dw1  # i.e., w1_new = w1_old - lrn_rt * dJ/dw1
+w2 = w2 - lrn_rt*dw2  # i.e., w2_new = w2_old - lrn_rt * dJ/dw2
+b  = b - lrn_rt*db    # i.e.,  b_new =  b_old - lrn_rt * dJ/db
+```
+
+This implementation is not vectorized:  we have 2 features here, so it seems harmless,
+but what if you have 5000 features?  Would you write it all out?  No.  Would you implement a
+second forLoop?  Maybe, but you shouldn't.  Even the forLoop we implemented of the data points
+is inefficient as one's data gets big.  Instead, you should stick to vectorized calculations,
+which we cover in the next section. 
+
+
+# Python & Vectorization
+## Vectorization
+Vectorization is the art of getting rid of for loops in your code.
+
+Without vectorization, in the age of deep learning and "big data," you will likely sit around too much.
+In fact, you could sit around so much that you lose interest in your project. And that's not good!
+
+DON'T DO:
+```python
+z=0
+for i in range(num_ftrs):
+  z += w[i]*x[i]
+z += b
+```
+INSTEAD, DO:
+```python
+z = np.dot(w,x) + b # (w^T)x + b
+```
+
+Vectorized computations are very quick (takes about 1.5-2.0 ms):
+<img src=./images/vectorized-dot-product.png>
+
+Non-vectorized, for-looped computations are very slow (takes about 450-500 ms):
+<img src=./images/nonvectorized-dot-product.png>
+
+Both compute the same number!  One method is ~300x slower.  Your choice.
+
+----------------------------------------
+
+### GPU vs CPU
+You've likely heard about GPU computing for deep learning, but we've been doing parallelized CPU computing.
+
+By using NumPy's vectorized methods, you allow Python/C to leverage multiple CPUs on your computer.
+
+SIMD: single instruction multiple data
+
+-------------------------------------------
+
+Take Away:  Whether using GPUs, CPUs, or both, avoid using explicit for loops.
+NumPy includes a bunch of functions that are already vectorized, so use them!
+(e.g., np.exp, np.log, np.maximum, etc)
+
+## Vectorized GradDesc for LogReg
+When I was taking notes before, I actually injected some vectorization (np.dot).  But the goal
+here is to fully vectorize.
+
+Here we deal with the "feature for loop"
+```python
+dw = np.zeros((num_ftrs, 1))  # dJ/dw
+J=0; db=0                     # J(w,b), dJ/db
+for i in range(0,m):
+  z[i] = np.dot(w, x[:,i])
+  p[i] = sigmoid(z[i])
+  J += -( y[i]*log(p[i]) + (1-y[i])*log(1-p[i]) )
+  dz = p[i] - y[i]  # dJ/dz
+  dw += x[:,i]*dz   # gradient wrt weights, dJ/dw1
+  db  += dz         # dJ/db
+# Currently have summed loss and summed derivatives
+#  -- want cost (average loss) and avg derivatives
+J /= m;  dw /= m;  db /= m
+# Gradient Descent: Where is our next step in parameter space?
+w = w - lrn_rt*dw    # i.e., w_new = w_old - lrn_rt * dJ/dw
+b  = b - lrn_rt*db   # i.e.,  b_new =  b_old - lrn_rt * dJ/db
+```
+
+We can do even better than this!  No for loops at all.
+
+Remember:  Ng uses columnar records
+* <img src=./images/columnar-records.png>
+
+We covered this a bit already above when talking about the notation used for this course.
+Basically, instead of having separate vectors for each record, just make a matrix of such
+vector records.  In TF and Udacity's DL nanodegree, this is a matrix of row records.
+In Ng's course, this is a matrix of column records.  Importantly, it allows NumPy to 
+vectorize computations across the data set.
+
+<img src=./images/data-matrix.png>
+
+`(np.dot(w.T,X) + B)[i] = w[j]X[j,i] + b`
+
+B is the broadcast of b. That is, in Python/NumPy lingo, adding a scalar to a vector is called
+broadcasting...which means that the scalar is treated as <b, b, ..., b>.  This abuse of notation
+is used all over math and physics, but I've never seen it called broadcasting outside of the various
+ML/DL courses I've taken.
+
+So we have vectorized Z, but what do we do about the sigmoid activation of Z?
+Fortunately, NumPy's exponential function, np.exp, is already vectorized, so we
+can use it in our definition of the sigmoid function, which gives us a vectorized
+sigmoid function:
+```python
+# A = [a[1], a[2], ..., a[m]] = sigmoid(Z) = sigmoid([z[1], z[2], ..., z[m]])
+import numpy as np
+def sigmoid(z):
+  return 1./(1+np.exp(z))
+Z = np.dot(w.T, X) + b
+A = sigmoid(Z)
+```
+
+## Vectorizing Gradient Descent
+Before we found that dJ/dz, denoted in code as "dz", for a given data point, i, was
+```
+dzi = a[i] - y[i]  #  a[i] was called p[i] in some of my earlier notes
+```
+
+Vectorizing this (and other quantities) is simple. Here we get rid of the for loop
+over the data range.
+```python
+import numpy as np
+def sigmoid(z):
+  return 1./(1+np.exp(z))
+Z = np.dot(w.T, X) + b
+A = sigmoid(Z)
+dZ = A - Y
+dw = np.dot(X, dZ.T)/m
+db = np.sum(dZ)/m
+w = w - lrn_rt*dw
+b = b - lrn_rt*db
+```
+Note that we're not keeping track of the cost here.  That's ok, technically, since the equations
+we derived are track are in reference to the cost function.  That said, often one might want to
+track the cost for visualization or early-stopping purposes.
+
+-------------------------------------------
+What's the problem?
+
+We actually only did one iteration of gradient descent.  We got rid of all the for loops within that
+iteration of gradient descent, but still -- we only took one step down the hill!
+
+One step down the hill is sometimes called an epoch.  Oftentimes, we run a gradient descent for 10, 100, or
+even 1000 epochs.  This requires a for loop.  Furthermore, since each subsequent value depends on the value before it,
+this for loop is not parallelizable / vectorizable.  
+
+Moral:  Avoid all unnecessary for loops, however some for loops are unavoidable.
+
+-------------------------------------------------------------
+
