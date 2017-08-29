@@ -13,3 +13,28 @@ We strongly encourage students to form study groups, and discuss the lecture vid
 Something like this could work:
 * https://24ways.org/2013/keeping-parts-of-your-codebase-private-on-github/
 * https://medium.com/@bilalbayasut/github-how-to-make-a-fork-of-public-repository-private-6ee8cacaf9d3
+  - [StackOverflow page](https://stackoverflow.com/questions/10065526/github-how-to-make-a-fork-of-public-repository-private) w/ same content
+
+
+```
+# first, create a private GitHub repo, then:
+git clone --bare https://github.com/krbnite/deeplearning.ai
+cd public-repo.git
+git push --mirror https://github.com/yourname/private.deeplearning.ai
+cd ..
+rm -rf public-repo.git
+```
+
+Now, whenever you want to update the private repo w/ new stuff from the public repo:
+```
+git clone https://github.com/krbnite/private.deeplearning.ai
+cd private.deeplearning.ai
+git remote add public https://github.com/krbnite/deeplearning.ai
+git pull public master # Creates a merge commit
+git push origin master
+```
+
+You can also push some private stuff to the public repo if you wanted to, but that's not in 
+my current scope...so, \</end\>.
+
+----------------------------------------------
