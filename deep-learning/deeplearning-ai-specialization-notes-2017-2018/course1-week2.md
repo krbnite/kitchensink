@@ -220,4 +220,23 @@ function given the input by doing a left-to-right traversal of the graph, known 
 
 As we will see, one can then compute the multi-layer structure of derivatives in a backward pass.
 
-## Derivatives of a Computation Graph
+## Derivatives of a Computation Graph  (BackProp)
+
+Again we find that, in code, dJ/dvar is notated as dvar.  And again, one can remember this relationship
+however they please... 
+* One way is to just remember that "dvar" is the unique part of dJ/dvar. So, instead
+of writing dJ\_over\_dvar, we more simply write "dvar."  
+* The other way is just thinking in terms of differential forms, and noting that "dvar" is the component 
+of the differential in the "dvar" direction:  dJ = (dJ/dvar1)dvar1 +...+ (dJ/dvarN)dvarN
+
+The idea is to compute the derivatives layer-wise (or w/ a topological sort) s.t. one can use
+previously computed derivatives to compute left-ward derivatives via the chain rule...
+
+<img src=./images/simple-computation-graph.png>
+
+
+## Logistic Regression Gradient Descent
+<img src=./images/log-reg-grad-desc.png>
+
+## Gradient Descent on m-Sized Batches
+...stopped here for the night...
