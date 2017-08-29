@@ -141,5 +141,83 @@ in "mini-batches" of the data set).
 In physics speak, this is somewhat similar to defining a Lagrangian, then defining the action of that Lagrangian, and
 finally minimizing the action to solve for the equations of motion.
 
+## The Gradient Descent Algorithm 
+
+Recap: 
+* The function to fit:  p = sigmoid(<w,x>+b), where sigmoid(z) = 1/(1+exp(-z))
+* The loss incurred at a single data point: L(p[i],y[i]) = (1-y[i])log(1-p[i]) + y[i]log(p[i]) 
+* The cost (avg loss) of that fit: J(w,b) = avg{i}{L(p[i],y[i])}
+
+This cost function is convex:
+<img src=./images/convexity.png>
+
+This is good b/c if we can find a minimum of it, then we are assured it is the global minimum.
+
+But how do we figure out which values of w and b will minimize the cost function?  How do we even
+know where to start?
+
+It is best to randomly initialize the parameters in general. However, since we know this cost function
+is convex, it basically does not matter how we initialize the parameters: randomly, uniformly, whatever.
+
+Gradient descent is all about choosing a path through the parameter space --- preferably the quickest 
+path to the global minimum.  Again, in physics speak, action integrals and lagrangians.  Geodesics.
+One wants to minimize a functional here: to determine the Lagrangian (loss function) 
+that minimizes the action (cost function)!  So, what's the best way?  Compute the gradient and head in
+the opposite direction.
+
+In the one-dimensional setting, the gradient is just the plain ol' derivative.  In the image above, we
+have a parabola, J(w) = a\*w^2.  Its gradient is dJ/dw = 2aw, which defines the slope of the line tangent
+to the point (w, J(w)).  Note that when the gradient is positive, we want to move in the negative direction
+to head towards the minimum, and vice versa for a negative gradient.  
+
+<img src=./images/parabola.png>
+
+In code, the dervitive dJ/dw is often denoted as dw.  This is kind of shorthand for "delta w", even though
+one might argue that "delta w" is (-1)(alpha)(dJ/dw) since that would make more sense given the typical 
+increment equation "w + dw".  But if you think about a differential form, you can just imagine that the 
+dw refers to which component of the gradient is under consideration:  
+
+<center>dJ = (dJ/dw)dw = (dJ/dw[1])dw[1] +...+ (dJ/w[Nx])dw[Nx] + (dJ/db)db</center>
+
+<img src=./images/gradient-descent.png>
+
+Whatever way you remember, it is what it is.  There's the actual math, then there's the notation conventions
+used in code.  (This is why it's good to know WTF you are doing!)
+
+<img src=./images/update-eqn.png>
+
+Andrew Ng says he doesn't like the distinction between partial derivatives (using curly d) and regular derivatives 
+from univariate calculus, which use the regular d.  He said that it causes more confusion than it's worth... Maybe
+he's right, but one would still then need a notation to distinguish between partial and total derivatives.  
+Maybe it's not a huge concern in various ML tasks, but it is an essential distinction in most of physics, e.g., 
+fluid dynamics, Lagrangians, etc.
+
+**NOTE**: This gradient descent update algorithm is conceptual in that it tells us how we should proceed
+through the parameter space, but doesn't describe how to actually compute the derivatives.  In a single-layer
+model like linear or logistic regression, this is not a huge concern.  However, as you build layers into a model,
+the weights in various layers are technically functions of weights in other layers.  In short, one needs to know
+how to compute derivatives via the chain rule as one traverses the graph model of the neural network.  This is
+where the backpropagation algorithm comes into play...which I'm sure Ng will talk more about later.
 
 
+## Derivatives
+This module is just a review for people who are rusty or for some reason are taking this course with almost zero math background...
+
+<img src=./images/derivative.png>
+
+## The Computation Graph
+Whenever you have a function made up of multiple operations, you can rewrite as a function composition sequence.
+
+Example: 
+* Say you have a function J(a,b,c) = 3(a + bc)
+* However, note that you must compute u=bc before computing v=a+L, before computing J=3v
+* In other words, J(a,b,c) = 3(a + u(b,c)) = 3v(a,b,c)
+  - written as a function composition:   J(K(a, L(b,c)))
+  - or as a computation graph: <img src=./images/simple-computation-graph.png>
+  
+So whenever you have a computation graph representation of a function, you can compute the value of the
+function given the input by doing a left-to-right traversal of the graph, known as a "forward pass."
+
+As we will see, one can then compute the multi-layer structure of derivatives in a backward pass.
+
+## Derivatives of a Computation Graph
