@@ -12,3 +12,4 @@ We strongly encourage students to form study groups, and discuss the lecture vid
 ### Adding a Private Repo to a Public Repo
 Something like this could work:
 * https://24ways.org/2013/keeping-parts-of-your-codebase-private-on-github/
+* https://medium.com/@bilalbayasut/github-how-to-make-a-fork-of-public-repository-private-6ee8cacaf9d3
