@@ -437,3 +437,26 @@ pc_cpf = 100 * carb_prot_fat / tot_cals
            [ 0.03050847,  0.56485356,  0.63706564,  0.01170351]])
 ```
 
+---------------------------------------
+
+## Bug Swatting
+NumPy can have some mysterious bugs b/c of, e.g., all the broadcasting going on.
+
+* Never use NumPy arrays that are like (n,)
+  - e.g., instead of `np.random.randn(5)`, use `np.random.randn(5,1)`
+* use assertions, e.g., `assert a.shape==(5,1)`
+
+-----------------------------------------
+
+## Explanation of the LogReg Cost Function
+
+* we have an estimate of the target, p = sigmoid(<w,x>+b), that we want to interpret as a probability, p = P(y=1|x)
+* the probability fcn can be more generally written:  P(y|x) = (p^y) * (1-p)^(1-y)
+  - P(1|x) = p
+  - P(0|x) = 1-p
+* the logarithm of the probability is:  ylog(p) + (1-y)log(1-p)
+  - this is the negative of the loss function, log(P(y|x)) = -L(p,y)
+  - we are trying to maximize the the probability that our estimates are right
+  - we take the negative to conform to ML standards ("gradient descent")
+* over m samples, this loss function amounts to a maximum likelihood estimation from statistics
+
