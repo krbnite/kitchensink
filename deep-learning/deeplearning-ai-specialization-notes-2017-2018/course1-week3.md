@@ -94,7 +94,47 @@ house prices b/c it does not allow negative values.
 
 
 
+## Eqns for a 2-Layer Network for Binary Classification
+Forward Propagation
+* z1 = w1X + b1
+* a1 = g1(z1)
+* z2 = w2a1 + b2
+* a2 = sigmoid(z2)
 
+Backward Propagation
+* dz2 = a2 - y
+* dw2 = (1/m)(dz2)(a1)^T
+* db2 = (1/m)np.sum(dz2, axis=1, keepdims=True)
+* dz1 = (w2)^T(dz2)\*g1'(z1)
+* dw1 = (1/m)(dz1)x^T
+* db1 = (1/m)np.sum(dz1, axis=1, keepdims=True)
 
+Remember: dq is code notation for dJ/dq
 
+## Derivation of the BackProp Eqns for the Logistic Regression Network
+Warning: Slight abuse of notation: partial derivatives are not denoted w/ curly d, but it should be obvious that they're partials
+
+* Network:  (x,w,b) --> z=(w^T)x+b --> a=sigmoid(z) --> L(a,y) 
+* Loss Fcn: L(a,y) = -y\*log(a) - (1-y)\*log(1-a)
+* da := dL/da = -y/a + (1-y)/(1-a)
+* dz := dL/dz = (dL/da)(da/dz) = da\*sigmoid'(z) = da\*sigmoid(z)\*(1-sigmoid(z))
+* dw := dL/dw = (dL/da)(da/dz)(dz/dw) = dz\*d(w^Tx)/dw = dz\*d(x^Tw)/dw = dz\*x^T
+   - see [here](https://math.stackexchange.com/questions/20694/vector-derivative-w-r-t-its-transpose-fracdaxdxt) for info on d(w^Tx)/dw
+* db := dL/db = (dL/da)(da/dz)(dz/db) = dz\*(db/db) = dz
+
+## Derivation of the BackProp Eqns for the 2-Layer Binary Classification Network
+Warning: Slight abuse of notation: partial derivatives are not denoted w/ curly d, but it should be obvious that they're partials
+
+* Network: (x,w1,bb) --> z1=(w1^T)x+b1 --> a1=sig(z1) --> z2=(w2^T)a1+b2 --> a2=sig(z2) --> L(a2,y)
+* Loss Fcn: L(a2,y) = -y\*log(a2) - (1-y)\*log(1-a2)
+* da2 := dL/da2 = -y/a2 + (1-y)/(1-a2)
+* dz2 := dL/dz2 = (dL/da2)(da2/dz2) = da2\*sig'(z2)
+* dw2 := dL/dw2 = (dL/da2)(da2/dz2)(dz2/dw2) = dz2\*a1^T
+* db2 := dL/db2 = (dL/da2)(da2/dz2)(dz2/db2) = dz2\*(db2/db2) = dz2
+* da1 := dL/da1 = (dL/da2)(da2/dz2)(dz2/da1) = dz2\*w2^T
+* dz1 := dL/dz1 = (dL/da2)(da2/dz2)(dz2/da1)(da1/dz1) = da1\*sig'(z1)
+* dw1 := dL/dw1 = dz1\*dz1/dw1 = dz1\*x^T
+* db1 := dL/db1 = dz1\*(db1/db1) = dz1
+
+...still on backprop intution video...
 
