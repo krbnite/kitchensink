@@ -53,6 +53,10 @@ People like it b/c it's theoretically pleasing... But a related activation, tanh
 usually works much better in practice. Ng says, "I pretty much never use a sigmoid activation
 function anymore... tanh is always superior. The one exception is for an output layer."
 
+Why is tanh better in practice? "The tanh activation usually works better than sigmoid activation function 
+for hidden units because the mean of its output is closer to zero, and so it centers the data better for 
+the next layer."
+
 Action both the "sigmoid fcn" and tanh are considered sigmoid functions.  What we call the
 "sigmoid fcn" is also known as the logistic funtion.  
 
@@ -136,5 +140,54 @@ Warning: Slight abuse of notation: partial derivatives are not denoted w/ curly 
 * dw1 := dL/dw1 = dz1\*dz1/dw1 = dz1\*x^T
 * db1 := dL/db1 = dz1\*(db1/db1) = dz1
 
-...still on backprop intution video...
+A sanity check is to ensure that dim(dfoo) == dim(foo).
+
+Also, in practice, we do not want to work with the loss function (single data point at a time), but the cost function.
+Importantly, we want to use NumPy operations to vectorize the operations.  The derivation is almost nearly the same.
+
+## Random Initialization
+Do not initialize all parameters to zero!  Bad!  But you can do that with the biases as long as you randomly initialize
+the weights.
+
+The reason is interesting: by initializing all parameters to zero, each neuron starts out identical.  The symmetry
+is nearly unbreakable... It is essential to begin training with broken symmetry.  That is, a diversity of neuron
+states is necessary to properly learn.
+
+```python
+w1 = np.random.randn((2,2))*0.01
+b1 = np.zeros((2,1))
+w2 = np.random.randn(...)
+# etc
+```
+
+Initializing weights to very small values is pretty important since we use activation functions
+that become insensitive to variation in numbers outside of [0,1] for sigmoid or [-1,1] for tanh, etc.
+
+But should we always multiply by 0.01?
+
+It works well for a lot of projects, but there are actually some formulas that have been developed to
+ensure the weights are initialized small enough depenedent on the layer size, e.g., the first hidden
+layer can have weights initialized using a truncated normal distribution with stdDev set to sqrt(2/n\_features).
+
+
+## Review of Ng's Notational Representation
+To specify which layer we are talking about, Ng uses a square-bracketed superscript, like so:
+![](./images/layer-number-notation.png)
+
+To specify which data point we are talking about, Ng uses are paranthetical superscript.
+
+To specify which neuron we are talking about, Ng uses a subscript.
+
+The notational representation of layer l, 1<=l<=L:
+* Z^[l] = W^[l]A^[l-1]+B^[l]
+* A^[l] = g(Z^[l])
+
+Remember: Ng represents data records in columns, not rows.  So the weight shapes as you scan across
+a network diagram are the transposes of what you would need to use in TensorFlow.
+
+For example, say you have a binary classification network that begins with 3 features, mapping to 5 hidden features,
+which maps to the classification (1 node).
+
+* in TF, weights would be:  (3,5), (5,1)
+* w/ Ng's format: (5,3), (1,5)
 
