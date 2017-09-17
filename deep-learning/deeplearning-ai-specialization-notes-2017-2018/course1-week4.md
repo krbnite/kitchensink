@@ -124,5 +124,81 @@ You can always start with logistic regression and go from there.
 
 -------------------------------------------
 
+## Building Blocks of a DNN
+Notice in forward propagation, at layer l, the input is the previous activation, a^[l-1]:
+* z^[l] = w^[l]a^[l-1] + b^[l]
+
+Likewise, the output of the lth layer is its activation:
+* a^[l] = gl(z^[l])
+
+However, in addition to a layer's activation output for input into the next layer in forward propagation, 
+the lth linear transformation, z^[l], is important to keep around for the backprop.  In last week's 
+project, we stored these variables in a cache.
+
+For backward propagation, notice that the input at a given step is da^[l] (and the cached z^[l]) and the output is da^[l-1] (and dw^[l] and db^[l]).
+
+<img src=./images/fwd-and-bwd-fcns.png>
+
+<img src=./images/full-pass.png>
+Ng says he keeps w^[l] and b^[l] in the cache at each step as well b/c it simplifies things from an implementation standpoint...
+
+The full pass, of course, ends with updating the weights:
+* w^[l] <-- w^[l] - learnrate\*dw^[l]
+* b^[l] <-- b^[l] - learnrate\*db^[l]
+
+--------------------------------------------------
+
+## Backward Prop for Layer l
+### One data point at a time
+* Input da^[l]
+* Output da^[l-1], dW^[l], db^[l]
+* dz^[l] = da^[l]\*gl'(z^[l])
+* dW^[l] = \<dz^[l], a^[l-1]\>
+* db^[l] = dz^[l]
+* da^[l-1] = \<(W^[l])^T, dz^[l]\>
+
+### Vectorized
+* Input dA^[l]
+* Output dA^[l-1], dW^[l], db^[l]
+  - dW^[l] is same on 1 or m data points
+  - db^[l] is broadcasted for m data points
+* dZ^[l] = dA^[l]\*gl'(Z^[l])
+* dW^[l] = (1/m)\<dZ^[l], (dA^[l-1])^T\>
+* db^[l] = np.sum(dZ^[l], axis=1, keepdims=1) / m
+* dA^[l-1] = \<(W^[l])^T, dZ^[l]\>
+
+## Initializing the Input for Fwd and Bwd Passes
+Obviously the forward pass starts by inputting a^[0], which is x the input data to the network.
+But what about the backward pass?
+
+The backward pass begins with input da^[L].  The the binary classification cost fcn we have been using:
+* da^[L] := dL/da^[l] = -(y/a) + (1-y)/(1-a)
+
+## Where does the power come from?
+Sometimes it might be surprising how well a neural network can perform after training.  
+Given such a simple algorithm, one might wonder where this power comes from.  Ng emphasizes that
+the power comes from the data.  The algorithm itself can be quite weak without enough data.
+
+## Parameters vs Hyperparameters
+The parameters of a NN are the weights and biases.  These parameters are tuned via the training process.
+However, one will notice that other tunable quantities exist, e.g., the learning rate, number of epochs,
+batch size, number of hidden layers, number of units at each layer, and the activation function at each layer. 
+These parameters are called hyperparameters: they not tuned during training, 
+but instead they are chosen prior to training.  One can choose multiple instances of each hyperparameter,
+but each unique set of chosen hyperparameters must undergo its own training session.
+
+Additional hyperparameters might include ones associated with momentum and regularization.
+
+Applied deep learning is a very empirical process -- trial and error, iterate and improve. 
+In the next course, we will develop systematic ways of converging on the best hyperparameters
+for any given project.
+
+
+
+
+
+
+
+
 
   
