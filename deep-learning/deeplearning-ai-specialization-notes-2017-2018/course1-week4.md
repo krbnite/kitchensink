@@ -163,7 +163,7 @@ The full pass, of course, ends with updating the weights:
   - dW^[l] is same on 1 or m data points
   - db^[l] is broadcasted for m data points
 * dZ^[l] = dA^[l]\*gl'(Z^[l])
-* dW^[l] = (1/m)\<dZ^[l], (A^[l-1])^T\>
+* dW^[l] = (1/m)\<dZ^[l], (A^[l-1])^T\> / m
 * db^[l] = np.sum(dZ^[l], axis=1, keepdims=1) / m
 * dA^[l-1] = \<(W^[l])^T, dZ^[l]\>
 
