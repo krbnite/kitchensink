@@ -99,9 +99,50 @@ bias without much affecting variance (especially when using regularization), whi
 the amount of data used can reduce variance without much affecting bias.
 
 
+## Regularization
+If you notice that you have a high-variance problem (e.g., if your model performs significantly different on
+the train set than the dev/val set), then regularization is often the best go-to tool (reliable, no extra data necessary).
 
+### Ex: Logistic Regression
+In logistic regression (LogReg), one wants to find the parameters (w,b) that minimize the following
+cost function:
 
+Cost(w,b) := (1/m) \* SUM{1,m}{L(y[i],p[i])} 
 
+### L2-Regularization
+One can add L2-Regularization (sometimes called "weight decay") to this, resulting in an alternative cost function:
+
+J(w,b) := Cost(w,b) + (r/2m)\*dot(w,w)
+
+Note that the bias, b, can be included in the regularization, but Ng says he usually just ignores it
+since the number of bias components are generally so few compared to the number of weights.
+
+### L1-Regularization
+
+### Some Comments on these Techniques
+In L2Reg, we want to minimize the "hypotenuse" of the weights.  This selects for keeping weights
+from vanishing, if possible, as opposed to L1Reg, which rather the weights vanish.
+
+For example, imagine you have 3 weights all set to 1: (1,1,1).  In both L1 and L2 Regularization,
+this adds (r/2m)\*3 to the cost (for simplicity, we will just say it adds 3 units to the cost).  What 
+minimizes this better: setting one value to 0 or two values to 0.5?
+
+In L1, scenario A (1+1+0=2) and scenario B (1+0.5+0.5) are equivalent. There is no preference.  The
+solution is not unique!  In fact, any scenario where the weights reduce the sum by 1 is equivalent,
+e.g., scenario C (1+0.25+0.75=2) or scenario D (2/3 + 2/3 + 2/3 = 2).  
+
+However, in L2, scenario A (1+1+0=2) adds more to the cost than scenario B (1+0.25+0.25=1.5), so L2
+regularization will select for scenario B, or as said above -- it will select for maintaining nonzero
+weights, if possible and where appropriate.
+
+For L1, because there is a lack of preference, we can give it one. For example, we can try to optimize 
+for minimizing the number of nonzero weights.  Or, we can choose to keep the top k largest weights, 
+zero out the remainders, and (optionally) refit.  Both cases seek out sparsity: L1 is often used as a way to hone in
+on the most important weights... You might use L1 first to trim some weights entirely, then apply L2.
+
+When training NNs, Ng says L2 is used so much more often.  (In physics, this is true of the L2 norm too. Or, if
+you think of regularization as adding a kinetic energy term to a Lagrangian, then the L2 norm is, in a sense, more
+natural.)
 
 
 
