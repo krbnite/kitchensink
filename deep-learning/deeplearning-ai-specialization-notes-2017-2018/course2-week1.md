@@ -157,7 +157,8 @@ What type of regularization should we add?
 Basically, no one calls it Frobenius regularization: it's still called L2 regularization.  However,
 it is important to note that the L2 norm used on the weight vector in logistic regression generalizes
 to the Frobenius norm of the weight matrices in more general neural networks. In short, on a matrix,
-you can have all sorts of L[i,j] norms, and if i=j=2, then L[2,2] is called the Frobenius norm.
+you can have all sorts of L[i,j] norms, and if i=j=2, then L[2,2] is called the Frobenius norm. Both 
+can be called a Euclidean norm if you want to use just one name.  
 
 * Reg term over all layers: R(w^[1], ..., w^[L]) = (r/2m)\*SUM{l=1,L}{ ||w^[l]||^2 }
 * Frobenius norm at layer l: ||w^[l]||^2 := SUM{i=1,n^[l-1]}SUM{j=1,n^[l]}{ (w[i,j]^[l])^2 }
@@ -193,3 +194,36 @@ This is why Frobenius/L2 regularization is also called weight decay -- because t
 are update by first decaying the weight before subtracting KD.
 
 ## Why does regularization prevent overfitting?
+As I mentioned above, it has to do with reducing the impact of various weights (and, thus, various nodes) within the network,
+sometimes nearly zeroing them out completely.  In some forms of L1 regularization, one does completely zero out some 
+weights. If all weights stemming from a particular node are dramatically reduced, that node is not allowed to give too
+much input into the final decision (output).  Consider an input node whose outgoing weights have all been nearly zeroed 
+out: regularization has helped the network identify the lack of impact this input has on the output and has effectively
+ensured that it is ignored in your model (as opposed to falsely believing that it is helpful sometimes because of the
+particulars of the train set).  
+
+Ng uses this diagram to help students understand a case of extreme regularization, which effectively
+turns the the multilayer network into something like a logistic regression:
+
+<figure>
+<img src="/images/network-with-regularization.png" widht="600vw">
+</figure>
+
+In reality, L2 regularization will not perfectly zero out those nodes, but it demonstrates the
+effect of regularization on the network.
+
+Another way to think about it that Ng provided is as linearizing large swaths of the network. Consider
+that small weights will result in small units in the next layer, which will likely be within the linear
+regime of the activation function.  Since this portion of the network is effectively linear, it cannot
+do loopity-loop style overfitting!
+
+<figure>
+<img src="/images/regularization-linearization" width="600vw">
+</figure>
+
+### Word of Warning: Debugging Gradient Descent
+One way to make sure gradient descent is working as it should to to plot the cost function
+as a function of iteration... When using regularization, you must remember to use the modified
+cost function!
+
+
