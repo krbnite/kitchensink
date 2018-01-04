@@ -144,7 +144,23 @@ When training NNs, Ng says L2 is used so much more often.  (In physics, this is 
 you think of regularization as adding a kinetic energy term to a Lagrangian, then the L2 norm is, in a sense, more
 natural.)
 
+### Ex: More General Neural Network
+Logistic regression is a single-layer network.  What about a multi-layer network?
 
+Now, without regularization, the cost function looks functionally similar, though having more arguments:
+
+Cost(w^[1], b^[1], ..., w^[L], b^[L]) = (1/m)\* SUM{1,m}{L(y[i],p[i])} 
+
+What type of regularization should we add?
+
+### The Frobenius Regularization 
+* F(w^[1], ..., w^[L]) = (r/2m)\*SUM{l=1,L}{ ||w^[l]||^2 }
+* ||w^[l]||^2 := SUM{i=1,n^[l-1]}SUM{j=1,n^[l]}{ (w[i,j]^[l])^2 }
+* n^[l] := # nodes in lth layer
+* w^[l] is a (n^[l])x(n^[l-1]) dimensional matrix in Ng's columnar feature vector approach
+  - As a reminder: 
+    * Row Records (TensorFlow, Udacity): x^[l-1]W^[l] + b^[l] --> x^[l]
+    * Column Records (Ng): W^[l]x^[l-1] + b^[l] --> x^[l]
 
 
 
