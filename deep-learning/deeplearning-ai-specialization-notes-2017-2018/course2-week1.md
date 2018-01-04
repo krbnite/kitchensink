@@ -153,16 +153,43 @@ Cost(w^[1], b^[1], ..., w^[L], b^[L]) = (1/m)\* SUM{1,m}{L(y[i],p[i])}
 
 What type of regularization should we add?
 
-### The Frobenius Regularization 
-* F(w^[1], ..., w^[L]) = (r/2m)\*SUM{l=1,L}{ ||w^[l]||^2 }
-* ||w^[l]||^2 := SUM{i=1,n^[l-1]}SUM{j=1,n^[l]}{ (w[i,j]^[l])^2 }
+### The Frobenius (L2) Regularization 
+Basically, no one calls it Frobenius regularization: it's still called L2 regularization.  However,
+it is important to note that the L2 norm used on the weight vector in logistic regression generalizes
+to the Frobenius norm of the weight matrices in more general neural networks. In short, on a matrix,
+you can have all sorts of L[i,j] norms, and if i=j=2, then L[2,2] is called the Frobenius norm.
+
+* Reg term over all layers: R(w^[1], ..., w^[L]) = (r/2m)\*SUM{l=1,L}{ ||w^[l]||^2 }
+* Frobenius norm at layer l: ||w^[l]||^2 := SUM{i=1,n^[l-1]}SUM{j=1,n^[l]}{ (w[i,j]^[l])^2 }
+  - Also (more qunatum mechanical look):  ||w^[l]||^2 = trace(dagger(w)w)
 * n^[l] := # nodes in lth layer
 * w^[l] is a (n^[l])x(n^[l-1]) dimensional matrix in Ng's columnar feature vector approach
   - As a reminder: 
     * Row Records (TensorFlow, Udacity): x^[l-1]W^[l] + b^[l] --> x^[l]
-    * Column Records (Ng): W^[l]x^[l-1] + b^[l] --> x^[l]
+    * Column Records (Ng): M^[l]u^[l-1] + d^[l] --> u^[l]
+   - CONVERSION: 
+    * u' = (xW + b)^T = (xW)^T + b^T = (W^T)(x^T) + b^T = Mu + d
+    * x' = (Mu + d)^T = (Mu)^T + d^T = (u^T)(M^T) + d^T = xW + b
 
+### How does adding regularization affect backprop?
+Notation Reminder: dw^[l] := dJ/dw^[l]
 
+Without regularization:
+* We get dw^[l] from backprop
+* We are then able to update the weights: w^[l] <- w^[l] - K\*dw^[l]
+  - where K is the step size, aka learning rate
 
+With regularization:
+* dw^[l] = D + (r/m)w^[l]
+  - where D := (dw^[l] w/o reg)
+* w^[l] <- w^[l] - K\*dw^[l] 
 
+Actually... The equations just look the same.  You are still computing partial derivatives of a cost function, etc.
 
+Note that w/ regularization, you have:
+* w^[l] <- w^[l] - K\*(D + (r/m)w^[l]) = (1-Kr/m)w^[l] - KD
+
+This is why Frobenius/L2 regularization is also called weight decay -- because the weights
+are update by first decaying the weight before subtracting KD.
+
+## Why does regularization prevent overfitting?
