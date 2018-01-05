@@ -218,12 +218,28 @@ regime of the activation function.  Since this portion of the network is effecti
 do loopity-loop style overfitting!
 
 <figure>
-<img src="/images/regularization-linearization" width="600vw">
+<img src="/images/regularization-linearization.png" width="600vw">
 </figure>
 
 ### Word of Warning: Debugging Gradient Descent
 One way to make sure gradient descent is working as it should to to plot the cost function
 as a function of iteration... When using regularization, you must remember to use the modified
 cost function!
+
+## Dropout Regularization
+Say you have a large multi-layer network. You know some of the nodes are useless,
+but which ones?  
+
+What if you randomly dropped a few nodes from the network and trained the subnet?  Certain
+connections between the remaining nodes would appear to be important, while others -- not so 
+much.  But maybe the ones that seemed important are actually way less important than some of
+the nodes that you dropped... Well, that's ok.  Just record the weights, and do it all over 
+again: generate another random subnet. Update those weights. Etc. Etc. Eventually, the weights
+that don't matter, won't matter (too much at least), while the ones that do, basically will 
+remain strong.
+
+<figure>
+<img src="dropout-regularization.png" width="600vw">
+</figure>
 
 
