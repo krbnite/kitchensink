@@ -239,7 +239,7 @@ that don't matter, won't matter (too much at least), while the ones that do, bas
 remain strong.
 
 <figure>
-<img src="dropout-regularization.png" width="600vw">
+<img src="/images/dropout-regularization.png" width="600vw">
 </figure>
 
 
