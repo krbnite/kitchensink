@@ -1,0 +1,25 @@
+# Project-local Conda environments created by fastsam-env.sh
+.conda-fastsam-ultralytics/
+.conda-fastsam-casia/
+.conda-fastsam-*/
+
+# Third-party clone fetched by fastsam-env.sh casia
+FastSAM/
+
+# Large local model checkpoints
+weights/
+*.pt
+
+# Notebook and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+
+# Temporary experiment folders
+runs/
+tmp/
+temp/
+
