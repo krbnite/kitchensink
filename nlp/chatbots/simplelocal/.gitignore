@@ -1,0 +1,9 @@
+.conda-chatbot-course/
+.conda-chatbot-modern/
+.conda-chatbot-*/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.log
+.DS_Store
