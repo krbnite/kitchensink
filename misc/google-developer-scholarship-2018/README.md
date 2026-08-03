@@ -4,6 +4,8 @@ This directory preserves notes from the 2018 Grow with Google / Udacity web
 developer scholarship period. It is kept as a lightweight historical archive,
 not as a polished or actively maintained web-development project.
 
+![Screenshot of Udacity course dashboard](./2018-grow-with-google-progressive-web-apps-etc.png)
+
 The material is mostly notes, screenshots, and small examples around:
 
 - progressive web apps and offline-first design
@@ -15,10 +17,6 @@ The material is mostly notes, screenshots, and small examples around:
 - AJAX, Fetch, and promises
 - Gulp, SASS, npm, and web tooling
 
-This work is less central to the current portfolio than the deep learning,
-computer vision, and self-driving car archives, so the preservation bar is
-lighter here: keep enough to show the learning history, but avoid carrying
-course scaffolds, dependency folders, and bulky setup screenshots.
 
 ## Contents
 
@@ -56,9 +54,6 @@ repository reflects a period of broad web-development study: trying to learn
 PWAs, modern JavaScript, responsive design, browser APIs, and frontend tooling
 alongside other technical interests.
 
-This archive is mainly useful as evidence of that learning period. For modern
-frontend or PWA work, prefer a fresh project with current tooling, lockfiles,
-tests, and a reproducible dev environment.
 
 ## External References
 
