@@ -5,6 +5,8 @@ This directory preserves early Udacity Self-Driving Car Nanodegree work from
 computer vision, neural networks, TensorFlow, and autonomous-driving project
 work.
 
+![Screenshot of Udacity course dashboard](./2017-udacity-deep-learning-nanodegree.png)
+
 The original work in this imported history dates from roughly June 2017 through
 November 2017. The repository was cleaned before import into `kitchensink` so
 that generated files, duplicate notebook checkpoints, trained model checkpoints,
