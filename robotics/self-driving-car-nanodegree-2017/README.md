@@ -127,10 +127,10 @@ Useful external references:
 
 ## Notebook Rendering
 
-The notebooks in this directory parse as valid notebook JSON locally, but GitHub
-may still fail to render some of them because they are old notebooks with
-historic outputs and metadata. If GitHub reports an invalid notebook, open the
-file in VS Code, JupyterLab, or classic Jupyter instead.
+The notebooks in this directory parse as valid notebook JSON locally. A cleanup
+pass removed empty legacy widget metadata that caused GitHub's notebook renderer
+to report some files as invalid. If GitHub still fails to render one of these
+old notebooks, open it in VS Code, JupyterLab, or classic Jupyter instead.
 
 ## Historical Status
 
