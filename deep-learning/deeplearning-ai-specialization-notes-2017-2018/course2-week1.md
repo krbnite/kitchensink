@@ -42,7 +42,7 @@ having bias and variance in a DL model, there is less tradeoff between them.
 
 Reminder: what is model bias and model variance?
 <figure>
-<img src="/images/bias-variance.png" width="600vw">
+<img src="./images/bias-variance.png" width="600vw">
 </figure>
 
 A model that has high bias is one that is specified quite a bit before even looking at the data, e.g.,
@@ -57,7 +57,7 @@ Example: If we assume that the human error in identifying whether or not a cat i
 the following train/dev set errors correspond to bias and variance in the following ways:
 
 <figure>
-<img src="/images/bias-variance-error.png", width="600vw">
+<img src="./images/bias-variance-error.png", width="600vw">
 </figure>
 
 It is important to note that the above example is true assuming that the optimal (Bayes) error is near 0\%.  If
@@ -206,7 +206,7 @@ Ng uses this diagram to help students understand a case of extreme regularizatio
 turns the the multilayer network into something like a logistic regression:
 
 <figure>
-<img src="/images/network-with-regularization.png" widht="600vw">
+<img src="./images/network-with-regularization.png" width="600vw">
 </figure>
 
 In reality, L2 regularization will not perfectly zero out those nodes, but it demonstrates the
@@ -218,7 +218,7 @@ regime of the activation function.  Since this portion of the network is effecti
 do loopity-loop style overfitting!
 
 <figure>
-<img src="/images/regularization-linearization.png" width="600vw">
+<img src="./images/regularization-linearization.png" width="600vw">
 </figure>
 
 ### Word of Warning: Debugging Gradient Descent
@@ -239,7 +239,6 @@ that don't matter, won't matter (too much at least), while the ones that do, bas
 remain strong.
 
 <figure>
-<img src="/images/dropout-regularization.png" width="600vw">
+<img src="./images/dropout-regularization.png" width="600vw">
 </figure>
-
 

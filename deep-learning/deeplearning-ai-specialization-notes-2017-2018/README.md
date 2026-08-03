@@ -1,40 +1,42 @@
-# deeplearning.ai
-Notes and projects associated with Andrew Ng's Deep Learning specialization on Coursera
+# DeepLearning.AI Specialization Notes
 
+Historical study notes from Andrew Ng's Deep Learning Specialization on
+Coursera / DeepLearning.AI.
 
-# Good to Know
-Deep Learning Honor Code
+These notes were written from August 2017 through January 2018. They are
+preserved as a record of learning neural-network fundamentals, not as a current
+implementation guide.
 
-We strongly encourage students to form study groups, and discuss the lecture videos (including in-video questions). We also encourage you to get together with friends to watch the videos together as a group. However, the answers that you submit for the review questions should be your own work. For the programming exercises, you are welcome to discuss them with other students, discuss specific algorithms, properties of algorithms, etc.; we ask only that you not look at any source code written by a different student, nor show your solution code to other students.
+## Public Notes Only
 
-**You are also not allowed to post your code publicly on github.**
+The public repo was intentionally limited to notes. Quiz answers, programming
+assignments, and project submissions were kept out of this repository because
+the course honor code did not allow publishing solution code.
 
-### Adding a Private Repo to a Public Repo
-Something like this could work:
-* https://24ways.org/2013/keeping-parts-of-your-codebase-private-on-github/
-* https://medium.com/@bilalbayasut/github-how-to-make-a-fork-of-public-repository-private-6ee8cacaf9d3
-  - [StackOverflow page](https://stackoverflow.com/questions/10065526/github-how-to-make-a-fork-of-public-repository-private) w/ same content
+At the time, I kept a separate private companion repo for course work that was
+not appropriate to publish.
 
+## Contents
 
-```
-# first, create a private GitHub repo, then:
-git clone --bare https://github.com/krbnite/deeplearning.ai
-cd public-repo.git
-git push --mirror https://github.com/yourname/private.deeplearning.ai
-cd ..
-rm -rf public-repo.git
-```
+- `course1-notes.md`: broad notes on the specialization and Course 1, Week 1.
+- `course1-week2.md`: logistic regression, vectorization, loss/cost functions,
+  computation graphs, and backpropagation.
+- `course1-week3.md`: shallow neural networks, activation functions, and
+  backpropagation notation.
+- `course1-week4.md`: deeper neural networks, matrix dimensions, forward/backward
+  passes, and parameters versus hyperparameters.
+- `course2-week1.md`: train/dev/test splits, bias/variance, regularization, and
+  dropout.
+- `images/`: supporting diagrams and annotated figures used by the notes.
 
-Now, whenever you want to update the private repo w/ new stuff from the public repo:
-```
-git clone https://github.com/krbnite/private.deeplearning.ai
-cd private.deeplearning.ai
-git remote add public https://github.com/krbnite/deeplearning.ai
-git pull public master # Creates a merge commit
-git push origin master
-```
+## Why Preserve This
 
-You can also push some private stuff to the public repo if you wanted to, but that's not in 
-my current scope...so, \</end\>.
+These notes are useful as historical evidence of early deep-learning study:
+manual derivations, notation translation between Andrew Ng's column-vector
+convention and TensorFlow-style row records, gradient descent explanations,
+regularization intuition, and physics/math analogies used to make the material
+stick.
 
-----------------------------------------------
+Some supporting images are recreated or annotated from course-era study material.
+They are preserved here as part of the notes archive, not as standalone
+instructional assets.
