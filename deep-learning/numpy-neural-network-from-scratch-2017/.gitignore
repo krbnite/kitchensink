@@ -1,0 +1,5 @@
+.conda-nn-scratch/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.log
