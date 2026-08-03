@@ -1,6 +1,13 @@
+# Generated model artifacts
 /p01_people-counter/models/tensorflow/
+/p01_people-counter/models/openvino/
 
-# These models are too big to commit to GitHub
-/p01_people-counter/models/openvino/faster_rcnn_inception_resnet_v2_atrous_coco_2018_01_28.bin
-/p01_people-counter/models/openvino/faster_rcnn_nas_lowproposals_coco_2018_01_28.bin
-/p01_people-counter/models/openvino/faster_rcnn_inception_resnet_v2_atrous_lowproposals_coco_2018_01_28.bin
+# Local editor, OS, and streaming scratch files
+.DS_Store
+**/.DS_Store
+*.swp
+*.swo
+*.ffm
+
+# Locally cloned/built dependencies
+/p01_people-counter/src/ext/ffmpeg/
