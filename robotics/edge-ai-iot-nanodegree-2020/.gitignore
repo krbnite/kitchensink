@@ -1,0 +1,13 @@
+# Generated model artifacts
+/p01_people-counter/models/tensorflow/
+/p01_people-counter/models/openvino/
+
+# Local editor, OS, and streaming scratch files
+.DS_Store
+**/.DS_Store
+*.swp
+*.swo
+*.ffm
+
+# Locally cloned/built dependencies
+/p01_people-counter/src/ext/ffmpeg/
