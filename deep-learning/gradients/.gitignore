@@ -1,0 +1,10 @@
+.conda-*
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+logs/
+runs/
+outputs/
+tmp/
+temp/
