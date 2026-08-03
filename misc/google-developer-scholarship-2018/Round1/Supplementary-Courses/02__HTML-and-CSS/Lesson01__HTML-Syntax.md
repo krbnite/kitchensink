@@ -35,9 +35,9 @@
  -->
  ```
  
- <img src="./images/trees.png>
+ <img src="./images/trees.png">
  
- <img src="./images/div-tree.png>
+ <img src="./images/div-tree.png">
  
  ## (Strong & Em) vs (Bold & Italics)
  I always use \<b\> and \<i\>, but apparently the preferred elements are \<strong> and \<em>.

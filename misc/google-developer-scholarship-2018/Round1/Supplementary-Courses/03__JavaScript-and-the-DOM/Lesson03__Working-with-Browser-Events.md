@@ -93,7 +93,7 @@ google.click()
 -------------------------------------
 
 ## Adding an Event Listener to Our Website
-<img src="/images/adding-an-event-listener-to-our-website.png" width="500">
+Note: the original screenshot for this exercise was omitted during archive cleanup.
 
 Pretty cool!
 
@@ -232,5 +232,4 @@ which loads from top to bottom --- or to use a conditional if putting the JS in 
       });
     </script>
 ```
-
 

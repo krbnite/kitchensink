@@ -1,6 +1,8 @@
 2018-07-03
 
 # Emulators & Simulators
+
+Note: bulky setup screenshots from this 2018 emulator/debugging walkthrough were omitted during archive cleanup.
 A “simulator” is software that mimics the appearance of a device, while an “emulator” is one that attempts to replicate 
 the device fully (internals and all) as a virtual device.  Another way I’ve read this is:
 * A simulator mimics the software environment of a device
@@ -23,17 +25,14 @@ Also, it is simply called “Simulator,” not “iOS Simulator.”
 It is pretty awesome!  You can simulate any iPhone every (as far as I can tell).  Here, I have a simulated iPhone 8 
 and iPhone X running.
 
-<img src="./images/list-of-simulated-iphones-and-ipads.png" width=500>
 
 In the pic above, you can also see the various iPads that can be simulated.  But wait – there’s more!
  
 At my work, we are also interested in developing for Apple Watch, which is also simulate-able:
 
-<img src="./images/screen-cast-mode-for-remote-android-debugging.png" width=500>
 
 Note that you cannot find Simulator easily in Spotlight Search:
 
-<img src="./images/simulator-not-found-in-spotlight.png" width=500>
 
 So remember how to get to it in Finder, or set up some command line tools to open it up, e.g.:
 
@@ -70,7 +69,6 @@ Side Note: Android Studio appears to be built by the same guys that built PyChar
 Upon your first open, you will have to set up Android Studio (e.g., location, UI theme).  You will then be asked to verify 
 the settings:
 
-<img src="./images/android-studio-verify-settings.png" width=500>
 
 Note that this setup downloads probably around another Gig.
  
@@ -79,12 +77,10 @@ follow [Google’s instructions](https://developer.android.com/studio/intro/upda
 project started... Anyway, still possible: on the opening Android Studio screen (AS 3.1.3), there is a “Configure” tab on 
 the bottom right.  Click on it, then on SDK Manager.
 
-<img src="./images/android-studio-opening-screen.png" width=500>
 
 This will bring you to a Preferences screen, where you start out in “Android SDK” on the left-hand nav bar and 
 “SDK Platforms” on this screen’s own nav bar.  You want to go to “SDK Tools” on the screen’s nav bar.
 
-<img src="./images/android-studio-sdk-tools.png" width=500>
 
 All of Google’s recommended packages seem to come stock with a new project (unless you uncheck them).  These default, recommended packages are:
 * Android SDK Build-Tools
@@ -111,7 +107,6 @@ java -version
 
 If you do not have it (which I didn’t on my new work laptop), then a dialog box will pop up asking if you want to install it:
 
-<img src="./images/need-to-install-java.png" width=500>
 
 I was tempted to brew cask install Java, but the guy in the video said that Android will complain if you do not use 
 Java 6... And apparently this issue is pervasive enough that Mac maintains a support page for it:
@@ -145,9 +140,7 @@ will not yet have a Java icon in System Preferences (which I didn’t).  He then
 Oracle’s website (Java 8 at the time of the recording) and install, at which point he does have a Java icon in System 
 Preferences.  Though I brew cask installed the latest version (Java 10), this was my experience as well.
 
-<img src="./images/java-icon-in-system-preferences.png" width=500>
 
-<img src="./images/java-preferences-screen.png" width=500>
 
 Well, for sanity’s sake, this other video tutorial covers the same thing: 
 1. download the Java 6 JRE as we did, then
@@ -157,30 +150,24 @@ Well, for sanity’s sake, this other video tutorial covers the same thing:
 
 I noticed when trying to start a Wear project that I couldn’t set a default Activity screen: I needed a minimum SDK level of 22.
 
-<img src="./images/android-studio-need-older-SDK-for-wearable.png" width=500>
 
 I then noticed in the SDK manager I only have the latest version of Android SDK.  The fix was easy: I just downloaded
 a bunch of the older SDKs.  
 
-<img src="./images/android-studio-download-older-SDKs.png" width=500>
 
 Actually, I went all the way down to Android 4.4 (KitKat) since I’m developing on an Android 5.0 (Lollipop) and figure a bunch of people might have an even older OS.  This solved the wearables issue I pointed out above (good!).
 
 ### Ok, ok -- emulate something already!!
-<img src="./images/android-studio-open-avd-manager.png" width=500>
 
 Choose a device (seems that the current default is Nexus 5X):
 
-<img src="./images/android-studio-avd-manager-choose-a-device.png" width=500>
 
 Download at least one system image (I just dl’d API 28):
 
-<img src="./images/android-studio-avd-manager-system-image.png" width=500>
 
 On the next screen, give it a name and finish up.  Open the device by double clicking on the device name 
 in the AVD (or using command line tools):
 
-<img src="./images/android-studio-nexus-5-simulator.png" width=500>\
 
 
 ### Trouble w/ the internet
@@ -266,14 +253,9 @@ For this, you need to use Safari on both the iOS device and your MacOS device.
 On your iOS device (iOS 6.0+), go into Settings > Safari > Advanced and click to enable Web Inspector.  Then on your 
 MacOS device, open Safari and go to Safari > Preferences > Advanced and click “Show Develop menu in menu bar”.
 
-<img src="./images/enable-web-inspector-in-safari.png" width=500>
 
 Then in the menu bar, go to Develop and select your iPhone.  You might have to pair the devices.  Also, once paired, 
 seems you have to physically look at a tab for it to show up on your iPhone’s list of open websites (you can go to 
 another tab afterwards).
  
 Here is an instance of Safari’s Web Inspector looking at a Google page:
-
-<img src="./images/safari-web-inspector-example.png" width=500>
-
-

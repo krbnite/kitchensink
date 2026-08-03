@@ -18,7 +18,7 @@ Lie-Fi is when your phone says you have about 1bar of connectivity, but flickers
 occasionally... It's that 1bar that gives you false hope, and keeps you waiting for a page
 to load...when, in truth, it will never load!
 
-![](/images/Lie-Fi.png)
+![](./images/Lie-Fi.png)
 
 There is a lot that goes on between your phone and server an app is hosted on!
 
@@ -112,5 +112,4 @@ connectivity issues. It enables a progressive, offline-first approach.
 * Udacity: [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud711)
 * Udacity: [Asynchronous JavaScript Requets](https://www.udacity.com/course/asynchronous-javascript-requests--ud109)
 * Udacity: [Web Tooling & Automation](https://www.udacity.com/course/web-tooling-automation--ud892)
-
 

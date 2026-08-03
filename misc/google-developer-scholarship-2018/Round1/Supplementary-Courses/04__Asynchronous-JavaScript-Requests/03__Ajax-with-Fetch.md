@@ -259,7 +259,5 @@ are complex at all.
 })();
 ```
 
-From that, we get this:
-<figure>
-  <img src="my-first-javascript-app.png">
-</figure>
+From that, we get a small first JavaScript app. The original screenshot was
+omitted during archive cleanup.
