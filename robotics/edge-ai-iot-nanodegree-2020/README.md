@@ -3,6 +3,8 @@
 Historical archive of a 2020 edge-AI / IoT learning project, centered on
 Udacity's OpenVINO people-counter assignment.
 
+![Udacity AI for IoT Developers Nanodegree](2020-udacity-iot-edge-ai.jpeg)
+
 This is mainly worth preserving because it captures the practical mess of
 getting computer-vision models onto edge hardware in 2020: Python 3.5-era
 tooling, OpenVINO 2019, TensorFlow object-detection models, FFMPEG, MQTT, Node,
