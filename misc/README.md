@@ -2,7 +2,13 @@
 
 Lower-priority but still useful historical material, grouped by theme rather than promoted into top-level portfolio categories.
 
-## Related Article Indexes
+## Contents
+
+- [Local Archive Contents](#local-archive-contents)
+
+## Local Archive Contents
+
+Local folders in this section group lower-priority historical material by theme.
 
 - [Automation](automation/README.md): API, Selenium, scraping, cron, reporting, and scheduled workflow notes.
 - [Data engineering](data-engineering/README.md): databases, SQL, Redshift, Hive, Neo4j, GraphQL, and related data-system notes.

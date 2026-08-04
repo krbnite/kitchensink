@@ -2,6 +2,10 @@
 
 Health AI, wearables, sensor data, and related historical notes.
 
+## Contents
+
+- [Related Articles](#related-articles)
+
 ## Related Articles
 
 Health, healthcare-AI, wearables, and sensor-data articles. Some are preserved as historical context and would benefit from polish before being portfolio-facing.

@@ -2,6 +2,10 @@
 
 Statistics, inference, data leakage, missing-data, and evaluation notes preserved from notebooks and historical articles.
 
+## Contents
+
+- [Related Articles](#related-articles)
+
 ## Related Articles
 
 Selected historical articles around statistical modeling, causal inference, missing data, leakage, model metrics, and related caveats.

@@ -2,6 +2,10 @@
 
 Time-series, signal-processing, forecasting, and memory-efficient windowing notes.
 
+## Contents
+
+- [Related Articles](#related-articles)
+
 ## Related Articles
 
 Time-series and signal-analysis articles, including memory-efficient windowing and random-forest forecasting notes.

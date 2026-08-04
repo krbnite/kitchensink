@@ -2,6 +2,17 @@
 
 Decision-tree, random-forest, feature-importance, and tree-model learning artifacts.
 
+## Contents
+
+- [Local Archive Contents](#local-archive-contents)
+- [Related Articles](#related-articles)
+
+## Local Archive Contents
+
+Local folders in this section preserve tree-model notebooks and related learning artifacts.
+
+- [Fungus Amongus 2017](fungus-amongus-2017/README.md): preserved 2017 mushroom decision-tree notebook and supporting notes.
+
 ## Related Articles
 
 These articles live in the top-level article archive and are indexed here because they connect to tree-based models, random forests, or the preserved mushroom decision-tree notebook.

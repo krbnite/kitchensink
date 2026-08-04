@@ -2,6 +2,18 @@
 
 Robotics, autonomous-vehicle, edge-AI, and related learning archives.
 
+## Contents
+
+- [Local Archive Contents](#local-archive-contents)
+- [Related Articles](#related-articles)
+
+## Local Archive Contents
+
+Local folders in this section preserve robotics, autonomous-vehicle, and edge-AI learning projects.
+
+- [Udacity AI for IoT Developers Nanodegree](edge-ai-iot-nanodegree-2020/README.md): preserved 2020 edge-AI / IoT work around OpenVINO, model conversion, people counting, and local deployment notes.
+- [Self-Driving Car Nanodegree 2017](self-driving-car-nanodegree-2017/README.md): preserved 2017 autonomous-vehicle notebooks and mini-project artifacts.
+
 ## Related Articles
 
 Robotics-adjacent historical articles currently focus on edge AI and OpenVINO deployment notes.

@@ -6,6 +6,7 @@ Just a stash for a splish splash of mish mash that ain't squish 'n ain't trash, 
 
 - [Historical articles](articles/README.md): selected blog articles imported with filtered Git history and organized by year.
 - [Deep learning](deep-learning/README.md): neural networks, TensorFlow-era notes, gradients, Udacity/DLAI archives, and related setups.
+- [NLP](nlp/README.md): word embeddings, chatbot experiments, and local Hugging Face chatbot setup notes.
 - [Robotics](robotics/README.md): self-driving-car and edge-AI learning archives.
 - [Vision](vision/README.md): computer-vision, segmentation, face-recognition, and edge-vision notes.
 - [Trees](trees/README.md): decision trees, random forests, interpretability, and related notebooks/articles.

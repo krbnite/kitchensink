@@ -2,7 +2,14 @@
 
 Computer-vision, image segmentation, face-recognition, and edge-vision learning artifacts.
 
-## Projects
+## Contents
+
+- [Local Archive Contents](#local-archive-contents)
+- [Related Articles](#related-articles)
+
+## Local Archive Contents
+
+Local folders in this section preserve computer-vision notebooks and environment setup work.
 
 - [FastSAM 2024 Notebook](fastsam2024/README.md): preserved 2024 segmentation notebook and environment setup.
 
