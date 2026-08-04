@@ -4,8 +4,13 @@ Statistics, inference, data leakage, missing-data, and evaluation notes preserve
 
 ## Contents
 
+- [Related Projects](#related-projects)
 - [Related Notebooks](#related-notebooks)
 - [Related Articles](#related-articles)
+
+## Related Projects
+
+- [Sleep Device Validation Methods](../health/sleep-device-validation-methods/README.md): standalone TPV Revisited repo indexed from kitchensink; relevant here for agreement metrics, null handling, sensitivity/specificity, Cohen's kappa, and comparison of strict epoch matching vs warp-aware alignment.
 
 ## Related Notebooks
 

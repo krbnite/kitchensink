@@ -4,8 +4,13 @@ Time-series, signal-processing, forecasting, and memory-efficient windowing note
 
 ## Contents
 
+- [Related Projects](#related-projects)
 - [Related Notebooks](#related-notebooks)
 - [Related Articles](#related-articles)
+
+## Related Projects
+
+- [Sleep Device Validation Methods](../health/sleep-device-validation-methods/README.md): standalone TPV Revisited repo indexed from kitchensink; relevant here for timestamp alignment, bounded Dynamic Time Warping, and hypnogram agreement metrics.
 
 ## Related Notebooks
 

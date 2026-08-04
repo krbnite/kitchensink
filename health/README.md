@@ -4,7 +4,12 @@ Health AI, wearables, sensor data, and related historical notes.
 
 ## Contents
 
+- [Related Projects](#related-projects)
 - [Related Articles](#related-articles)
+
+## Related Projects
+
+- [Sleep Device Validation Methods](sleep-device-validation-methods/README.md): kitchensink index for the standalone TPV Revisited repo on PSG-vs-device agreement, wearable sleep validation, and bounded DTW methodology.
 
 ## Related Articles
 
