@@ -1,2 +1,14 @@
 # kitchensink
+
 Just a stash for a splish splash of mish mash that ain't squish 'n ain't trash, but ain't this n' ain't that n' ain't pish n' ain't pash.
+
+## Map
+
+- [Historical articles](articles/README.md): selected blog articles imported with filtered Git history and organized by year.
+- [Deep learning](deep-learning/README.md): neural networks, TensorFlow-era notes, gradients, Udacity/DLAI archives, and related setups.
+- [Robotics](robotics/README.md): self-driving-car and edge-AI learning archives.
+- [Trees](trees/README.md): decision trees, random forests, interpretability, and related notebooks/articles.
+- [Statistics](statistics/README.md): missing data, leakage, causality, metrics, and statistical modeling notes.
+- [Time series](time-series/README.md): time-windowing, forecasting, and older signal-analysis notes.
+- [Health](health/README.md): health AI, wearables, and sensor-data notes.
+- [Misc](misc/README.md): automation, data engineering, Git-history notes, web-development scholarship notes, and lower-priority technical miscellany.

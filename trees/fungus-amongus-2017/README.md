@@ -74,3 +74,9 @@ If revisiting it (unlikely!), expect to update some scikit-learn behavior, pin p
 ## Why Keep It at All?
 
 It belongs in kitchensink because it captures the some of the learning process as it actually looked: curious, messy, funny, and technical enough to be worth preserving.
+
+## Related Historical Articles
+
+This short blog post points back to the same 2017 mushroom decision-tree notebook. The broader tree-model article index lives in `../README.md`.
+
+- [Treebeard and the Fungus Amongus: Exploring Decision Trees in Scikit Learn](../../articles/2017/2017-08-03-Treebeard-and-the-Fungus-Amongus.md) (2017-08-03)

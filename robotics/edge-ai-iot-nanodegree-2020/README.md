@@ -93,4 +93,17 @@ edge AI deployment rather than as a complete production-ready application.
 This should be read as a preserved course-era project and notebook-adjacent
 learning record. The project contains starter-code scaffolding from the Udacity
 assignment plus personal notes and experiments; it is not presented as a
-completed production people-counter application. 
+completed production people-counter application.
+
+## Related Historical Articles
+
+These blog articles were written during the same edge-AI/OpenVINO learning period and are kept in the top-level article archive with their filtered history.
+
+- [Intel at the Edge (Udacity Scholarship)](../../articles/2019/2019-12-16-Intel-at-the-Edge-Udacity-Scholarship.md) (2019-12-16)
+- [Intel at the Edge (Getting Started)](../../articles/2019/2019-12-20-Intel-at-the-Edge-Getting-Started.md) (2019-12-20)
+- [Intel at the Edge (Installing Intel's OpenVINO on MacBook w/ 4th Generation Intel Core i7)](../../articles/2019/2019-12-27-Intel-at-the-Edge-Installing-Intels-OpenVINO-on-MacBook-with-4th-Generation-Intel-Core-i7.md) (2019-12-27)
+- [Intel at the Edge (OpenVINO on a Linux Docker)](../../articles/2019/2019-12-30-Intel-at-the-Edge-OpenVINO-on-a-Linux-Docker.md) (2019-12-30)
+- [Intel at the Edge (Leveraging Pre-Trained Models)](../../articles/2019/2019-12-31-Intel-at-the-Edge-Leveraging-Pre-Trained-Models.md) (2019-12-31)
+- [Intel at the Edge (The Model Optimizer)](../../articles/2020/2020-01-12-Intel-at-the-Edge-The-Model-Optimizer.md) (2020-01-12)
+- [Intel at the Edge (The Inference Engine)](../../articles/2020/2020-01-17-Intel-at-the-Edge-The-Inference-Engine.md) (2020-01-17)
+- [Intel at the Edge (Deploying an Edge App)](../../articles/2020/2020-01-27-Intel-at-the-Edge-Deploying-an-Edge-App.md) (2020-01-27)

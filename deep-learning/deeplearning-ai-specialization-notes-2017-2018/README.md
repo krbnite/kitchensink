@@ -40,3 +40,10 @@ stick.
 Some supporting images are recreated or annotated from course-era study material.
 They are preserved here as part of the notes archive, not as standalone
 instructional assets.
+
+## Related Historical Articles
+
+These article links point to historical TensorFlow course-note posts kept in the top-level article archive.
+
+- [deeplearning.ai's Intro to TensorFlow (Week 1)](../../articles/2019/2019-03-06-Deep-Learning-AI-Intro-to-TensorFlow-Week-1.md) (2019-03-06)
+- [deeplearning.ai's Intro to TensorFlow (Week 2)](../../articles/2019/2019-03-23-Deep-Learning-AI-Intro-to-TensorFlow-Week2.md) (2019-03-23)

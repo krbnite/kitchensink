@@ -63,3 +63,14 @@ alongside other technical interests.
 - Google developer training: <https://developers.google.com/training/>
 - PWA material from Google/Udacity:
   <https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/>
+
+## Related Historical Articles
+
+These blog articles were written during or around the 2018 Grow with Google / Udacity scholarship period and are kept in the top-level article archive.
+
+- [Google Developer Scholarship](../../articles/2018/2018-01-12-Google-Developer-Scholarship.md) (2018-01-12)
+- [Google Developer Scholarship: Back to the Basics of JavaScript](../../articles/2018/2018-01-26-Google-Developer-Scholarship-Back-to-the-Basics-of-JavaScript.md) (2018-01-26)
+- [Google Developer Scholarship: Back to the Basics of HTML and CSS](../../articles/2018/2018-02-02-Google-Developer-Scholarship-Back-to-the-Basics-of-HTML-and-CSS.md) (2018-02-02)
+- [Google Developer Scholarship: Asynchronous JavaScript Requests](../../articles/2018/2018-03-06-Google-Developer-Scholarship-Asynchronous-JavaScript-Requests.md) (2018-03-06)
+- [Google Developer Scholarship: JavaScript Promises](../../articles/2018/2018-03-15-Google-Developer-Scholarship-Javascript-Promises.md) (2018-03-15)
+- [Hello, Node.js!](../../articles/2018/2018-03-16-Hello-Node-JS.md) (2018-03-16)
