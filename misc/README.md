@@ -9,5 +9,6 @@ Lower-priority but still useful historical material, grouped by theme rather tha
 - [Dev notes](dev-notes/README.md): R, Jupyter, AWS, Unix, Python, and old setup notes.
 - [Git history](git-history/README.md): old notes on preserving history while merging repositories.
 - [Professional notes](professional-notes/README.md): applied data-science process and career-context essays.
+- [Project structure](project-structure/README.md): project layout, reproducible workflow, and ML-project planning notes.
 - [Research notes](research-notes/README.md): older physics, hydrology, and space-weather notes.
 - [Google Developer Scholarship](google-developer-scholarship-2018/README.md): 2018 web-development scholarship notes and related articles.
