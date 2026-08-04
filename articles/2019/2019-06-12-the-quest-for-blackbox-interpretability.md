@@ -1,28 +1,23 @@
 # The Quest for Blackbox Interpretability
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-06-12 to 2020-01-28. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: Consolidates the in-progress interpretability sequence. The already-imported Take 1 article remains as a separate historical published draft and is linked below.
-> Related published draft: [The Quest for Blackbox Interpretability (Take 1, Random Forests and Feature Importances)](2019-06-21-The-Quest-for-Blackbox-Interpretability-Take-1.md).
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
+## Summary
 
-- `2019-06-12-LIME.md`
-- `2019-06-19-The-Quest-for-Blackbox-Interpretability-Take-2.md`
-- `2019-06-19-The-Quest-for-Blackbox-Interpretability-Take-3.md`
-- `2019-06-19-The-Quest-for-Blackbox-Interpretability-Take-4.md`
-- `2019-06-26-The-Quest-for-Blackbox-Interpretability-Take-5-Anchors.md`
-- `2019-09-21-Stable-Variable-Importance-Values-in-Random-Forests.md`
+This consolidates the in-progress “Quest for Blackbox Interpretability” sequence around LIME, permutation importance, conditional permutation importance, Shapley/SHAP-style methods, Anchors, and stable random-forest variable importance.
 
-## LIME (2019-06-12; source: `2019-06-12-LIME.md`)
+The already imported Take 1 article remains separate; this page preserves the follow-on reading trail and smaller draft fragments that grew around it.
 
-* [Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)
-* [LIME on GitHub](https://github.com/marcotcr/lime)
+## Contents
 
-https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime
+- [Permutation and conditional permutation importance](#permutation-and-conditional-permutation-importance)
+- [LIME follow-up reading](#lime-follow-up-reading)
+- [Shapley and SHAP-style methods](#shapley-and-shap-style-methods)
+- [Anchors and LORE](#anchors-and-lore)
+- [Stable random-forest variable importance](#stable-random-forest-variable-importance)
+- [LIME seed links](#lime-seed-links)
 
-https://towardsdatascience.com/decrypting-your-machine-learning-model-using-lime-5adc035109b5
-
-## The Quest for Blackbox Interpretability (Take 2, PImp and CPImp) (2019-06-19 to 2019-07-08; source: `2019-06-19-The-Quest-for-Blackbox-Interpretability-Take-2.md`)
+## Permutation and Conditional Permutation Importance
 
 * [Be Aware of Bias in RF Variable Importance Metrics](https://blog.methodsconsultants.com/posts/be-aware-of-bias-in-rf-variable-importance-metrics/)
   - very useful article detailing when Gini importance is ok, when to instead opt for permutation importance, and when to
@@ -48,7 +43,7 @@ Note that it's also found that correlated predictors are not given their proper 
 importances since permuting one predictor is less meaningful if a highly correlated predictor exists to
 stand in for it....
 
-## The Quest for Blackbox Interpretability (Take 3, LIME) (2019-06-19 to 2019-06-27; source: `2019-06-19-The-Quest-for-Blackbox-Interpretability-Take-3.md`)
+## LIME Follow-up Reading
 
 * [“Why Should I Trust You?” Explaining the Predictions of Any Classifier](https://arxiv.org/pdf/1602.04938.pdf)
   - Original LIME paper
@@ -70,14 +65,14 @@ Related:  I saw that there is a Kaggle micro-course on model explainability.  I 
 * https://towardsdatascience.com/why-model-explainability-is-the-next-data-science-superpower-b11b6102a5e0
 * https://www.kaggle.com/learn/machine-learning-explainability?utm_medium=blog&utm_source=medium&utm_campaign=medium-learn-explain
 
-## The Quest for Blackbox Interpretability (Take 4, Shapley) (2019-06-19; source: `2019-06-19-The-Quest-for-Blackbox-Interpretability-Take-4.md`)
+## Shapley and SHAP-style Methods
 
 * [Interpretable Machine Learning: Shapley Values](https://christophm.github.io/interpretable-ml-book/shapley.html)
   - From the online book "[Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
 * [An unexpected unity among methods for interpreting model predictions](https://arxiv.org/pdf/1611.07478.pdf)
   - Goes over a generalization of Shapley values that they call "Expectation Shapley values"
 
-## The Quest for Blackbox Interpretability (Take 5, Anchors) (2019-06-26 to 2019-07-02; source: `2019-06-26-The-Quest-for-Blackbox-Interpretability-Take-5-Anchors.md`)
+## Anchors and LORE
 
 * https://github.com/marcotcr/anchor
 * https://homes.cs.washington.edu/~marcotcr/aaai18.pdf
@@ -87,7 +82,7 @@ Related:  I saw that there is a Kaggle micro-course on model explainability.  I 
 Also: LORE
 * https://arxiv.org/abs/1805.10820
 
-## Stable Variable Importance Values in Random Forests (2020-01-28; source: `2019-09-21-Stable-Variable-Importance-Values-in-Random-Forests.md`)
+## Stable Random-Forest Variable Importance
 
 2017: Behnamian et al: [A Systematic Approach for Variable Selection With Random Forests: Achieving
 Stable Variable Importance Values](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8038868)
@@ -118,3 +113,27 @@ Stable Variable Importance Values](https://ieeexplore.ieee.org/stamp/stamp.jsp?a
     differ from one model run to another, especially when if only a small ntree are generated."
 
 Jupyter Notebook: https://github.com/krbnite/krbnite.github.io/blob/master/_notebooks/2019-09-22-Stabilizing-Variable-Importance-Fluctuations-in-a-Random-Forest.ipynb
+
+## LIME Seed Links
+
+* [Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)
+* [LIME on GitHub](https://github.com/marcotcr/lime)
+
+https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime
+
+https://towardsdatascience.com/decrypting-your-machine-learning-model-using-lime-5adc035109b5
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-06-12 to 2020-01-28. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: Consolidates the in-progress interpretability sequence. The already-imported Take 1 article remains as a separate historical published draft and is linked below.
+- Related published draft: [The Quest for Blackbox Interpretability (Take 1, Random Forests and Feature Importances)](2019-06-21-The-Quest-for-Blackbox-Interpretability-Take-1.md).
+
+### Source Drafts
+
+- `2019-06-12-LIME.md`
+- `2019-06-19-The-Quest-for-Blackbox-Interpretability-Take-2.md`
+- `2019-06-19-The-Quest-for-Blackbox-Interpretability-Take-3.md`
+- `2019-06-19-The-Quest-for-Blackbox-Interpretability-Take-4.md`
+- `2019-06-26-The-Quest-for-Blackbox-Interpretability-Take-5-Anchors.md`
+- `2019-09-21-Stable-Variable-Importance-Values-in-Random-Forests.md`

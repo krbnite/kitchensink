@@ -1,17 +1,25 @@
 # NoSQL and Neo4j Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2018-10-20 to 2019-03-14. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: These notes preserve a 2018-2019 database and graph-database study trail. Some sections are source-heavy working notes and should be treated as study notes rather than a finished tutorial.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
+## Summary
 
-- `NoSQL-and-Neo4j-Notes.md`
-- `Exploring-the-Neo4j-Directory-Tree.md`
-- `neo4j-left-off-2019-03-14.md`
+These are 2018-2019 working notes on database models, NoSQL tradeoffs, graph databases, and practical Neo4j/Cypher usage.
 
-## NoSQL and Neo4j Notes (2018-10-20 to 2018-11-29; source: `NoSQL-and-Neo4j-Notes.md`)
+The strongest parts are the data-store model comparison notes, the Neo4j data-modeling and query examples, and the later filesystem/log exploration. Some passages are source-heavy study notes rather than a finished standalone tutorial.
 
-## Notes from Oct 15, 2018
+## Contents
+
+- [Data-store models and NoSQL landscape](#data-store-models-and-nosql-landscape-oct-15-2018)
+- [Graph database concepts](#graphs)
+- [Neo4j Desktop and Cypher notes](#neo4j-browser-and-cypher-notes-oct-17-2018)
+- [Data modeling, indexes, and constraints](#data-modeling)
+- [Cypher query patterns](#aggregating-ordering-filtering-and-limiting)
+- [Pretty-printing paths](#printing-paths-prettily)
+- [Neo4j directory tree and logs](#neo4j-directory-tree-and-log-notes)
+- [Loose follow-up links](#loose-neo4j-follow-up-links)
+
+## Data Store Models and NoSQL Landscape (Oct 15, 2018)
 
 SOURCE:  https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview
 
@@ -158,7 +166,7 @@ This article was a refreshing b/c only moments before, I was having this strange
 ####################################################################
 
 
-## Notes from Oct 17, 2018
+## Neo4j Browser and Cypher Notes (Oct 17, 2018)
 
 AWS Database Week: NoSQL & Graph Databases
 
@@ -368,7 +376,7 @@ Wikipedia does the best job at describing a column-oriented database, how it dif
 
 > "A column-oriented DBMS (or columnar database management system) is a database management system (DBMS) that stores data tables by column rather than by row. Practical use of a column store versus a row store differs little in the relational DBMS world. Both columnar and row databases can use traditional database query languages like SQL to load data and perform queries. Both row and columnar databases can become the backbone in a system to serve data for common extract, transform, load (ETL) and data visualization tools. However, by storing data in columns rather than rows, the database can more precisely access the data it needs to answer a query rather than scanning and discarding unwanted data in rows. Query performance is increased for certain workloads."
 
-#### Columnar Databses:
+#### Columnar Databases:
 > "In practice, columnar databases are well-suited for OLAP-like workloads (e.g., data warehouses) which typically involve highly complex queries over all data (possibly petabytes). However, some work must be done to write data into a columnar database. Transactions (INSERTs) must be separated into columns and compressed as they are stored, making it less suited for OLTP workloads."
 
 #### Row-Oriented Databases:
@@ -1197,7 +1205,7 @@ return res
 
 
 
-##!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!
+---
 
 ## Printing Paths Prettily
 So this is my first attempt...  Not very pretty, but it at least prints the label, relationship, label,
@@ -1490,7 +1498,7 @@ coalesce(coalesce(node.name, node.kittycat), node.title)
 
 It ain't beautiful, but it will work!
 
-##!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!
+---
 
 
 Various ways to set/remove things on a node
@@ -1574,7 +1582,7 @@ Very cool!
 
 #################################################
 
-## Exploring the Neo4j Directory Tree (2019-02-24; source: `Exploring-the-Neo4j-Directory-Tree.md`)
+## Neo4j Directory Tree and Log Notes
 
 ---------------
 
@@ -1661,7 +1669,18 @@ cat logs/security.log | grep -v "logged in" | wc -l
 14
 ```
 
-## neo4j left off 2019 03 14 (2019-03-14; source: `neo4j-left-off-2019-03-14.md`)
+## Loose Neo4j Follow-up Links
 
 * https://maxdemarzi.com/2018/03/12/keeping-properties-secret-in-neo4j/
 * https://tbgraph.wordpress.com/2017/04/01/neo4j-location-trees/
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2018-10-20 to 2019-03-14. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: These notes preserve a 2018-2019 database and graph-database study trail. Some sections are source-heavy working notes and should be treated as study notes rather than a finished tutorial.
+
+### Source Drafts
+
+- `NoSQL-and-Neo4j-Notes.md`
+- `Exploring-the-Neo4j-Directory-Tree.md`
+- `neo4j-left-off-2019-03-14.md`

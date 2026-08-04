@@ -1,14 +1,6 @@
 # Deep Learning Research Paper Links
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-01-22 to 2019-10-25. The source draft histories were imported into this repository before this consolidation step.
-> This is a historical `LINK-LIST` artifact, not a polished explanatory article.
-> Curation note: A historical paper/link list around deep learning research interests, Google AI Residency papers, graph neural networks, and a few Google Brain topics.
-
-## Source Drafts
-
-- `google-ai-residency.md`
-- `graph-neural-networks.md`
-- `2019-10-25-Google-Brain-Stuff.md`
+> Historical `LINK-LIST` artifact. This is primarily a saved resource list, not a polished explanatory article. Provenance details are at [Historical Provenance](#historical-provenance).
 
 ## google ai residency (2019-01-22; source: `google-ai-residency.md`)
 
@@ -56,3 +48,15 @@ supervised accuracy, Google Brain uses prototypical networks and for unsupervise
 So I wanted to dedicate this blog to learning about and discussing:
 * prototypical networks
 * certoi networks
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-01-22 to 2019-10-25. The source draft histories were imported into this repository before this consolidation step.
+- Link-list note: This is a historical `LINK-LIST` artifact, not a polished explanatory article.
+- Curation note: A historical paper/link list around deep learning research interests, Google AI Residency papers, graph neural networks, and a few Google Brain topics.
+
+### Source Drafts
+
+- `google-ai-residency.md`
+- `graph-neural-networks.md`
+- `2019-10-25-Google-Brain-Stuff.md`

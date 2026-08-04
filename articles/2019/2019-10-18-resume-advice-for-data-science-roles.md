@@ -1,13 +1,8 @@
 # Resume Advice for Data Science Roles
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-10-18. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A small professional-note artifact, preserved because it reflects how the data-science job market was being understood at the time.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `2019-10-18-Resume-Advice.md`
-
-## Original Draft Notes
+## Notes
 
 My advice for data scientists, machine learning engineers, and similar-buzzword-titles is this:
 * If you have a general skills section, break it down into subsections, e.g.,
@@ -33,3 +28,12 @@ My advice for data scientists, machine learning engineers, and similar-buzzword-
         corresponding video files in S3
       - Built CNN model in keras and trained it to classify x/y/z in the video files
       -
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-10-18. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A small professional-note artifact, preserved because it reflects how the data-science job market was being understood at the time.
+
+### Source Drafts
+
+- `2019-10-18-Resume-Advice.md`

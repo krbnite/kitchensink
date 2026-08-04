@@ -1,19 +1,24 @@
 # Causal Inference, Missing Data, and Predictive Modeling Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2018-12-19 to 2019-11-13. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: Consolidates causal-inference, missing-data, feature-type, and live-prediction draft notes.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
+## Summary
 
-- `causal-inference.md`
-- `2019-03-28-Predictive-Models-for-Counterfactuals.md`
-- `2019-04-01-Cat-Vars-and-Models-Take-2.md`
-- `2019-04-05-Reflections-on-Feature-Types.md`
-- `2019-04-19-Classifying-Circumstances-of-Missing-Data.md`
-- `2019-04-19-Graphical-Models-of-Missingness.md`
-- `predictive-models-in-practice.md`
+These notes collect a 2018-2019 thread around causal inference, missing data, categorical feature handling, and the difference between a model that predicts well on historical data and a model that behaves sensibly in live use.
 
-## causal inference (2018-12-19 to 2019-04-01; source: `causal-inference.md`)
+The most useful material is the treatment-intake prediction scenario, the MCAR/MAR/MNAR examples, and the recurring question of what changes once predictions are used to intervene in the system being predicted.
+
+## Contents
+
+- [Causal inference reading notes](#causal-inference-reading-notes)
+- [Predictive models and counterfactuals](#predictive-models-for-counterfactuals)
+- [Categorical variables and missingness scenario](#categorical-variables-and-missing-values-in-live-models)
+- [Feature-type reflections](#reflections-on-feature-types)
+- [MCAR, MAR, and MNAR examples](#classifying-circumstances-of-missing-data)
+- [Graphical models of missingness](#graphical-models-of-missingness)
+- [Prediction-in-practice link notes](#predictive-models-in-practice)
+
+## Causal Inference Reading Notes
 
 NEXT UP:
 
@@ -120,14 +125,14 @@ Courses:
   - weekly recommended readings (Pearl, Hernan, Robins, etc)
   - should go through the readings
 
-## Predictive Models for Counterfactuals (2019-03-28; source: `2019-03-28-Predictive-Models-for-Counterfactuals.md`)
+## Predictive Models for Counterfactuals
 
 These exist... Want to learn more!
 
 
 https://www.oreilly.com/learning/all-the-data-and-still-not-enough
 
-## Cat Vars and Models Take 2 (2019-04-01; source: `2019-04-01-Cat-Vars-and-Models-Take-2.md`)
+## Categorical Variables and Missing Values in Live Models
 
 ## The Scenario
 
@@ -220,7 +225,7 @@ we are not trying to predict death.  Since
 death does not neatly fit into completion or dropout, I think we can remove them.  Think about the
 patient intake process: our goal is to estimate a patient's likelihood of completing treatment.
 
-## Reflections on Feature Types (2019-04-05; source: `2019-04-05-Reflections-on-Feature-Types.md`)
+## Reflections on Feature Types
 
 In statistical data analysis, you will often hear about different types of data, specifically whether
 a given feature is nominal, ordinal, interval, or ratio.
@@ -255,7 +260,7 @@ especially not a well-defined zero).
 Again, does the existence of this well-defined zero have intrinsic value that can be served by using one
 technique over another?
 
-## Classifying Circumstances of Missing Data (2019-04-19; source: `2019-04-19-Classifying-Circumstances-of-Missing-Data.md`)
+## Classifying Circumstances of Missing Data
 
 When is data missing completely at random (MCAR)? Or conditionally at random (MAR)?  Or not
 missing at random (MNAR)?
@@ -304,7 +309,7 @@ It's weird, right?  One the one hand, it feels ok to call the missing data MAR..
 the heart health became so low that the patient ceased to exist, thus the data are missing based on the values
 of the missing data........so MNAR, right?
 
-## Graphical Models of Missingness (2019-04-19; source: `2019-04-19-Graphical-Models-of-Missingness.md`)
+## Graphical Models of Missingness
 
 [Graphical Models for Inference with Missing Data](http://papers.nips.cc/paper/4899-graphical-models-for-inference-with-missing-data.pdf)
 
@@ -318,7 +323,7 @@ of the missing data........so MNAR, right?
 
 2018: [Graphical Models for Processing Missing Data](https://arxiv.org/pdf/1801.03583.pdf)
 
-## predictive models in practice (2019-11-13; source: `predictive-models-in-practice.md`)
+## Predictive Models in Practice
 
 * [Prediction and Inference with Missing Data in Patient Alert Systems](https://arxiv.org/abs/1704.07904)
 
@@ -342,3 +347,18 @@ of the missing data........so MNAR, right?
 * [Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls](https://www.bmj.com/content/338/bmj.b2393)
 * [Missing Data Analysis Using Multiple Imputation: Getting to the Heart of the Matter](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2818781/)
 * [Avoiding bias due to perfect prediction in multiple imputation of incomplete categorical variables](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3990447/)
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2018-12-19 to 2019-11-13. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: Consolidates causal-inference, missing-data, feature-type, and live-prediction draft notes.
+
+### Source Drafts
+
+- `causal-inference.md`
+- `2019-03-28-Predictive-Models-for-Counterfactuals.md`
+- `2019-04-01-Cat-Vars-and-Models-Take-2.md`
+- `2019-04-05-Reflections-on-Feature-Types.md`
+- `2019-04-19-Classifying-Circumstances-of-Missing-Data.md`
+- `2019-04-19-Graphical-Models-of-Missingness.md`
+- `predictive-models-in-practice.md`

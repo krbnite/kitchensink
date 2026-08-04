@@ -1,13 +1,21 @@
 # Face Recognition Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-10-03. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A substantial but unfinished historical computer-vision note. It still contains a few original placeholders.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
+## Summary
 
-- `2019-10-02-Face-Recognition.md`
+An unfinished 2019 computer-vision note on face detection and recognition, written while reviewing a course on OpenFace, dlib, and the `face_recognition` Python package.
 
-## Original Draft Notes
+The useful pieces are the high-level recognition pipeline and the comparison of Viola-Jones, HOG, and CNN-based detection. A few original placeholders remain intentionally visible as historical rough edges.
+
+## Contents
+
+- [Opening context](#notes)
+- [Face recognition background](#recognizing-the-particulars-of-a-skulls-fleshy-overlay)
+- [Basic recipe for face recognition](#basic-recipe-for-face-recognition)
+- [Face detection approaches](#face-detection-locate-and-extract)
+
+## Notes
 
 It's 10pm on a Wednesday night and I'm tired.  I should go to bed!  But no, dear Reader.  Instead
 I'm going to watch through this [Face Recognition](https://www.linkedin.com/learning/deep-learning-face-recognition/build-cutting-edge-facial-recognition-systems)
@@ -51,7 +59,7 @@ electronic billboard, there's a good chance that face recognition systems are in
 Face recognition systems can be designed for pursuits such as:
 * identity verification (e.g., can use 1-shot learning for this)
 * organizing and/or sorting photos by individual
-* tracking an indidival through a network of camera feeds
+* tracking an individual through a network of camera feeds
 * counting the number of people in a pic
 * counting the number of unique people that appear in a camera feed
 * identifying individuals with similar appearances
@@ -69,26 +77,26 @@ ok to use some open source tools.  Go ahead and stand on the shoulders of giants
 creation!
 
 The tools recommended by the course instructor are [OpenFace](https://cmusatyalab.github.io/openface/) and
-[dlib](http://dlib.net/).  I honestly have never used or heard of either.  Back in my face recogntion days circa
+[dlib](http://dlib.net/).  I honestly have never used or heard of either.  Back in my face recognition days circa
 2017 when I was working at WWE and doing Udacity's deep learning nanodegree, I used TensorFlow, Keras, and
 transfer learning for this stuff.  In this course, we use a Python API to dlib, written by the course
 instructor, called `face_recognition`.
 
-## Basic Recipe for Face Recogntion
+## Basic Recipe for Face Recognition
 1. Locate and extract:  given an image, scan through and locate all faces; for each face, extract a cropped
 sub-image.
 2. Identify facial features:  Gain a better understanding of the orientation of the face -- how is it turned,
 and what parts are obscured?  Locate and map each facial feature, which will be used as data along with the
 cropped image itself.
 3. Align faces into standard pose: using the facial feature mapping and an average facial feature mapping (positioning
-template) for faces looking directly into the camer, transform the cropped face image into a face-forward image.
+template) for faces looking directly into the camera, transform the cropped face image into a face-forward image.
 4. Represent the face as a vector of measurements.  In this representation, images of the same person should
 map to similar vectors (i.e., vectors of similar magnitude and orientation).  This vector can be composed in various
 ways, e.g., using a neural network embedding, etc.
 5. Compare to other known faces, e.g., use the Euclidean distance metric between facial vectors.
 
 
-### Face Detection (Locate & Extract)
+### Face Detection: Locate and Extract
 We will use a sliding window approach with a machine learning classifier.  The classifier will
 simply assess whether or not a face is present in each instance of the sliding window.  To do this
 is simple:  1. train the classifier on cropped images labeled as 1 or 0, face or no face.  2. Slide
@@ -98,7 +106,7 @@ There are 3 face detection algorithms covered in this course.  In order of incre
 * Viola-Jones
   - tree-based method that indicates the presence of a face if a lightness/darkness pattern
     congruent with faces is detected
-  - low accuracy (lots of false positives), but computationlly simple and quick (basically,
+  - low accuracy (lots of false positives), but computationally simple and quick (basically,
     no reason to use it)
 * Histogram of Oriented Gradients (HOG)
   - This is the one that got me to watch the course
@@ -110,3 +118,12 @@ There are 3 face detection algorithms covered in this course.  In order of incre
 
 
 ....section 3....
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-10-03. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A substantial but unfinished historical computer-vision note. It still contains a few original placeholders.
+
+### Source Drafts
+
+- `2019-10-02-Face-Recognition.md`

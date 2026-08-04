@@ -1,23 +1,29 @@
 # Random Forests and Tree Ensemble Research Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-03-29 to 2019-11-08. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: Consolidates the main Random Forests FTW draft with smaller 2019 notes on random-forest variants, ensemble ideas, adversarial attacks, uncertainty, and tree/deep-learning hybrids.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
+## Summary
 
-- `2019-03-29-Random-Forests-FTW.md`
-- `2019-06-20-Unsupervised-Random-Forests.md`
-- `2019-07-02-Adversarial-Attacks-on-Tree-Based-Methods.md`
-- `2019-09-12-Reconstructing-Fourier-Transform-Quantities-from-Random-Forests.md`
-- `2019-09-13-Deep-and-Neural-Forests.md`
-- `2019-09-13-Mondrian-Forests.md`
-- `2019-09-13-Quantile-Regression-Forests.md`
-- `2019-09-17-Zero-Shot-Random-Forests.md`
-- `2019-09-19-Ensemble-Methods.md`
-- `2019-09-19-Forests-of-DNNs.md`
-- `2019-10-12-The-Additive-Decision-Tree.md`
+This is a consolidated 2019 research notebook on random forests, tree ensembles, and their practical edge cases. It is not a polished tutorial so much as a literature map, study log, and idea notebook.
 
-## Random Forests FTW (2019-03-29 to 2019-11-08; source: `2019-03-29-Random-Forests-FTW.md`)
+The substantive notes cover probability estimation, prediction intervals, consistency, calibration, categorical variables, additivity, statistical testing, computational burden, feature importance, interpretability, deployment issues, and comparisons with adjacent ensemble methods.
+
+The later side-trail sections preserve smaller link lists and project ideas around unsupervised forests, adversarial attacks on trees, neural/deep forests, Mondrian forests, quantile regression forests, zero-shot forests, and additive trees.
+
+## Contents
+
+- [Core random forest notes](#core-random-forest-notes)
+- [Probability estimation and calibration](#probability-estimation)
+- [Prediction intervals and uncertainty](#prediction-intervals-and-confidence-intervals)
+- [Consistency and model behavior](#consistency-of-random-forests)
+- [Categorical variables and additivity](#categorical-variable-stuff)
+- [Statistical testing and optimization](#statistical-testing)
+- [Interpretability and variable importance](#model-interpretability)
+- [Deployment, leakage, and causal caveats](#deployment)
+- [Applications and implementation notes](#applications)
+- [Side trails and reading lists](#side-trails-and-reading-lists)
+
+## Core Random Forest Notes
 
 https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm
 
@@ -64,7 +70,7 @@ Are RFs consistent estimators:  http://www.jmlr.org/papers/volume9/biau08a/biau0
 * “Trees should not be grown to purity. In fact, if nodes are pure, the probability estimate is either 0 or 1 in a terminal node.  As a result, a larger number of trees might be required to obtain consistent probability estimates. If trees are too small, probability estimates might be imprecise. Therefore, as a default value, the terminal node size is generally 10% of the total sample size. Alternatively, the optimal terminal node size may be tuned.”
 
 
-## Prediction Intervals / Confidence Intervals
+## Prediction Intervals and Confidence Intervals
 * 2016:  Mentch & Hooker:  [Quantifying Uncertainty in Random Forests via Confidence Intervals and Hypothesis Tests](http://www.jmlr.org/papers/volume17/14-168/14-168.pdf)
 * 2018: Ishwaran & Lu: [Standard errors and confidence intervals for variable importance in random forest regression, classification, and survival†](https://europepmc.org/articles/pmc6279615)
 * 2018: Roy: [Three Essays on Nonparametric Prediction Intervals and Robust Variable Selection](http://biblos.hec.ca/biblio/theses/2018NO10.pdf#page=23)
@@ -860,7 +866,9 @@ Many of these ideas have been tried out in several papers.  I've read that some 
 you can put on a forest (e.g., minNodeSize, numNodes, etc) basically serve as a pre-pruning
 strategy (i.e., pruning that occurs before pruning is necessary, making pruning relatively unnecessary).
 
-## Unsupervised Random Forests (2019-08-08; source: `2019-06-20-Unsupervised-Random-Forests.md`)
+## Side Trails and Reading Lists
+
+### Unsupervised Random Forests (2019-08-08; source: `2019-06-20-Unsupervised-Random-Forests.md`)
 
 Originally sent these notes as emails to myself.
 ---------------------------------------------------------------------
@@ -880,7 +888,7 @@ https://www.microsoft.com/en-us/research/publication/decision-forests-for-classi
 
 Actually… I want to print that out!  Looks amazing.
 
-## Adversarial Attacks on Tree Based Methods (2019-07-08; source: `2019-07-02-Adversarial-Attacks-on-Tree-Based-Methods.md`)
+### Adversarial Attacks on Tree-Based Methods (2019-07-08; source: `2019-07-02-Adversarial-Attacks-on-Tree-Based-Methods.md`)
 
 You hear all the time about adversarial attacks on neural networks.
 
@@ -899,7 +907,7 @@ http://proceedings.mlr.press/v97/chen19m/chen19m.pdf
 
 https://www.classes.cs.uchicago.edu/archive/2018/fall/23200-1/23.pdf
 
-## Reconstructing Fourier Transform Quantities from Random Forests (2019-09-12; source: `2019-09-12-Reconstructing-Fourier-Transform-Quantities-from-Random-Forests.md`)
+### Reconstructing Fourier Transform Quantities from Random Forests (2019-09-12; source: `2019-09-12-Reconstructing-Fourier-Transform-Quantities-from-Random-Forests.md`)
 
 Exactly what the name says...
 
@@ -923,7 +931,7 @@ A follow-up to this article can be using neural networks to reconstruct power sp
 is likely to be an easier job than w/ RF.  One can imagine a multi-layer perceptron with only
 a few hidden layers doing the job.
 
-## Deep and Neural Forests (2019-09-13; source: `2019-09-13-Deep-and-Neural-Forests.md`)
+### Deep and Neural Forests (2019-09-13; source: `2019-09-13-Deep-and-Neural-Forests.md`)
 
 [Deep Forest](https://arxiv.org/pdf/1702.08835.pdf)
 
@@ -931,7 +939,7 @@ a few hidden layers doing the job.
 
 [Deep Neural Decision Forests](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kontschieder_Deep_Neural_Decision_ICCV_2015_paper.pdf)
 
-## Mondrian Forests (2019-09-13; source: `2019-09-13-Mondrian-Forests.md`)
+### Mondrian Forests (2019-09-13; source: `2019-09-13-Mondrian-Forests.md`)
 
 https://papers.nips.cc/paper/5234-mondrian-forests-efficient-online-random-forests.pdf
 
@@ -943,7 +951,7 @@ https://medium.com/mlrecipies/mondrian-forests-making-random-forests-better-and-
 
 https://ldocao.wordpress.com/2016/08/26/mondrian-forest/
 
-## Quantile Regression Forests (2019-09-13; source: `2019-09-13-Quantile-Regression-Forests.md`)
+### Quantile Regression Forests (2019-09-13; source: `2019-09-13-Quantile-Regression-Forests.md`)
 
 https://scikit-garden.github.io/examples/QuantileRegressionForests/
 
@@ -953,14 +961,14 @@ https://en.wikipedia.org/wiki/Quantile_regression
 
 https://blog.datadive.net/prediction-intervals-for-random-forests/
 
-## Zero Shot Random Forests (2019-09-17; source: `2019-09-17-Zero-Shot-Random-Forests.md`)
+### Zero-Shot Random Forests (2019-09-17; source: `2019-09-17-Zero-Shot-Random-Forests.md`)
 
 2014: Jayaraman & Grauman: [Zero-Shot Recognition with Unreliable Attributes](http://papers.nips.cc/paper/5290-zero-shot-recognition-with-unreliable-attributes.pdf)
 
 
 2014: Lam & Chan: [Zero-Shot Object Recognition System based on Topic Model](https://arxiv.org/pdf/1410.3748.pdf)
 
-## Ensemble Methods (2019-09-19; source: `2019-09-19-Ensemble-Methods.md`)
+### Ensemble Methods (2019-09-19; source: `2019-09-19-Ensemble-Methods.md`)
 
 I was going to put this one paper in my random forest reference list, but after reading half the paper and skimming the
 rest I don't think that's the right place for it.  It was a general ensemble paper, not specific to random forests,
@@ -971,7 +979,7 @@ in general -- thus this new reference list.
 
 2018: Bonab & Can: [Less Is More: A Comprehensive Framework for the Number of Components of Ensemble Classifiers](https://arxiv.org/pdf/1709.02925.pdf)
 
-## Forests of DNNs (2019-09-19; source: `2019-09-19-Forests-of-DNNs.md`)
+### Forests of DNNs (2019-09-19; source: `2019-09-19-Forests-of-DNNs.md`)
 
 Ok, this might be covered in one of the papers I haven't read yet (e.g., Deep Forests), but
 I figured I'd jot this idea down and do some fun experiments with it.  Basically, an oft-cited
@@ -1003,6 +1011,25 @@ Here are general ways of creating ensembles:
 3. Use different feature subsets.
 4. Use different data subsets.
 
-## The Additive Decision Tree (2019-10-12; source: `2019-10-12-The-Additive-Decision-Tree.md`)
+### The Additive Decision Tree (2019-10-12; source: `2019-10-12-The-Additive-Decision-Tree.md`)
 
 [Building more accurate decision trees with the additive tree](https://www.pnas.org/content/116/40/19887)
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-03-29 to 2019-11-08. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: Consolidates the main Random Forests FTW draft with smaller 2019 notes on random-forest variants, ensemble ideas, adversarial attacks, uncertainty, and tree/deep-learning hybrids.
+
+### Source Drafts
+
+- `2019-03-29-Random-Forests-FTW.md`
+- `2019-06-20-Unsupervised-Random-Forests.md`
+- `2019-07-02-Adversarial-Attacks-on-Tree-Based-Methods.md`
+- `2019-09-12-Reconstructing-Fourier-Transform-Quantities-from-Random-Forests.md`
+- `2019-09-13-Deep-and-Neural-Forests.md`
+- `2019-09-13-Mondrian-Forests.md`
+- `2019-09-13-Quantile-Regression-Forests.md`
+- `2019-09-17-Zero-Shot-Random-Forests.md`
+- `2019-09-19-Ensemble-Methods.md`
+- `2019-09-19-Forests-of-DNNs.md`
+- `2019-10-12-The-Additive-Decision-Tree.md`

@@ -1,24 +1,34 @@
 # Healthcare IT Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-02-02 to 2019-04-20. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A rough but substantial health IT study note from 2019.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
+## Summary
 
-- `healthcare-it-notes.md`
+A 2019 healthcare IT study note focused on electronic health records, patient portals, telemedicine, kiosks, workflow, and the human/system costs of digitizing healthcare.
 
-## Original Draft Notes
+The writing is rough and course-adjacent, but it captures a useful attempt to understand digital health as a socio-technical system rather than as a pure software problem.
+
+## Contents
+
+- [Opening context](#notes)
+- [Inefficiencies in healthcare](#inefficiencies-in-healthcare)
+- [Technology optics and convenience](#the-optics-value-of-technology-healthcare)
+- [When health tech creates new problems](#mo-tech-mo-problems)
+- [Patient portals](#patient-portals)
+- [Imagination time](#imagination-time)
+
+## Notes
 
 Is a doctor going to kill you or save your life?
 
-Great question.  Even the topnotch doctors can kill with bad penmanship!  This is no joke: "Doctors' sloppy
+Great question.  Even the top-notch doctors can kill with bad penmanship!  This is no joke: "Doctors' sloppy
 handwriting kills more than 7,000 people annually. It's a shocking statistic, and, according to a July 2006
 report from the National Academies of Science's Institute of Medicine (IOM), preventable medication mistakes
 also injure more than 1.5 million Americans annually. Many such errors result from unclear abbreviations and
 dosage indications and illegible writing on some of the 3.2 billion prescriptions written in the U.S.
 every year. (2007: [Cause of Death: Sloppy Doctors](http://content.time.com/time/health/article/0,8599,1578074,00.html).)
 
-I learned about these things and more watching through the videos found in Mount Sanai's course,
+I learned about these things and more watching through the videos found in Mount Sinai's course,
 [Health Care IT: Challenges and Opportunities](https://www.coursera.org/learn/healthcare-it), which I watched
 in my ongoing effort to immerse myself in the culture and milieu of fields related to biotech, digital
 health, and medical technologies. In this post, I try to make a coherent narrative out of the scattershot
@@ -313,3 +323,12 @@ https://www.forbes.com/sites/dandiamond/2014/08/25/how-an-earthquake-will-mess-u
 Telemedicine reimbursement -- 2015 in NY (there now exist billing codes, etc);  billing codes for apps and wearables is something new too......
 
 Though there are legitimate reasons how mobile phones and wearables can help healthcare, many doctors are cautious -- and for good reason: false positives, inexperienced determination, misinterpretation, misinformed usage, etc.  In a sense, easily accessible biometric, health-related data is not a panacea for healthcare..........
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-02-02 to 2019-04-20. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A rough but substantial health IT study note from 2019.
+
+### Source Drafts
+
+- `healthcare-it-notes.md`

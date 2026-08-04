@@ -1,13 +1,8 @@
 # Zero-Shot Learning Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-01-02 to 2019-01-03. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A historical zero-shot learning note with a few project ideas and paper references.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `zsl.md`
-
-## Original Draft Notes
+## Notes
 
 Connection with one-shot learning:
 > "Zero-data learning shares some similarities with one-shot learning which can be seen as a particular case of
@@ -72,3 +67,12 @@ Can't (easily) get access to the license plate data they used...  So I found a f
   - this is the standard dataset used all the time
 * [The Chars74K dataset](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/)
   - this is a "characters out in the wild" data set, so is more advanced than I want for a first project
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-01-02 to 2019-01-03. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A historical zero-shot learning note with a few project ideas and paper references.
+
+### Source Drafts
+
+- `zsl.md`

@@ -1,13 +1,8 @@
 # Cool Unix One-Liners
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-03-01 to 2019-03-06. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A small command-line scratchpad preserved as a historical dev note.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `cool-unix-one-liners.md`
-
-## Original Draft Notes
+## Notes
 
 ```
 cat logs/debug.log  | grep "^201[89]" | awk '{ print $1 }' | uniq
@@ -36,3 +31,12 @@ head -n 1 tons_of_data_fields.csv | tr ',' '\n
 # cat -n: print out incoming stream w/ numbered rows
 !cat data.csv | cut -d, -f6 | uniq | grep -v Description | cat -n
 ```
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-03-01 to 2019-03-06. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A small command-line scratchpad preserved as a historical dev note.
+
+### Source Drafts
+
+- `cool-unix-one-liners.md`

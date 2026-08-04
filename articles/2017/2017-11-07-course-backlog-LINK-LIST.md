@@ -1,14 +1,8 @@
 # Course Backlog
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2017-11-07. The source draft histories were imported into this repository before this consolidation step.
-> This is a historical `LINK-LIST` artifact, not a polished explanatory article.
-> Curation note: A historical course/resource backlog rather than a polished article.
+> Historical `LINK-LIST` artifact. This is primarily a saved resource list, not a polished explanatory article. Provenance details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `000-Courses.md`
-
-## Original Draft Notes
+## Notes
 
 ### Lynda
 
@@ -62,3 +56,13 @@
 * [Advanced SQL for Data Scientists](https://www.lynda.com/SQL-tutorials/Welcome/559183/616068-4.html)
 * [SQL Tips, Tricks, and Techniques](https://www.lynda.com/SQL-tutorials/SQL-Tips-Tricks-Data-Science/558576-2.html)
 * Beginner: [SQL Essential Training](https://www.lynda.com/SQL-tutorials/SQL-Essential-Training/139988-2.html)
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2017-11-07. The source draft histories were imported into this repository before this consolidation step.
+- Link-list note: This is a historical `LINK-LIST` artifact, not a polished explanatory article.
+- Curation note: A historical course/resource backlog rather than a polished article.
+
+### Source Drafts
+
+- `000-Courses.md`

@@ -1,12 +1,6 @@
 # Time Series Forecasting and DSP Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-09-26 to 2019-09-27. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: Combines a short time-series modeling reflection with DSP-in-Python references.
-
-## Source Drafts
-
-- `2019-09-26-Machine-Learning-for-Time-Series-Forecasting.md`
-- `2019-09-27-DSP-in-Python.md`
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
 ## Machine Learning for Time Series Forecasting (2019-09-26; source: `2019-09-26-Machine-Learning-for-Time-Series-Forecasting.md`)
 
@@ -27,3 +21,13 @@ So what else is there?
 http://ataspinar.com/2018/04/04/machine-learning-with-signal-processing-techniques/
 
 https://www.datasciencecentral.com/profiles/blogs/a-guid-for-using-the-wavelet-transform-in-machine-learning
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-09-26 to 2019-09-27. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: Combines a short time-series modeling reflection with DSP-in-Python references.
+
+### Source Drafts
+
+- `2019-09-26-Machine-Learning-for-Time-Series-Forecasting.md`
+- `2019-09-27-DSP-in-Python.md`

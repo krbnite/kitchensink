@@ -1,13 +1,8 @@
 # Probabilistic Graphical Models Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-06-06 to 2019-06-07. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A short probabilistic graphical models course-note fragment.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `pgm1.md`
-
-## Original Draft Notes
+## Notes
 
 [Introduction and Overview](https://www.coursera.org/lecture/probabilistic-graphical-models/welcome-7ri4Z)
 
@@ -51,3 +46,12 @@ Koller's textbook:  https://github.com/Zhenye-Na/machine-learning-uiuc/blob/mast
 ----------------------
 
 For my sanity: [textbook](file:///Users/kevinurban/Downloads/Probabilistic%20Graphical%20Models%20-%20Principles%20and%20Techniques.pdf)
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-06-06 to 2019-06-07. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A short probabilistic graphical models course-note fragment.
+
+### Source Drafts
+
+- `pgm1.md`

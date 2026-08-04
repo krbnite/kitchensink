@@ -1,14 +1,20 @@
 # Statistics and Health Learning Resources
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-01-07 to 2019-07-31. The source draft histories were imported into this repository before this consolidation step.
-> This is a historical `LINK-LIST` artifact, not a polished explanatory article.
-> Curation note: A historical learning-resource list spanning statistics, healthcare, neuroimaging, and data engineering.
+> Historical `LINK-LIST` artifact. This is primarily a saved resource list, not a polished explanatory article. Provenance details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
+## Summary
 
-- `statistics-and-stuff.md`
+This is a historical learning-resource list, not a finished article. It is useful mainly as evidence of the 2019 study map around statistics, Bayesian methods, healthcare, MRI/neuroimaging, data engineering, and algorithms.
 
-## Original Draft Notes
+## Contents
+
+- [Statistics and Bayesian resources](#resources)
+- [Healthcare learning resources](#healthcare)
+- [MRI and neuroimaging](#mri)
+- [Data engineering](#data-engineering-resources)
+- [Data structures and algorithms](#data-structures-and-algorithms-resources)
+
+## Resources
 
 * https://www.edx.org/course/statistical-inference-and-modeling-for-high-throughput-experiments
 * https://www.coursera.org/learn/inferential-statistics-intro
@@ -24,7 +30,7 @@
 
 ## Healthcare
 * Coursera: [Data Science in Stratified Healthcare and Precision Medicine](https://www.coursera.org/learn/datascimed)
-* Mount Sanai: [Health Care IT: Challenges and Opportunities](https://www.coursera.org/learn/healthcare-it)
+* Mount Sinai: [Health Care IT: Challenges and Opportunities](https://www.coursera.org/learn/healthcare-it)
   - watched
 * [Introduction to Systematic Review and Meta-Analysis](https://www.coursera.org/learn/systematic-review)
 * Coursera: [Design and Interpretation of Clinical Trials](https://www.coursera.org/learn/clinical-trials)
@@ -87,7 +93,7 @@ Brain
 
 
 
-Data Engineering
+## Data Engineering Resources
 * https://www.coursera.org/learn/database-management
 * https://www.coursera.org/learn/dwdesign
 * https://www.coursera.org/learn/dwrelational
@@ -96,6 +102,16 @@ Data Engineering
 *
 
 
-Data Structures and Algorithms
+## Data Structures and Algorithms Resources
 * https://www.coursera.org/learn/algorithms-graphs-data-structures
 * https://www.coursera.org/learn/temporal-and-hierarchical-analysis
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-01-07 to 2019-07-31. The source draft histories were imported into this repository before this consolidation step.
+- Link-list note: This is a historical `LINK-LIST` artifact, not a polished explanatory article.
+- Curation note: A historical learning-resource list spanning statistics, healthcare, neuroimaging, and data engineering.
+
+### Source Drafts
+
+- `statistics-and-stuff.md`

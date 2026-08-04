@@ -1,13 +1,8 @@
 # Machine Learning Plumber
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-06-25 to 2019-06-26. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A short professional reflection on the less glamorous parts of real-world machine-learning work.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `2019-06-25-Machine-Learning-Plumber.md.md`
-
-## Original Draft Notes
+## Notes
 
 I've written about being a data shephard, or a blue collar data scientist (twice).  This
 time, I'm calling it a machine learning plumber... Or maybe data science janitor.  Or... Whatever.
@@ -31,3 +26,12 @@ Probably this:
 
 Maybe this:
 * https://sigmodrecord.org/publications/sigmodRecord/1512/pdfs/04_articles_Kumar.pdf
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-06-25 to 2019-06-26. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A short professional reflection on the less glamorous parts of real-world machine-learning work.
+
+### Source Drafts
+
+- `2019-06-25-Machine-Learning-Plumber.md.md`

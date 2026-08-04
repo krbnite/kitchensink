@@ -1,13 +1,22 @@
 # Intel at the Edge: OpenVINO on the Neural Compute Stick 2
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-12-30 to 2020-01-29. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A practical edge-AI hardware/debugging note that complements the preserved Edge AI / IoT nanodegree project.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
+## Summary
 
-- `2019-12-31-Intel-at-the-Edge-OpenVINO-on-the-Neural-Compute-Stick-2.md`
+A practical edge-AI debugging note about trying to use Intel OpenVINO with the Neural Compute Stick 2 from macOS and Docker-era tooling.
 
-## Original Draft Notes
+This complements the preserved Edge AI / IoT nanodegree work by capturing the hardware/runtime friction around MYRIAD, USB device visibility, libusb, Docker, and OpenVINO sample demos.
+
+## Contents
+
+- [Opening context](#notes)
+- [USB visibility with lsusb](#lsusb)
+- [libusb and MYRIAD rules](#libusb)
+- [References and further reading](#references-and-further-reading)
+- [OpenVINO Python path notes](#random)
+
+## Notes
 
 This took a while -- most of that while getting the Linux Docker working right on my
 Mac (from actually building without error, to not throwing errors during the OpenVINO
@@ -105,7 +114,7 @@ in the installation directory -- just have to run another bash script.
 
 ----------------------
 
-## References & Further Reading
+## References and Further Reading
 * [OpenVINO MacOS Installation Guide](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_macos.html)
   - at the time of this writing, this page refers to using NCS2 w/ MacOS at the bottom
     of the page, but provides almost no details other than noting that you need to `brew install libusb`
@@ -185,3 +194,12 @@ Things to get back to:
 * https://software.intel.com/en-us/articles/get-started-with-neural-compute-stick
 * http://www.jwrr.com/ncs2-2/
 * https://docs.openvinotoolkit.org/2019_R3.1/_docs_install_guides_installing_openvino_docker_linux.html
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-12-30 to 2020-01-29. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A practical edge-AI hardware/debugging note that complements the preserved Edge AI / IoT nanodegree project.
+
+### Source Drafts
+
+- `2019-12-31-Intel-at-the-Edge-OpenVINO-on-the-Neural-Compute-Stick-2.md`

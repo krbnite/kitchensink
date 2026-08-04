@@ -1,13 +1,8 @@
 # Attaching an EBS Volume to an Existing EC2 Instance
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-10-18. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A practical AWS support note connected to model-training storage needs.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `2019-10-18-Attaching-an-EBS-Volume-to-a-Pre-Existing-EC2-Instance.md`
-
-## Original Draft Notes
+## Notes
 
 Anyway, point is, despite having used AWS products for several years, I'm no expert -- and always
 learning something new.
@@ -56,3 +51,12 @@ df -h /usr/bin
 
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-10-18. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A practical AWS support note connected to model-training storage needs.
+
+### Source Drafts
+
+- `2019-10-18-Attaching-an-EBS-Volume-to-a-Pre-Existing-EC2-Instance.md`

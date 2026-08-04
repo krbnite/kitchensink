@@ -1,14 +1,8 @@
 # Human Activity Recognition Data and Models
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-09-25 to 2019-09-26. The source draft histories were imported into this repository before this consolidation step.
-> This is a historical `LINK-LIST` artifact, not a polished explanatory article.
-> Curation note: A historical HAR/wearables data-and-model resource list.
+> Historical `LINK-LIST` artifact. This is primarily a saved resource list, not a polished explanatory article. Provenance details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `2019-09-25-Human-Activity-Recognition-Data-and-Models.md`
-
-## Original Draft Notes
+## Notes
 
 ## Blogs
 * [Deep Learning Models for Human Activity Recognition](https://machinelearningmastery.com/deep-learning-models-for-human-activity-recognition/)
@@ -40,3 +34,13 @@
 from Smartphones](https://pdf.sciencedirectassets.com/280203/1-s2.0-S1877050914X00098/1-s2.0-S1877050914008643/main.pdf?X-Amz-Security-Token=AgoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDmFa9BJ8rGx98kvm9nTsZd6pfGuB9Gzrxn2hWQhQwRBgIhAPZBFyeAJbJsR14%2B4q%2BOPkWEHmhXEJ3CuBnAPOFKvSmwKtoDCGIQAhoMMDU5MDAzNTQ2ODY1IgyzTkFSLf8%2Fx1CGMIQqtwNDgIH9uTfUUWsoeujyXIjWW%2Fgeq%2Fnb4PA18myFwLPNf0nE3W%2FBx8zeYgtrdv%2FsbCpi48loi68Eb9cyu02jbIsaU9q5CpnMCo8NAvFvQ4X%2BMmJyvdCmh77YOK6aUyEMbKrI6QwR9xo80j5claAKL1HxpGOsu%2B6k1eaF%2BOT6%2FJsfx89ImvNiYUsdNfckaWoWbzvRMz5m1nuBIpB57i0XeS7qlXaArXSr4Pi4ETwextYgPKyj64vFZwBvxfGu9Rn2akdbst88Y71vrse2WHIeaUD%2BQlrwxuG36DFHsXs7ORIJyk93WjIrRn95PB0cPXdAjH5xN%2BA%2FF7ULIdUvQwRN7lQ74slLIF3BbrAZSSuS0aq5dvfAe3opzxTRY2%2FuuYJsEVOI3uGNhsW1TpghFAtmnxVqQFPklJvyQU2GXZKUDp6DqsHV0Tc2zlvKapLNwwSVErWPx5763ep%2BYME5f1qR6ydvxv1gZ7m2tfIVfEzGiGA071rW3SA9PE6XbJDfoPNhvvT6is%2FZRCihJJ%2FX6JxvbYxcNjtSfQf0pizAhYLvW679f2WCCnQrAVqhMvyHNjwY9ohPmepMHOtOMPHUs%2BwFOrMBzi4oBONKQvEne8vuPsKJb2PjucC8O%2Bxp68atN5D3cSABN99eIk1x9DN7yQ3kuxy9OLz%2BqYU3dFnPgNdlEDow%2FVf4rIxOz2c6Bs20XkbgKAwOA6JcQuvVbq%2BdkOsMrCArG6st5%2BnzvV1GvUC73U%2FpA4hpqF0i7GXJCgZeGS7hURZB5I%2BGLs6nmQsS1rlODYZZlShPb5nGE5%2BcTmeySQb5tT18jDnmP6GaR1H35sWGb4kxWkE%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190926T180504Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY57OBDOXV%2F20190926%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e82ebe9721b026e35dd540aba18ac521e1ac6db96ce872d7294ba3c02a63afe6&hash=249814da5f4123c029ace7e01eb51faf16e7a1cb82f0e37efae34a2dc9c9e23a&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1877050914008643&tid=spdf-282c67f5-198a-4419-ace2-05a00add728a&sid=8c6a0e937c18d542f52a0a091fd5b7f4a493gxrqa&type=client)
 
 * 2015: Jiang & Yin: [Human Activity Recognition using Wearable Sensors by Deep Convolutional Neural Networks](http://web.mst.edu/~yinz/Papers/ACMMM2015_ActivityRecognition.pdf)
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-09-25 to 2019-09-26. The source draft histories were imported into this repository before this consolidation step.
+- Link-list note: This is a historical `LINK-LIST` artifact, not a polished explanatory article.
+- Curation note: A historical HAR/wearables data-and-model resource list.
+
+### Source Drafts
+
+- `2019-09-25-Human-Activity-Recognition-Data-and-Models.md`

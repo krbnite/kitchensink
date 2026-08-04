@@ -1,13 +1,8 @@
 # Advanced Machine Learning Specialization Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-08-20. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A compact course-note fragment from the Advanced Machine Learning specialization.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `2019-08-16-Advanced-ML-Specialization.md`
-
-## Original Draft Notes
+## Notes
 
 Starts with linear models -- that is, linear regression as the simplest neural network.  The linear
 model has d+1 parameters, representing the d weights and 1 bias term, where d is the number of input features.
@@ -72,3 +67,12 @@ Iverson bracket
 Some extra reading:
 * Daniel Godoy: [Understanding Binary Cross Entropy Log Loss: A Visual Explanation](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
 * Chris Olah: [Visual Information Theory](http://colah.github.io/posts/2015-09-Visual-Information/)
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-08-20. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A compact course-note fragment from the Advanced Machine Learning specialization.
+
+### Source Drafts
+
+- `2019-08-16-Advanced-ML-Specialization.md`

@@ -1,13 +1,8 @@
 # Playing with Hyperparameters
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-08-20. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A short optimization/hyperparameter study note.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `2019-08-20-Playing-with-Hyperparameters.md`
-
-## Original Draft Notes
+## Notes
 
 In the latest edition ([Aug 14, 2019](https://info.deeplearning.ai/the-batch-optimization-tutorial-plus-greener-ai-better-recommenders-generative-models-claiming-patents))
 of [The Batch](https://www.deeplearning.ai/thebatch/), Andrew Ng's AI newsletter, there is a
@@ -27,3 +22,12 @@ landscapes.  In this short article, I just wanted to record some of my observati
 helpful a few years ago when I was learning this stuff.)
 
 ------------------------------------------
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-08-20. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A short optimization/hyperparameter study note.
+
+### Source Drafts
+
+- `2019-08-20-Playing-with-Hyperparameters.md`

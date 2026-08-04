@@ -1,13 +1,8 @@
 # Hyde and Search: Jekyll Notes
 
-> Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-11-12. The source draft histories were imported into this repository before this consolidation step.
-> Curation note: A practical note about adding tags/search to the old personal website.
+> Historical provenance and source draft details are at [Historical Provenance](#historical-provenance).
 
-## Source Drafts
-
-- `2019-11-12-Hyde-and-Search.md`
-
-## Original Draft Notes
+## Notes
 
 I finally got around to adding a collated tags page.  And also Search.
 
@@ -56,3 +51,12 @@ export PATH=$HOME/.gem/ruby/${rubyv}.0/bin:$PATH
 * Long Qian: [Jekyll Tags on Github Pages](http://longqian.me/2017/02/09/github-jekyll-tag/)
 * https://blog.webjeda.com/instant-jekyll-search/
 * https://jekyllrb.com/docs/installation/macos/
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-11-12. The source draft histories were imported into this repository before this consolidation step.
+- Curation note: A practical note about adding tags/search to the old personal website.
+
+### Source Drafts
+
+- `2019-11-12-Hyde-and-Search.md`
