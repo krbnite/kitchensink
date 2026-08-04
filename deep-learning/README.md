@@ -4,12 +4,30 @@ Deep-learning notes, notebooks, course notes, and reproducible setups that are w
 Specifically, any old markdown files or Jupyter notebooks with a deep-learning-related exploration that is general enough
 not to be put into the NLP or CV companion folders in this kitchensink repo.
 
+## Contents
+
+- [Curation Pattern](#curation-pattern)
+- [Local Archive Contents](#local-archive-contents)
+- [Related Articles](#related-articles)
+
+## Curation Pattern
+
 The general pattern for this folder is:
 
 - Preserve the original note or notebook (or even repo) when it has historical value.
 - Add a cleaned-up version that can still run in the old environment when practical.
 - If useful, add a modern (mid-2026 at the time of this writing) companion version using current libraries and syntax.
 - Gitignore local Conda environments, caches, logs, and large generated artifacts.
+
+## Local Archive Contents
+
+Local folders in this section preserve old course work, notebooks, notes, and modernized companions when useful.
+
+- [DeepLearning.AI Specialization Notes](deeplearning-ai-specialization-notes-2017-2018/README.md): public 2017-2018 course notes around neural-network fundamentals, notation, regularization, and backpropagation.
+- [Gradient Inspection Notes](gradients/README.md): a 2020 TensorFlow gradient-inspection note plus modern TensorFlow/PyTorch companion notebooks and environment helpers.
+- [NumPy Neural Network From Scratch](numpy-neural-network-from-scratch-2017/README.md): a standalone reconstruction of 2017 neural-network derivations and NumPy implementation work.
+- [TensorFlow](tensorflow/README.md): TensorFlow-era notes and cross-links into the historical article archive.
+- [Udacity Deep Learning Nanodegree Foundation](udacity-dlnd-2017/README.md): preserved 2017 nanodegree notebooks, project notes, and related historical articles.
 
 ## Related Articles
 
