@@ -1,7 +1,25 @@
+# Full Stack Deep Learning Notes
+
+> Historical provenance and source-note details are at [Historical Provenance](#historical-provenance).
+
+## Summary
+
+These notes preserve a 2019 pass through the Full Stack Deep Learning bootcamp material. The most useful pieces are less about model syntax and more about the shape of real ML work: project selection, metrics, baselines, data collection, labeling, training, debugging, deployment, testing, monitoring, and maintenance.
+
+This is a compact historical artifact from the period when my notes were shifting from model-level deep learning toward practical ML project structure.
+
+## Contents
+
+- [Course Context](#course-context)
+- [Lecture 1: Introduction to Deep Learning](#lecture-1-introduction-to-deep-learning-pieter-abbeel)
+- [Lecture 2: Setting Up Machine Learning Projects](#lecture-2-setting-up-machine-learning-projects-josh-tobin)
+- [Historical Provenance](#historical-provenance)
+
+## Course Context
 
 Full Stack Deep Learning, March 2019: [Official Website](https://fullstackdeeplearning.com/march2019)
 
-# Lecture 1: Introduction to Deep Learning (Pieter Abbeel)
+## Lecture 1: Introduction to Deep Learning (Pieter Abbeel)
 
 * 1958:  Rosenblatt:  [The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain](https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf)
 * 1980:  Fukushima:  [Neocognitron: A Self-organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position](https://www.cs.princeton.edu/courses/archive/spr08/cos598B/Readings/Fukushima1980.pdf)
@@ -29,7 +47,7 @@ Full Stack Deep Learning, March 2019: [Official Website](https://fullstackdeeple
 
 
 
-# Lecture 2: Setting Up Machine Learning Projects (Josh Tobin)
+## Lecture 2: Setting Up Machine Learning Projects (Josh Tobin)
 
 The [Labs on GitHub](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project) (though
 none of the labs seem to actually exist).
@@ -83,7 +101,7 @@ Lifecyle of ML Project
     * Stay current with similar domains and what's possible
     * Develop an intuition for how to improve and what to try next
 
-### Planning and Project Set Up
+#### Planning and Project Set Up
 How to choose a high-impact project?
 How much will a ML project cost? 
 
@@ -182,12 +200,18 @@ How many people should be on a ML team?
 
 
  
-### References in Lecture
+#### References in Lecture
 * 2017:  Karpathy:  [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
 * 2017:  Reinhardt:  [Designing Collaborative AI](https://medium.com/@Ben_Reinhardt/designing-collaborative-ai-5c1e8dbc8810)
 * 2017:  Xiang et al:  [PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes](https://arxiv.org/abs/1711.00199)
 * 2018:  Agrawal et el:  [Prediction Machines: The Simple Economics of Artificial Intelligence](https://books.google.com/books?id=wJY4DwAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)
 
 
+## Historical Provenance
 
+- Historical note: Curated in 2026 from notes originally committed in `krbnite.github.io` from 2019-11-06 to 2019-11-07. The source-note history was imported into this repository before this presentation cleanup.
+- Curation note: The original filename was `2019-Full-Stack-Deep-Learning.md`. The final filename keeps the first commit date and standardizes the title for the article archive.
 
+### Source Notes
+
+- `2019-Full-Stack-Deep-Learning.md`

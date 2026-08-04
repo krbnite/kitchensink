@@ -109,3 +109,4 @@ These blog articles were written during the same edge-AI/OpenVINO learning perio
 - [Intel at the Edge (The Model Optimizer)](../../articles/2020/2020-01-12-Intel-at-the-Edge-The-Model-Optimizer.md) (2020-01-12)
 - [Intel at the Edge (The Inference Engine)](../../articles/2020/2020-01-17-Intel-at-the-Edge-The-Inference-Engine.md) (2020-01-17)
 - [Intel at the Edge (Deploying an Edge App)](../../articles/2020/2020-01-27-Intel-at-the-Edge-Deploying-an-Edge-App.md) (2020-01-27)
+- [IoT and Embedded Systems Notes](../../articles/2020/2020-02-05-iot-and-embedded-systems-notes.md) (2020-02-05)

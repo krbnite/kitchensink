@@ -1,3 +1,23 @@
+# Deep Learning Course and Research Links (LINK-LIST)
+
+> Historical provenance and source-note details are at [Historical Provenance](#historical-provenance).
+
+## Summary
+
+This link list preserves a late-2019 learning map for deep learning, reinforcement learning, theoretical deep learning, Neural ODEs, and open datasets. It is intentionally labeled as a `LINK-LIST`: the value is historical orientation and resource discovery, not a finished essay.
+
+The list is useful as a snapshot of what I was tracking after earlier deep-learning coursework and before the 2020 edge-AI / IoT work became the main thread.
+
+## Contents
+
+- [Course and Resource Links](#course-and-resource-links)
+- [Theoretical Deep Learning Links](#theoretical-deep-learning-links)
+- [Neural ODE Links](#neural-ode-links)
+- [Dataset Links](#dataset-links)
+- [Historical Provenance](#historical-provenance)
+
+## Course and Resource Links
+
 DL/ML courses to possibly look at (in no particular order):
 
 
@@ -24,7 +44,7 @@ Microsoft: [AI Institute “Geometry of Deep Learning” 2019](https://www.youtu
   
   
 
-# Practical/Applied DL Courses
+## Practical/Applied DL Courses
 * 2019 (Fall):  Weights & Biases / Josh Tobin:  [Applied Deep Learning](https://www.youtube.com/playlist?list=PLD80i8An1OEEe2X5KA_uSvMaEMl0lo4jP)
 * 2019: Jeremy Howard: [Practical Deep Learning for Coders 2019](https://www.youtube.com/playlist?list=PLfYUBJiXbdtSIJb-Qd3pw0cqCbkGeS0xn)
 * 2019: Google/TensorFlow: [Coding TensorFlow](https://www.youtube.com/playlist?list=PLQY2H8rRoyvwLbzbnKJ59NkZvQAW9wLbx)
@@ -33,7 +53,7 @@ Microsoft: [AI Institute “Geometry of Deep Learning” 2019](https://www.youtu
 * 2019: Full Stack Deep Learning: [Bootcamp, Spring 2019](https://www.youtube.com/channel/UCVchfoB65aVtQiDITbGq2LQ/playlists)
 
 
-# MIT
+## MIT
 * 2019:  [Intro to Deep Learning](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)
 * Lex Fridman: [Deep Learning](https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
 * Patrick Winston: [Intro to AI/ML](https://www.youtube.com/playlist?list=PLnvKubj2-I2LhIibS8TOGC42xsD3-liux)
@@ -56,7 +76,7 @@ Microsoft: [AI Institute “Geometry of Deep Learning” 2019](https://www.youtu
 
 
 
-# Stanford
+## Stanford
 * Andrew Ng: [Machine Learning (Coursera)](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 * Andrew Ng: [Machine Learning (Classroom Lectures)](https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599)
 * 2019 (Winter): [CS224N: Natural Language Processing with Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z)
@@ -67,7 +87,7 @@ Microsoft: [AI Institute “Geometry of Deep Learning” 2019](https://www.youtu
   - [2017 Version (w/ David Donohu)](https://www.researchgate.net/project/Theories-of-Deep-Learning)
   
   
-# UC Berkeley
+## UC Berkeley
 * 2013: Pieter Abbeel: [CS188: Intro to AI](https://www.youtube.com/channel/UCshmLD2MsyqAKBx8ctivb5Q/feed)
 * 2016: [CS188: Intro to AI](https://www.youtube.com/playlist?list=PLIeooNSdhQE5kRrB71yu5yP9BRCJCSbMt)
 * 2018: [CS188: Intro to AI](https://www.youtube.com/playlist?list=PL7k0r4t5c108AZRwfW-FhnkZ0sCKBChLH)
@@ -76,40 +96,40 @@ Microsoft: [AI Institute “Geometry of Deep Learning” 2019](https://www.youtu
 * 2019: [STAT-157: Deep Learning](https://www.youtube.com/playlist?list=PLZSO_6-bSqHQHBCoGaObUljoXAyyqhpFW)
 * 2019: [CS285: Deep Reinforcement Learning](https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A)
 
-# CalTech
+## CalTech
 * 2015: [CS156 - Machine Learning](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
 
 
-# Cornell
+## Cornell
 * [CS4780: Machine Learning for Intelligent Systems](https://www.youtube.com/playlist?list=PLl8OlHZGYOQ7bkVbuRthEsaLr7bONzbXS)
 
 
-# Carnegie Mellon
+## Carnegie Mellon
 * 2016: [Statistical Machine Learning](https://www.youtube.com/playlist?list=PLTB9VQq8WiaCBK2XrtYn5t9uuPdsNm7YE)
 * Multiple Years: [Deep Learning](https://www.youtube.com/channel/UC8hYZGEkI2dDO8scT8C5UQA/playlists)
 
-# U-Toronto
+## U-Toronto
 * 2012: Hinton: [Neural Networks for ML](https://www.youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9)
 * [Intro to Self-Driving Cars](https://www.coursera.org/learn/intro-self-driving-cars)
 * [State Estimation and Localization for Self-Driving Cars](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars)
 
-# U-Waterloo
+## U-Waterloo
 * 2015: Ali Ghodsi: [Deep Learning](https://www.youtube.com/playlist?list=PLehuLRPyt1Hyi78UOkMPWCGRxGcA9NVOE)
 * 2017: Ali Ghodsi: [Deep Learning](https://www.youtube.com/playlist?list=PLehuLRPyt1HxTolYUWeyyIoxDabDmaOSB)
 * 2015: Ali Ghodsi: [Statistical Learning - Classification](https://www.youtube.com/playlist?list=PLehuLRPyt1Hy-4ObWBK4Ab0xk97s6imfC)
 * 2017: Ali Ghodsi: [Statistical Learning - Classification](https://www.youtube.com/playlist?list=PLehuLRPyt1HzXDemu7K4ETcF0Ld_B5adG)
 
-# U-Montreal
+## U-Montreal
 * 2014: Yoshua Bengio: [Deep Learning](https://www.youtube.com/playlist?list=PLrPGelHrmLRQI4OLgHi-Xx0-0VmMPapW4)
 
-# Oxford
+## Oxford
 * 2014: Nando de Freitas: [Machine Learning](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/)
 
-# Virginia Tech
+## Virginia Tech
 * 2015: [Introduction to Machine Learning](https://filebox.ece.vt.edu/~s15ece5984/)
 * 2015: [Deep Learning for Perception](https://computing.ece.vt.edu/~f15ece6504/)
 
-# Udacity
+## Udacity
 * UD120: [Intro to ML](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 * UD262 (G-Tech): [ML](https://www.udacity.com/course/machine-learning--ud262)
 * UD501 (G-Tech): [ML for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501)
@@ -133,7 +153,7 @@ Microsoft: [AI Institute “Geometry of Deep Learning” 2019](https://www.youtu
 * UD409: [Knowledge-Based AI: Cognitive Systems](https://www.udacity.com/course/knowledge-based-ai-cognitive-systems--ud409)
 
 
-# Kaggle
+## Kaggle
 Most of these are circa 2018/2019.
 * [Intro to ML](https://www.kaggle.com/learn/intro-to-machine-learning)
 * [Intermediate ML](https://www.kaggle.com/learn/intermediate-machine-learning)
@@ -143,7 +163,7 @@ Most of these are circa 2018/2019.
 * [ML Explainability](https://www.kaggle.com/learn/machine-learning-explainability)
 
 
-# Misc Source
+## Misc Source
 * 2012:  IPAM:  [Deep Learning & Feature Learning](https://www.youtube.com/playlist?list=PLHyI3Fbmv0SdzMHAy0aN59oYnLy5vyyTA)
 * 2013: Max Planck Institute:  [Machine Learning Summer School](https://www.youtube.com/playlist?list=PLqJm7Rc5-EXFv6RXaPZzzlzo93Hl0v91E)
 * 2017: Max Planck Institute:  [Machine Learning Summer School](https://www.youtube.com/playlist?list=PLqJm7Rc5-EXFUOvoYCdKikfck8YeUCnl9)
@@ -161,7 +181,7 @@ Most of these are circa 2018/2019.
 * 2016: Canadian Institute for Advanced Research (CIFAR): [Reinforcement Learning Summer School](https://www.youtube.com/playlist?list=PL5bqIc6XopCa7AlzMb88pIpRFRbsT6Buo)
 * 2019:  Paul G. Allen School:  [Mathematics of Machine Learning Summer School](https://www.youtube.com/playlist?list=PLTPQEx-31JXhguCush5J7OGnEORofoCW9)
 
-# Intel
+## Intel
 * [Machine Learning](https://software.intel.com/en-us/ai/courses/machine-learning)
 * [Deep Learning](https://software.intel.com/en-us/ai/courses/deep-learning)
 * [Applied Deep Learning With TensorFlow](https://software.intel.com/en-us/ai/courses/tensorflow)
@@ -176,18 +196,18 @@ Most of these are circa 2018/2019.
 
 
 
-# Weights and Biases
+## Weights and Biases
 * 2019 (Fall):  Josh Tobin:  [Applied Deep Learning](https://www.youtube.com/playlist?list=PLD80i8An1OEEe2X5KA_uSvMaEMl0lo4jP)
 * 2019 (Spring):  [Introduction to Machine Learning](https://www.youtube.com/playlist?list=PLD80i8An1OEHSai9cf-Ip-QReOVW76PlB)
 * 2019:  [Explore Deep Learning](https://www.youtube.com/playlist?list=PLD80i8An1OEG8LvgREvgakhaqBBXBXfql)
 
 
-# DeepLizard
+## DeepLizard
 * [Reinforcement Learning - Introducing Goal Oriented Intelligence](https://www.youtube.com/playlist?list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv)
 * 2017-2019:  DeepLizard: [Keras Tutorials](https://www.youtube.com/playlist?list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL)
 
 
-# EdX
+## EdX
 * IBM: Certificate in DL: 1. [Deep Learning Fundamentals with Keras](https://www.edx.org/course/deep-learning-fundamentals-with-keras-2)
 * IBM: Certificate in DL: 2. [Deep Learning with Python and PyTorch](https://www.edx.org/course/deep-learning-with-python-and-pytorch-2)
 * IBM: Certificate in DL: 3. [Deep Learning with Tensorflow](https://www.edx.org/course/deep-learning-with-tensorflow-2)
@@ -199,3 +219,56 @@ Most of these are circa 2018/2019.
 * MSFT: AI Certificate:  6. [Reinforcement Learning Explained](https://www.edx.org/course/reinforcement-learning-explained-4)
 * MSFT: AI Certificate:  7. [Speech Recognition Systems](https://www.edx.org/course/speech-recognition-systems-4)
 * MSFT: AI Certificate:  9. [Computer Vision and Image Analysis](https://www.edx.org/course/computer-vision-and-image-analysis-4)
+
+
+## Theoretical Deep Learning Links
+
+* MIPT / Deep Learning Lab: [Theoretical Deep Learning, Course 1](https://github.com/deepmipt/tdl)
+* MIPT / Deep Learning Lab: [Theoretical Deep Learning, Course 2](https://github.com/deepmipt/tdl2)
+  - MIPT / DLL Videos: https://www.youtube.com/channel/UCJ-6K2HGA0hpQytlSM7FBVQ/playlists
+
+* 2019: ICML: [Theoretical Physics for Deep Learning](https://icml.cc/Conferences/2019/ScheduleMultitrack?event=3531)
+
+* 2018: ICML:  [Toward theoretical understanding of deep learning](https://unsupervised.cs.princeton.edu/deeplearningtutorial.html)
+
+* 2019: Stanford: [Analyses of Deep Learning](https://stats385.github.io/)
+* 2017: Stanford: [Theories of Deep Learning](https://stats385.github.io/stats385_2017.github.io/)
+
+* 2019: IAS: [Workshop on Theory of Deep Learning: Where next?](https://www.math.ias.edu/wtdl)
+
+* 2018: Georgia Tech: [Theoretical Foundation of Deep Learning](https://pwp.gatech.edu/fdl-2018/program/)
+
+* 2018: Stanford Seminar: [Information Theory of Deep Learning](https://www.youtube.com/watch?v=XL07WEc2TRI)
+
+* 2018: Rice/NeurIPS: [Integration of Deep Learning Theories](http://nips2018dltheory.rice.edu/)
+
+* 2018: Simons Institute: [Foundations of Deep Learning](https://simons.berkeley.edu/programs/dl2019)
+
+## Neural ODE Links
+
+* [Neural Ordinary Differential Equations - Best Paper Awards NeurIPS 2018](https://www.youtube.com/watch?v=V6nGT0Gakyg)
+
+* [Yannic Kilcher - NODE paper review](https://www.youtube.com/watch?v=jltgNGt8Lpg)
+
+* [ML Papers Explained - NODEs Part 1](https://www.youtube.com/watch?v=jltgNGt8Lpg)
+
+* [ML Papers Explained - NODEs Part 2](https://www.youtube.com/watch?v=2pP0Puj15Nc)
+
+* [NODEs:  David Duvenaud @ Vector Institute](https://www.youtube.com/watch?v=sAvtPr1IGB0)
+
+## Dataset Links
+
+* https://www.brainxai.org/data/
+* https://archive.ics.uci.edu/ml/index.php
+
+## Historical Provenance
+
+- Historical note: Curated in 2026 from `_notes` link-list files originally committed in `krbnite.github.io` from 2019-10-25 to 2019-11-21. The source-note histories were imported into this repository before consolidation.
+- Curation note: This file intentionally uses `LINK-LIST` in the filename so it is clearly distinguished from article-style notes and mini-project writeups.
+
+### Source Notes
+
+- `README.md`
+- `theoretical-underpinnings-of-deep-learning/README.md`
+- `YouTube-Misc__Neural-ODEs.md`
+- `open-source-data-sets.md`

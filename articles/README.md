@@ -15,6 +15,7 @@ The articles keep their original dated filenames and were imported with filtered
 - In-progress article drafts from `_in_progress` were imported with filtered Git history, then curated into dated `articles/YYYY/` artifacts.
 - Draft link-list artifacts are marked with `LINK-LIST` in their filenames and index titles.
 - Three placeholder-level `_in_progress` drafts were omitted, and the untracked 2023 nonstationary-learning draft was left out because it had no Git history in the website repo.
+- Historical `_notes` files were imported with filtered Git history, then curated into standalone deep-learning notes, an IoT/embedded-systems note, and one clearly marked deep-learning resource link list.
 
 ## Archive Index
 
@@ -194,7 +195,10 @@ The articles keep their original dated filenames and were imported with filtered
 - [2019-10-18] [Attaching an EBS Volume to an Existing EC2 Instance](2019/2019-10-18-attaching-an-ebs-volume-to-an-existing-ec2-instance.md) - score 3
 - [2019-10-18] [Resume Advice for Data Science Roles](2019/2019-10-18-resume-advice-for-data-science-roles.md) - score 2
 - [2019-10-18] [What are AWS Skills?](2019/2019-10-18-What-are-AWS-skills.md) - score 3
+- [2019-10-22] [Deep Unsupervised Learning Notes](2019/2019-10-22-deep-unsupervised-learning-notes.md) - score 5
+- [2019-10-25] [Deep Learning Course and Research Links (LINK-LIST)](2019/2019-10-25-deep-learning-course-and-research-links-LINK-LIST.md) - score 3
 - [2019-10-29] [Paper References from "Deep Learning School 2016](2019/2019-10-29-Paper-References-from-Deep-Learning-School-2016.md) - score 3
+- [2019-11-06] [Full Stack Deep Learning Notes](2019/2019-11-06-full-stack-deep-learning-notes.md) - score 4
 - [2019-11-08] [Hello, Static Duck! (A Pythonic Type Tale.)](2019/2019-11-08-Hello-Static-Duck-a-Pythonic-Type-Tale.md) - score 3
 - [2019-11-11] [Ai4 Healthcare](2019/2019-11-11-Ai4-Healthcare.md) - score 4
 - [2019-11-12] [Hyde and Search: Jekyll Notes](2019/2019-11-12-hyde-and-search-jekyll-notes.md) - score 3
@@ -213,6 +217,7 @@ The articles keep their original dated filenames and were imported with filtered
 - [2020-01-12] [Intel at the Edge (The Model Optimizer)](2020/2020-01-12-Intel-at-the-Edge-The-Model-Optimizer.md) - score 4
 - [2020-01-17] [Intel at the Edge (The Inference Engine)](2020/2020-01-17-Intel-at-the-Edge-The-Inference-Engine.md) - score 4
 - [2020-01-27] [Intel at the Edge (Deploying an Edge App)](2020/2020-01-27-Intel-at-the-Edge-Deploying-an-Edge-App.md) - score 4
+- [2020-02-05] [IoT and Embedded Systems Notes](2020/2020-02-05-iot-and-embedded-systems-notes.md) - score 5
 - [2020-02-13] [A Few Thoughts on Enabling the Data Scientist](2020/2020-02-13-A-Few-Thoughts-on-Enabling-the-Data-Scientist.md) - score 4
 
 ### 2024
