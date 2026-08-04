@@ -84,5 +84,5 @@ hyperparameters...but it was taking so long.
 
 
 
-Most of my writing is in the [notebook](https://github.com/krbnite/krbnite.github.io/blob/master/_notebooks/2019-09-13-Next-Point-Forecast-with-RF.ipynb)
+Most of my writing is in the [notebook](../../notebooks/2019/2019-09-13-next-point-forecast-with-random-forest.ipynb)
 right now... Will update this post later to summarize.

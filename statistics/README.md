@@ -4,12 +4,12 @@ Statistics, inference, data leakage, missing-data, and evaluation notes preserve
 
 ## Contents
 
-- [Related Local Projects](#related-local-projects)
+- [Related Notebooks](#related-notebooks)
 - [Related Articles](#related-articles)
 
-## Related Local Projects
+## Related Notebooks
 
-- [Random Forest Notebooks 2019](../trees/random-forest-notebooks-2019/README.md): includes a feature-importance stability notebook motivated by variable-selection stability in random forests.
+- [Stabilizing Variable Importance Fluctuations in Random Forests](../notebooks/2019/2019-09-22-stabilizing-variable-importance-fluctuations-in-random-forests.ipynb): feature-importance stability notebook motivated by variable-selection stability in random forests.
 
 ## Related Articles
 

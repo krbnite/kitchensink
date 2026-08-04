@@ -4,12 +4,12 @@ Time-series, signal-processing, forecasting, and memory-efficient windowing note
 
 ## Contents
 
-- [Related Local Projects](#related-local-projects)
+- [Related Notebooks](#related-notebooks)
 - [Related Articles](#related-articles)
 
-## Related Local Projects
+## Related Notebooks
 
-- [Random Forest Notebooks 2019](../trees/random-forest-notebooks-2019/README.md): includes a synthetic next-point forecasting notebook with rolling windows and random-forest regressors.
+- [Next Point Forecast with Random Forest](../notebooks/2019/2019-09-13-next-point-forecast-with-random-forest.ipynb): synthetic next-point forecasting notebook with rolling windows and random-forest regressors.
 
 ## Related Articles
 

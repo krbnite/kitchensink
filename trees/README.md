@@ -5,6 +5,7 @@ Decision-tree, random-forest, feature-importance, and tree-model learning artifa
 ## Contents
 
 - [Local Archive Contents](#local-archive-contents)
+- [Related Notebooks](#related-notebooks)
 - [Related Articles](#related-articles)
 
 ## Local Archive Contents
@@ -12,7 +13,13 @@ Decision-tree, random-forest, feature-importance, and tree-model learning artifa
 Local folders in this section preserve tree-model notebooks and related learning artifacts.
 
 - [Fungus Amongus 2017](fungus-amongus-2017/README.md): preserved 2017 mushroom decision-tree notebook and supporting notes.
-- [Random Forest Notebooks 2019](random-forest-notebooks-2019/README.md): preserved random-forest notebooks around time-series next-point forecasting and feature-importance stability.
+
+## Related Notebooks
+
+Standalone notebooks live in the top-level notebook archive and are indexed here when they connect to tree-based models.
+
+- [Next Point Forecast with Random Forest](../notebooks/2019/2019-09-13-next-point-forecast-with-random-forest.ipynb): synthetic time-series next-point forecasting with random forests and memory-efficient rolling windows.
+- [Stabilizing Variable Importance Fluctuations in Random Forests](../notebooks/2019/2019-09-22-stabilizing-variable-importance-fluctuations-in-random-forests.ipynb): experiment around stabilizing random-forest feature-importance estimates.
 
 ## Related Articles
 
