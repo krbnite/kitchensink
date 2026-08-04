@@ -13,3 +13,5 @@ Time-series and signal-analysis articles, including memory-efficient windowing a
 - [Memory-Efficient Windowing of Time Series Data in Python: 2. NumPy Arrays vs Pandas DataFrames](../articles/2019/2019-05-06-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-2--NumPy-Arrays-vs-Pandas-DataFrames.md) (2019-05-06)
 - [Memory-Efficient Windowing of Time Series Data in Python: 3. Memory Strides in Pandas](../articles/2019/2019-05-06-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-3--Memory-Strides-in-Pandas.md) (2019-05-06)
 - [Time Series Forecasting with a Random Forest (1 of N)](../articles/2019/2019-09-13-Time-Series-Forecasting-with-Random-Forests-1-of-N.md) (2019-09-13)
+- [Human Activity Recognition Data and Models (LINK-LIST)](../articles/2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md) (2019-09-25)
+- [Time Series Forecasting and DSP Notes](../articles/2019/2019-09-26-time-series-forecasting-and-dsp-notes.md) (2019-09-26)

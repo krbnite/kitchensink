@@ -12,6 +12,9 @@ The articles keep their original dated filenames and were imported with filtered
 - Historical image assets that existed in the old website repo were imported under `articles/assets/images/` and article links were rewritten to point there.
 - Two CUDA screenshots referenced by one 2017 post were already missing from the website repo; the article now includes import notes in their place.
 - The Instagraph strategy article originally had no date prefix; its 2018-05-09 date was inferred from its Git history and used to standardize the filename.
+- In-progress article drafts from `_in_progress` were imported with filtered Git history, then curated into dated `articles/YYYY/` artifacts.
+- Draft link-list artifacts are marked with `LINK-LIST` in their filenames and index titles.
+- Three placeholder-level `_in_progress` drafts were omitted, and the untracked 2023 nonstationary-learning draft was left out because it had no Git history in the website repo.
 
 ## Archive Index
 
@@ -85,8 +88,10 @@ The articles keep their original dated filenames and were imported with filtered
 - [2017-10-26] [Blue Collar Data Science](2017/2017-10-26-Blue-Collar-Data-Science.md) - score 3
 - [2017-10-26] [The Indefinitive Guide to Email in Python](2017/2017-10-26-The-Indefinitive-Guide-to-Email-in-Python.md) - score 2
 - [2017-10-27] [A 2nd Foray into the FB API](2017/2017-10-27-A-2nd-Foray-into-the-Facebook-API.md) - score 3
-- [2017-11-01] [Python in Parallel](2017/2017-11-01-Python-in-Parallel.md) - score 3
 - [2017-11-01] [Pretty Tables in Pythonic Emails](2017/2017-11-01-pretty-tables-in-pythonic-emails.md) - score 3
+- [2017-11-01] [Python in Parallel](2017/2017-11-01-Python-in-Parallel.md) - score 3
+- [2017-11-03] [Web Frameworks and Spark Learning Links (LINK-LIST)](2017/2017-11-03-web-frameworks-and-spark-learning-links-LINK-LIST.md) - score 2
+- [2017-11-07] [Course Backlog (LINK-LIST)](2017/2017-11-07-course-backlog-LINK-LIST.md) - score 3
 - [2017-11-07] [Hive-Minded Big Data](2017/2017-11-07-Hive-Minded-Big-Data.md) - score 3
 - [2017-11-09] [Some CUDA AWS/Ubuntu Notes](2017/2017-11-09-Some-CUDA-AWS-Ubuntu-Notes.md) - score 3
 - [2017-11-16] [Rebrewing PostgreSQL](2017/2017-11-16-Rebrewing-PostgreSQL.md) - score 2
@@ -137,25 +142,34 @@ The articles keep their original dated filenames and were imported with filtered
 - [2018-10-05] [First Foray into Data Modeling with Graphs](2018/2018-10-05-First-Foray-into-Data-Modeling-with-Graphs.md) - score 2
 - [2018-10-16] [Accessing CloudWatch with Boto3](2018/2018-10-16-Accessing-CloudWatch-with-Boto3.md) - score 3
 - [2018-10-17] [Navigating the NoSQL Landscape](2018/2018-10-17-Navigating-the-NoSQL-Landscape.md) - score 5
+- [2018-10-20] [NoSQL and Neo4j Notes](2018/2018-10-20-nosql-and-neo4j-notes.md) - score 5
 - [2018-11-13] [Printing Pretty Paths in Neo4j](2018/2018-11-13-Printing-Pretty-Paths-in-Neo4j.md) - score 3
 - [2018-11-20] [Getting off the Ground with Neo4j Browser and LOAD CSV](2018/2018-11-20-Getting-off-the-Ground-with-Neo4j-Browser-and-LOAD-CSV.md) - score 4
 - [2018-11-28] [Query Performance in Neo4j](2018/2018-11-28-Query-Performance-in-Neo4j.md) - score 4
 - [2018-12-18] [WTF is a Marginal Structural Model](2018/2018-12-18-WTF-is-a-Marginal-Structural-Model.md) - score 4
+- [2018-12-19] [Causal Inference, Missing Data, and Predictive Modeling Notes](2018/2018-12-19-causal-inference-missing-data-and-predictive-modeling-notes.md) - score 4
 
 ### 2019
 
+- [2019-01-02] [Zero-Shot Learning Notes](2019/2019-01-02-zero-shot-learning-notes.md) - score 4
+- [2019-01-07] [Statistics and Health Learning Resources (LINK-LIST)](2019/2019-01-07-statistics-and-health-learning-resources-LINK-LIST.md) - score 3
+- [2019-01-18] [Robotics Learning Resources (LINK-LIST)](2019/2019-01-18-robotics-learning-resources-LINK-LIST.md) - score 2
+- [2019-01-22] [Deep Learning Research Paper Links (LINK-LIST)](2019/2019-01-22-deep-learning-research-paper-links-LINK-LIST.md) - score 3
 - [2019-01-25] [Crash Course in Causality (Take 1)](2019/2019-01-25-Crash-Course-in-Causality-Take-1.md) - score 4
+- [2019-02-02] [Healthcare IT Notes](2019/2019-02-02-healthcare-it-notes.md) - score 4
 - [2019-02-05] [Accuracy is not so Accurate](2019/2019-02-05-Accuracy-is-not-so-Accurate.md) - score 4
 - [2019-02-12] [Emfit QS Data Streams](2019/2019-02-12-Emfit-QS-Data-Streams.md) - score 4
 - [2019-02-19] [Semi-Colon-Separated Queries in Neo4j Desktop](2019/2019-02-19-Semi-Colon-Separated-Queries-in-Neo4j-Desktop.md) - score 2
 - [2019-02-20] [On Neo4j and the Conservation of Database Complexity](2019/2019-02-20-On-Neo4j-and-the-Conservation-of-Database-Complexity.md) - score 4
 - [2019-02-28] [Refresher on AWS CLI](2019/2019-02-28-Refresher-on-AWS-CLI.md) - score 3
+- [2019-03-01] [Cool Unix One-Liners](2019/2019-03-01-cool-unix-one-liners.md) - score 3
 - [2019-03-06] [deeplearning.ai's Intro to TensorFlow (Week 1)](2019/2019-03-06-Deep-Learning-AI-Intro-to-TensorFlow-Week-1.md) - score 3
 - [2019-03-14] [Exploring Google Colab (Part 1 of N)](2019/2019-03-14-Exploring-Google-Colab-Part-1-of-N.md) - score 3
 - [2019-03-19] [Cookiecutter Data Science](2019/2019-03-19-Cookiecutter-Data-Science.md) - score 4
 - [2019-03-23] [deeplearning.ai's Intro to TensorFlow (Week 2)](2019/2019-03-23-Deep-Learning-AI-Intro-to-TensorFlow-Week2.md) - score 3
 - [2019-03-25] [Notes on Treatments for Categorical Variables with Missing Values for Predictive Models in Production (Take 1)](2019/2019-03-25-Notes-on-Treatments-for-Categorical-Variables-with-Missing-Values-for-Predictive-Models-in-Production-Take-1.md) - score 4
 - [2019-03-29] [Missing Values in a Live Prediction Model (Take 2)](2019/2019-03-29-Missing-Values-in-a-Live-Prediction-Model-Take-2.md) - score 4
+- [2019-03-29] [Random Forests and Tree Ensemble Research Notes](2019/2019-03-29-random-forests-and-tree-ensemble-research-notes.md) - score 5
 - [2019-04-03] [On the Fly Neo4j Exercise](2019/2019-04-03-On-the-Fly-Neo4j-Exercise.md) - score 3
 - [2019-04-16] [2019-04-16-Data-Science-Outside-the-White-Collar](2019/2019-04-16-Data-Science-Outside-the-White-Collar.md) - score 4
 - [2019-04-22] [More Notes on Missing Data for Statistical Inference](2019/2019-04-22-More-Notes-on-Missing-Data-for-Statistical-Inference.md) - score 5
@@ -163,16 +177,27 @@ The articles keep their original dated filenames and were imported with filtered
 - [2019-05-06] [Memory-Efficient Windowing of Time Series Data in Python: 2. NumPy Arrays vs Pandas DataFrames](2019/2019-05-06-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-2--NumPy-Arrays-vs-Pandas-DataFrames.md) - score 5
 - [2019-05-06] [Memory-Efficient Windowing of Time Series Data in Python: 3. Memory Strides in Pandas](2019/2019-05-06-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-3--Memory-Strides-in-Pandas.md) - score 4
 - [2019-05-30] [Creating and Modifying CookieCutter Project Templates](2019/2019-05-30-Creating-and-Modifying-CookieCutter-Project-Templates.md) - score 4
+- [2019-06-06] [Probabilistic Graphical Models Notes](2019/2019-06-06-probabilistic-graphical-models-notes.md) - score 3
+- [2019-06-12] [The Quest for Blackbox Interpretability](2019/2019-06-12-the-quest-for-blackbox-interpretability.md) - score 4
 - [2019-06-21] [The Quest for Blackbox Interpretability (Take 1, Random Forests and Feature Importances)](2019/2019-06-21-The-Quest-for-Blackbox-Interpretability-Take-1.md) - score 5
+- [2019-06-25] [Machine Learning Plumber](2019/2019-06-25-machine-learning-plumber.md) - score 3
 - [2019-06-26] [The Many Faces of Data Leakage](2019/2019-06-26-The-Many-Faces-of-Data-Leakage.md) - score 4
 - [2019-08-09] [Keeping Your SSH Session Alive](2019/2019-08-09-Keeping-Your-SSH-Session-Alive.md) - score 2
+- [2019-08-16] [Advanced Machine Learning Specialization Notes](2019/2019-08-16-advanced-machine-learning-specialization-notes.md) - score 3
+- [2019-08-20] [Playing with Hyperparameters](2019/2019-08-20-playing-with-hyperparameters.md) - score 3
 - [2019-09-13] [Time Series Forecasting with a Random Forest (1 of N)](2019/2019-09-13-Time-Series-Forecasting-with-Random-Forests-1-of-N.md) - score 3
 - [2019-09-13] [Variable Importance Assessment in Random Forest Regressions](2019/2019-09-13-Variable-Importance-Assessment-in-Random-Forest-Regressions.md) - score 4
 - [2019-09-25] [Experimenting with Random Forests on UCI ML Data Sets](2019/2019-09-25-Experimenting-with-Random-Forests-on-UCI-ML-Data-Sets.md) - score 4
+- [2019-09-25] [Human Activity Recognition Data and Models (LINK-LIST)](2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md) - score 4
+- [2019-09-26] [Time Series Forecasting and DSP Notes](2019/2019-09-26-time-series-forecasting-and-dsp-notes.md) - score 3
+- [2019-10-02] [Face Recognition Notes](2019/2019-10-02-face-recognition-notes.md) - score 4
+- [2019-10-18] [Attaching an EBS Volume to an Existing EC2 Instance](2019/2019-10-18-attaching-an-ebs-volume-to-an-existing-ec2-instance.md) - score 3
+- [2019-10-18] [Resume Advice for Data Science Roles](2019/2019-10-18-resume-advice-for-data-science-roles.md) - score 2
 - [2019-10-18] [What are AWS Skills?](2019/2019-10-18-What-are-AWS-skills.md) - score 3
 - [2019-10-29] [Paper References from "Deep Learning School 2016](2019/2019-10-29-Paper-References-from-Deep-Learning-School-2016.md) - score 3
 - [2019-11-08] [Hello, Static Duck! (A Pythonic Type Tale.)](2019/2019-11-08-Hello-Static-Duck-a-Pythonic-Type-Tale.md) - score 3
 - [2019-11-11] [Ai4 Healthcare](2019/2019-11-11-Ai4-Healthcare.md) - score 4
+- [2019-11-12] [Hyde and Search: Jekyll Notes](2019/2019-11-12-hyde-and-search-jekyll-notes.md) - score 3
 - [2019-11-21] [Wearables Weekly (W1)](2019/2019-11-21-Wearables-Weekly-W1.md) - score 3
 - [2019-11-27] [Preserving History While Merging Two Repos](2019/2019-11-27-Preserving-History-While-Merging-Two-Repos.md) - score 4
 - [2019-12-16] [Intel at the Edge (Udacity Scholarship)](2019/2019-12-16-Intel-at-the-Edge-Udacity-Scholarship.md) - score 3
@@ -181,6 +206,7 @@ The articles keep their original dated filenames and were imported with filtered
 - [2019-12-27] [Intel at the Edge (Installing Intel's OpenVINO on MacBook w/ 4th Generation Intel Core i7)](2019/2019-12-27-Intel-at-the-Edge-Installing-Intels-OpenVINO-on-MacBook-with-4th-Generation-Intel-Core-i7.md) - score 4
 - [2019-12-30] [Intel at the Edge (OpenVINO on a Linux Docker)](2019/2019-12-30-Intel-at-the-Edge-OpenVINO-on-a-Linux-Docker.md) - score 4
 - [2019-12-31] [Intel at the Edge (Leveraging Pre-Trained Models)](2019/2019-12-31-Intel-at-the-Edge-Leveraging-Pre-Trained-Models.md) - score 4
+- [2019-12-31] [Intel at the Edge: OpenVINO on the Neural Compute Stick 2](2019/2019-12-31-intel-at-the-edge-openvino-on-the-neural-compute-stick-2.md) - score 4
 
 ### 2020
 
