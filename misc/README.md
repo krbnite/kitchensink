@@ -18,3 +18,4 @@ Local folders in this section group lower-priority historical material by theme.
 - [Project structure](project-structure/README.md): project layout, reproducible workflow, and ML-project planning notes.
 - [Research notes](research-notes/README.md): older physics, hydrology, and space-weather notes.
 - [Google Developer Scholarship](google-developer-scholarship-2018/README.md): 2018 web-development scholarship notes and related articles.
+- [Quotes](quotes.md): lightly curated personal quote/source stash imported from the old website repo.
