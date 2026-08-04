@@ -12,6 +12,7 @@ Decision-tree, random-forest, feature-importance, and tree-model learning artifa
 Local folders in this section preserve tree-model notebooks and related learning artifacts.
 
 - [Fungus Amongus 2017](fungus-amongus-2017/README.md): preserved 2017 mushroom decision-tree notebook and supporting notes.
+- [Random Forest Notebooks 2019](random-forest-notebooks-2019/README.md): preserved random-forest notebooks around time-series next-point forecasting and feature-importance stability.
 
 ## Related Articles
 
