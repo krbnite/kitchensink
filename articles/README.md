@@ -265,6 +265,7 @@ preserved historical work.
 - [2020-02-05] [IoT and Embedded Systems Notes](2020/2020-02-05-iot-and-embedded-systems-notes.md)
 - [2020-02-13] [A Few Thoughts on Enabling the Data Scientist](2020/2020-02-13-A-Few-Thoughts-on-Enabling-the-Data-Scientist.md)
 - [2020-10-01] [Are Wearables Worth the Hype?](2020/2020-10-01-Are-Wearables-Worth-the-Hype.md)
+- [2020-12-07] [OpenCV Webcam Display and Canny Edge Detection](2020/2020-12-07-opencv-webcam-display-and-canny-edge-detection.md)
 
 ### 2021
 

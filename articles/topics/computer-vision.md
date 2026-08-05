@@ -18,3 +18,4 @@ For broader repo context, see [Vision](../../vision/README.md) and
 - [Intel at the Edge (The Model Optimizer)](../2020/2020-01-12-Intel-at-the-Edge-The-Model-Optimizer.md) (2020-01-12)
 - [Intel at the Edge (The Inference Engine)](../2020/2020-01-17-Intel-at-the-Edge-The-Inference-Engine.md) (2020-01-17)
 - [Intel at the Edge (Deploying an Edge App)](../2020/2020-01-27-Intel-at-the-Edge-Deploying-an-Edge-App.md) (2020-01-27)
+- [OpenCV Webcam Display and Canny Edge Detection](../2020/2020-12-07-opencv-webcam-display-and-canny-edge-detection.md) (2020-12-07)

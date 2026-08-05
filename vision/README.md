@@ -20,3 +20,4 @@ These articles live in the top-level article archive and are indexed here becaus
 - [Human Activity Recognition Data and Models (LINK-LIST)](../articles/2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md) (2019-09-25)
 - [Face Recognition Notes](../articles/2019/2019-10-02-face-recognition-notes.md) (2019-10-02)
 - [Intel at the Edge: OpenVINO on the Neural Compute Stick 2](../articles/2019/2019-12-31-intel-at-the-edge-openvino-on-the-neural-compute-stick-2.md) (2019-12-31)
+- [OpenCV Webcam Display and Canny Edge Detection](../articles/2020/2020-12-07-opencv-webcam-display-and-canny-edge-detection.md) (2020-12-07)

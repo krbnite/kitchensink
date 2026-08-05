@@ -23,5 +23,6 @@ For broader repo context, see [Dev Notes](../../misc/dev-notes/README.md) and
 - [Cool Unix One-Liners](../2019/2019-03-01-cool-unix-one-liners.md) (2019-03-01)
 - [How to Import a Python Module from an Arbitrary Path](../2018/2018-02-15-How-to-Import-a-Python-Module-from-an-Arbitrary-Path.md) (2018-02-15)
 - [Conda Best Practices](../2019/2019-09-01-conda-best-practices.md) (2019-09-01)
+- [OpenCV Webcam Display and Canny Edge Detection](../2020/2020-12-07-opencv-webcam-display-and-canny-edge-detection.md) (2020-12-07)
 - [Hello, Static Duck! (A Pythonic Type Tale.)](../2019/2019-11-08-Hello-Static-Duck-a-Pythonic-Type-Tale.md) (2019-11-08)
 - [Python Package Best Practices: Using Type Hints](../2021/2021-07-01-python-package-best-practices-using-type-hints.md) (2021-07-01)
