@@ -45,6 +45,7 @@ The articles keep their original dated filenames and were imported with filtered
 - [2017-02-04] [Jupyter Jumpstart](2017/2017-02-04-Jupyter-Jumpstart.md) - score 3
 - [2017-03-17] [Singular Spectrum Analysis in R](2017/2017-03-17-Singular-Spectrum-Analysis-in-R.md) - score 3
 - [2017-03-20] [Linear Regression in Tensorflow](2017/2017-03-20-Linear-Regression-in-Tensorflow.md) - score 3
+- [2017-03-20] [Logistic Regression in Tensorflow](2017/2017-03-20-Logistic-Regression-in-Tensorflow.md) - score 3
 - [2017-04-11] [Conditional Aggregation in {dplyr} and Redshift](2017/2017-04-11-Conditional-Aggregation-in-dplyr-and-Redshift.md) - score 3
 - [2017-04-20] [Better Jupyter Notebook](2017/2017-04-20-Better-Jupyter-Notebooks.md) - score 3
 - [2017-05-11] [Accessing Jupyter Notebooks and TensorBoard on AWS](2017/2017-05-11-Accessing-Jupyter-Notebooks-and-TensorBoard-on-AWS.md) - score 3
@@ -56,6 +57,7 @@ The articles keep their original dated filenames and were imported with filtered
 - [2017-06-21] [TMux + Vim + AWS](2017/2017-06-21-Tmux-Vim-AWS.md) - score 3
 - [2017-06-26] [Notes on Autoencoders (Decoded into English)](2017/2017-06-26-Deep-Learning-Nanodegree-Notes-on-Autoencoders.md) - score 4
 - [2017-06-29] [Jupyter Notebook + Console](2017/2017-06-29-jupyter-notebook-console.md) - score 2
+- [2017-06-29] [Remote Jupyter Kernels, QTConsole, and Tmux](2017/2017-06-29-Remote-Jupyter-Kernels-QTConsole-and-Tmux.md) - score 3
 - [2017-07-14] [Notes on XGBoost](2017/2017-07-14-Notes-on-XGBoost.md) - score 3
 - [2017-07-21] [Make an Ailing AWS EC2 Tensorial and Serpentine Once Again](2017/2017-07-21-Make-an-Ailing-AWS-EC2-Tensorial-and-Serpentine-Once-Again.md) - score 3
 - [2017-07-22] [Wrapping Up Udacity's Deep Learning Nanodegree](2017/2017-07-22-Wrapping-Up-Udacitys-Deep-Learning-Nanodegree.md) - score 3

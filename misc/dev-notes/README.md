@@ -13,6 +13,7 @@ Lower-priority technical notes around environments, Jupyter, R, AWS, shells, and
 - [Customing R with .RProfile](../../articles/2017/2017-06-09-Customizing-R-with-RProfile.md) (2017-06-09)
 - [TMux + Vim + AWS](../../articles/2017/2017-06-21-Tmux-Vim-AWS.md) (2017-06-21)
 - [Jupyter Notebook + Console](../../articles/2017/2017-06-29-jupyter-notebook-console.md) (2017-06-29)
+- [Remote Jupyter Kernels, QTConsole, and Tmux](../../articles/2017/2017-06-29-Remote-Jupyter-Kernels-QTConsole-and-Tmux.md) (2017-06-29)
 - [Notes on Calling R from Python](../../articles/2017/2017-07-28-Notes-on-Calling-R-From-Python.md) (2017-07-28)
 - [Treebeard and the Fungus Amongus: Exploring Decision Trees in Scikit Learn](../../articles/2017/2017-08-03-Treebeard-and-the-Fungus-Amongus.md) (2017-08-03)
 - [Nixing for Data in iPython](../../articles/2017/2017-09-27-Nixing-for-Data-in-iPython.md) (2017-09-27)

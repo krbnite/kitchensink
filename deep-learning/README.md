@@ -34,6 +34,7 @@ Local folders in this section preserve old course work, notebooks, notes, and mo
 Historical deep-learning articles are indexed here even when their canonical files live under `articles/YYYY/`.
 
 - [Linear Regression in Tensorflow](../articles/2017/2017-03-20-Linear-Regression-in-Tensorflow.md) (2017-03-20)
+- [Logistic Regression in Tensorflow](../articles/2017/2017-03-20-Logistic-Regression-in-Tensorflow.md) (2017-03-20)
 - [Accessing Jupyter Notebooks and TensorBoard on AWS](../articles/2017/2017-05-11-Accessing-Jupyter-Notebooks-and-TensorBoard-on-AWS.md) (2017-05-11)
 - [ReLU vs Sigmoid vs Tanh](../articles/2017/2017-05-22-ReLU-vs-Sigmoid-vs-Tanh.md) (2017-05-22)
 - [Exploring and Exploiting Markovia (Notes on Reinforcement Learning)](../articles/2017/2017-06-15-Deep-Learning-Nanodegre-Notes-on-Reinforcement-Learning.md) (2017-06-15)
