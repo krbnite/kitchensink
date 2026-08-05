@@ -4,7 +4,7 @@
 
 ## Summary
 
-This is a consolidated 2019 research notebook on random forests, tree ensembles, and their practical edge cases. It is not a polished tutorial so much as a literature map, study log, and idea notebook.
+This is a consolidated 2019 research notebook on random forests, tree ensembles, and their practical edge cases. It grew out of tabular-data work with demographics, clinical values, summarized features, and similar inputs where random forests and other tree-based methods were especially useful. It is not a polished tutorial so much as a literature map, study log, and idea notebook.
 
 The substantive notes cover probability estimation, prediction intervals, consistency, calibration, categorical variables, additivity, statistical testing, computational burden, feature importance, interpretability, deployment issues, and comparisons with adjacent ensemble methods.
 
@@ -1019,6 +1019,7 @@ Here are general ways of creating ensembles:
 
 - Historical note: Curated in 2026 from draft notes originally committed in `krbnite.github.io` from 2019-03-29 to 2019-11-08. The source draft histories were imported into this repository before this consolidation step.
 - Curation note: Consolidates the main Random Forests FTW draft with smaller 2019 notes on random-forest variants, ensemble ideas, adversarial attacks, uncertainty, and tree/deep-learning hybrids.
+- Source comparison note: Checked against a later `circa-2020_Random-Forest-Lit-Review.md` copy from the CVB blog export. The later copy duplicated the consolidated reference sections; its only distinct material was the historical framing now reflected in the summary above.
 
 ### Source Drafts
 

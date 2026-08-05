@@ -56,3 +56,4 @@ Historical deep-learning articles are indexed here even when their canonical fil
 - [Ai4 Healthcare](../articles/2019/2019-11-11-Ai4-Healthcare.md) (2019-11-11)
 - [Intel at the Edge (Udacity Scholarship)](../articles/2019/2019-12-16-Intel-at-the-Edge-Udacity-Scholarship.md) (2019-12-16)
 - [Intel at the Edge: OpenVINO on the Neural Compute Stick 2](../articles/2019/2019-12-31-intel-at-the-edge-openvino-on-the-neural-compute-stick-2.md) (2019-12-31)
+- [Multi-GPU Training with TensorFlow Estimators](../articles/2021/2021-07-22-multi-gpu-training-with-tensorflow-estimators.md) (2021-07-22)

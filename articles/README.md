@@ -186,6 +186,7 @@ The articles keep their original dated filenames and were imported with filtered
 - [2019-08-09] [Keeping Your SSH Session Alive](2019/2019-08-09-Keeping-Your-SSH-Session-Alive.md) - score 2
 - [2019-08-16] [Advanced Machine Learning Specialization Notes](2019/2019-08-16-advanced-machine-learning-specialization-notes.md) - score 3
 - [2019-08-20] [Playing with Hyperparameters](2019/2019-08-20-playing-with-hyperparameters.md) - score 3
+- [2019-09-01] [Conda Best Practices](2019/2019-09-01-conda-best-practices.md) - score 3
 - [2019-09-13] [Time Series Forecasting with a Random Forest (1 of N)](2019/2019-09-13-Time-Series-Forecasting-with-Random-Forests-1-of-N.md) - score 3
 - [2019-09-13] [Variable Importance Assessment in Random Forest Regressions](2019/2019-09-13-Variable-Importance-Assessment-in-Random-Forest-Regressions.md) - score 4
 - [2019-09-25] [Experimenting with Random Forests on UCI ML Data Sets](2019/2019-09-25-Experimenting-with-Random-Forests-on-UCI-ML-Data-Sets.md) - score 4
@@ -219,6 +220,14 @@ The articles keep their original dated filenames and were imported with filtered
 - [2020-01-27] [Intel at the Edge (Deploying an Edge App)](2020/2020-01-27-Intel-at-the-Edge-Deploying-an-Edge-App.md) - score 4
 - [2020-02-05] [IoT and Embedded Systems Notes](2020/2020-02-05-iot-and-embedded-systems-notes.md) - score 5
 - [2020-02-13] [A Few Thoughts on Enabling the Data Scientist](2020/2020-02-13-A-Few-Thoughts-on-Enabling-the-Data-Scientist.md) - score 4
+- [2020-10-01] [Are Wearables Worth the Hype?](2020/2020-10-01-Are-Wearables-Worth-the-Hype.md) - score 4
+
+### 2021
+
+- [2021-03-12] [Convert your Markdown to Beautiful Presentations with Markdown Slides](2021/2021-03-12-convert-your-markdown-to-beautiful-presentations-with-markdown-slides.md) - score 4
+- [2021-04-06] [OpenBCI EEG Headset Notes (LINK-LIST)](2021/2021-04-06-openbci-eeg-headset-notes-LINK-LIST.md) - score 3
+- [2021-07-01] [Python Package Best Practices: Using Type Hints](2021/2021-07-01-python-package-best-practices-using-type-hints.md) - score 3
+- [2021-07-22] [Multi-GPU Training with TensorFlow Estimators](2021/2021-07-22-multi-gpu-training-with-tensorflow-estimators.md) - score 3
 
 ### 2024
 

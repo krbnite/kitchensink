@@ -13,3 +13,4 @@ TensorFlow-era articles and setup notes, mostly from 2017-2019.
 - [deeplearning.ai's Intro to TensorFlow (Week 1)](../../articles/2019/2019-03-06-Deep-Learning-AI-Intro-to-TensorFlow-Week-1.md) (2019-03-06)
 - [Exploring Google Colab (Part 1 of N)](../../articles/2019/2019-03-14-Exploring-Google-Colab-Part-1-of-N.md) (2019-03-14)
 - [deeplearning.ai's Intro to TensorFlow (Week 2)](../../articles/2019/2019-03-23-Deep-Learning-AI-Intro-to-TensorFlow-Week2.md) (2019-03-23)
+- [Multi-GPU Training with TensorFlow Estimators](../../articles/2021/2021-07-22-multi-gpu-training-with-tensorflow-estimators.md) (2021-07-22)

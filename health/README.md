@@ -22,3 +22,5 @@ Health, healthcare-AI, wearables, and sensor-data articles. Some are preserved a
 - [Human Activity Recognition Data and Models (LINK-LIST)](../articles/2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md) (2019-09-25)
 - [Ai4 Healthcare](../articles/2019/2019-11-11-Ai4-Healthcare.md) (2019-11-11)
 - [Wearables Weekly (W1)](../articles/2019/2019-11-21-Wearables-Weekly-W1.md) (2019-11-21)
+- [Are Wearables Worth the Hype?](../articles/2020/2020-10-01-Are-Wearables-Worth-the-Hype.md) (2020-10-01)
+- [OpenBCI EEG Headset Notes (LINK-LIST)](../articles/2021/2021-04-06-openbci-eeg-headset-notes-LINK-LIST.md) (2021-04-06)
