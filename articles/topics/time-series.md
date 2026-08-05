@@ -15,6 +15,7 @@ For broader repo context, see [Time Series](../../time-series/README.md).
 - [Time Series Forecasting with a Random Forest (1 of N)](../2019/2019-09-13-Time-Series-Forecasting-with-Random-Forests-1-of-N.md) (2019-09-13)
 - [Human Activity Recognition Data and Models (LINK-LIST)](../2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md) (2019-09-25)
 - [Time Series Forecasting and DSP Notes](../2019/2019-09-26-time-series-forecasting-and-dsp-notes.md) (2019-09-26)
+- [Introspective Supervised Learning And DRCN](../2020/2020-06-02-introspective-supervised-learning-and-drcn.md) (2020-06-02)
 - [Nudged Box-Cox Time-Series Augmentation](../2020/2020-07-13-nudged-box-cox-time-series-augmentation.md) (2020-07-13)
 - [Homotopic Time-Series Augmentations](../2020/2020-07-15-homotopic-time-series-augmentations.md) (2020-07-15)
 - [Realistic Noise Injection For Time Series](../2020/2020-07-16-realistic-noise-injection-for-time-series.md) (2020-07-16)

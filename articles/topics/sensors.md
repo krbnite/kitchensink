@@ -14,6 +14,7 @@ For broader repo context, see [Time Series](../../time-series/README.md),
 - [Time Series Forecasting and DSP Notes](../2019/2019-09-26-time-series-forecasting-and-dsp-notes.md) (2019-09-26)
 - [Intel at the Edge: OpenVINO on the Neural Compute Stick 2](../2019/2019-12-31-intel-at-the-edge-openvino-on-the-neural-compute-stick-2.md) (2019-12-31)
 - [IoT and Embedded Systems Notes](../2020/2020-02-05-iot-and-embedded-systems-notes.md) (2020-02-05)
+- [Introspective Supervised Learning And DRCN](../2020/2020-06-02-introspective-supervised-learning-and-drcn.md) (2020-06-02)
 - [Nudged Box-Cox Time-Series Augmentation](../2020/2020-07-13-nudged-box-cox-time-series-augmentation.md) (2020-07-13)
 - [Homotopic Time-Series Augmentations](../2020/2020-07-15-homotopic-time-series-augmentations.md) (2020-07-15)
 - [Realistic Noise Injection For Time Series](../2020/2020-07-16-realistic-noise-injection-for-time-series.md) (2020-07-16)

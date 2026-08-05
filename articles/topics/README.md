@@ -32,6 +32,7 @@ The full chronological archive remains in [Historical Articles](../README.md).
 - [Sensors](sensors.md)
 - [Statistics](statistics.md)
 - [TensorFlow](tensorflow.md)
+- [Transfer Learning and Domain Adaptation](transfer-learning.md)
 - [Time Series](time-series.md)
 - [Tree Ensembles](tree-ensembles.md)
 - [Wearables](wearables.md)

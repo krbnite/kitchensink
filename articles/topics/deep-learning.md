@@ -21,6 +21,7 @@ For broader repo context, see [Deep Learning](../../deep-learning/README.md).
 - [Deep Learning Course and Research Links (LINK-LIST)](../2019/2019-10-25-deep-learning-course-and-research-links-LINK-LIST.md) (2019-10-25)
 - [Paper References from "Deep Learning School 2016](../2019/2019-10-29-Paper-References-from-Deep-Learning-School-2016.md) (2019-10-29)
 - [Full Stack Deep Learning Notes](../2019/2019-11-06-full-stack-deep-learning-notes.md) (2019-11-06)
+- [Introspective Supervised Learning And DRCN](../2020/2020-06-02-introspective-supervised-learning-and-drcn.md) (2020-06-02)
 - [Nudged Box-Cox Time-Series Augmentation](../2020/2020-07-13-nudged-box-cox-time-series-augmentation.md) (2020-07-13)
 - [Homotopic Time-Series Augmentations](../2020/2020-07-15-homotopic-time-series-augmentations.md) (2020-07-15)
 - [Realistic Noise Injection For Time Series](../2020/2020-07-16-realistic-noise-injection-for-time-series.md) (2020-07-16)

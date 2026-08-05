@@ -10,7 +10,9 @@ Health AI, wearables, sensor data, and related historical notes.
 ## Related Projects
 
 - [Sleep Device Validation Methods](sleep-device-validation-methods/README.md): kitchensink index for the standalone TPV Revisited repo on PSG-vs-device agreement, wearable sleep validation, and bounded DTW methodology.
+- [Sensor Domain Adaptation And Dataset Similarity](../time-series/sensor-domain-adaptation-and-dataset-similarity/README.md): standalone CVB-era repo on proxy A-distance, sensor-domain comparison, and preprocessing choices for HAR time-series windows.
 - [Time-Series Data Augmentation](../time-series/time-series-data-augmentation/README.md): standalone CVB-era repo on augmentation strategies for wearable/sensor time series and human activity recognition.
+- [Time-Series Domain Adaptation Notes](../time-series/time-series-domain-adaptation-notes/README.md): standalone CVB-era repo preserving transfer-learning, domain-adaptation, HAR, and time-series ML reference notes.
 
 ## Related Articles
 
@@ -23,6 +25,7 @@ Health, healthcare-AI, wearables, and sensor-data articles. Some are preserved a
 - [Human Activity Recognition Data and Models (LINK-LIST)](../articles/2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md) (2019-09-25)
 - [Ai4 Healthcare](../articles/2019/2019-11-11-Ai4-Healthcare.md) (2019-11-11)
 - [Wearables Weekly (W1)](../articles/2019/2019-11-21-Wearables-Weekly-W1.md) (2019-11-21)
+- [Introspective Supervised Learning And DRCN](../articles/2020/2020-06-02-introspective-supervised-learning-and-drcn.md) (2020-06-02)
 - [Nudged Box-Cox Time-Series Augmentation](../articles/2020/2020-07-13-nudged-box-cox-time-series-augmentation.md) (2020-07-13)
 - [Homotopic Time-Series Augmentations](../articles/2020/2020-07-15-homotopic-time-series-augmentations.md) (2020-07-15)
 - [Realistic Noise Injection For Time Series](../articles/2020/2020-07-16-realistic-noise-injection-for-time-series.md) (2020-07-16)
