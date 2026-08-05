@@ -1,6 +1,12 @@
 # Research Notes
 
-Older physics, hydrology, image-processing, and space-weather notes.
+Older physics, hydrology, image-processing, space-weather notes, and future
+paper/research ideas that grew out of historical project archives.
+
+## Contents
+
+- [Paper Ideas](paper-ideas/README.md): reminders for possible future articles,
+  reproducible benchmarks, and short papers.
 
 ## Related Articles
 

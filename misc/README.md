@@ -16,6 +16,6 @@ Local folders in this section group lower-priority historical material by theme.
 - [Git history](git-history/README.md): old notes on preserving history while merging repositories.
 - [Professional notes](professional-notes/README.md): applied data-science process and career-context essays.
 - [Project structure](project-structure/README.md): project layout, reproducible workflow, and ML-project planning notes.
-- [Research notes](research-notes/README.md): older physics, hydrology, and space-weather notes.
+- [Research notes](research-notes/README.md): older physics, hydrology, space-weather notes, and future paper/research ideas.
 - [Google Developer Scholarship](google-developer-scholarship-2018/README.md): 2018 web-development scholarship notes and related articles.
 - [Quotes](quotes.md): lightly curated personal quote/source stash imported from the old website repo.
