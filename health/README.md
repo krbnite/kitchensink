@@ -10,6 +10,7 @@ Health AI, wearables, sensor data, and related historical notes.
 ## Related Projects
 
 - [Sleep Device Validation Methods](sleep-device-validation-methods/README.md): kitchensink index for the standalone TPV Revisited repo on PSG-vs-device agreement, wearable sleep validation, and bounded DTW methodology.
+- [Time-Series Data Augmentation](../time-series/time-series-data-augmentation/README.md): standalone CVB-era repo on augmentation strategies for wearable/sensor time series and human activity recognition.
 
 ## Related Articles
 
@@ -22,5 +23,9 @@ Health, healthcare-AI, wearables, and sensor-data articles. Some are preserved a
 - [Human Activity Recognition Data and Models (LINK-LIST)](../articles/2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md) (2019-09-25)
 - [Ai4 Healthcare](../articles/2019/2019-11-11-Ai4-Healthcare.md) (2019-11-11)
 - [Wearables Weekly (W1)](../articles/2019/2019-11-21-Wearables-Weekly-W1.md) (2019-11-21)
+- [Nudged Box-Cox Time-Series Augmentation](../articles/2020/2020-07-13-nudged-box-cox-time-series-augmentation.md) (2020-07-13)
+- [Homotopic Time-Series Augmentations](../articles/2020/2020-07-15-homotopic-time-series-augmentations.md) (2020-07-15)
+- [Realistic Noise Injection For Time Series](../articles/2020/2020-07-16-realistic-noise-injection-for-time-series.md) (2020-07-16)
+- [Time-Series Data Augmentation Research Notes](../articles/2020/2020-07-17-time-series-data-augmentation-research-notes.md) (2020-07-17)
 - [Are Wearables Worth the Hype?](../articles/2020/2020-10-01-Are-Wearables-Worth-the-Hype.md) (2020-10-01)
 - [OpenBCI EEG Headset Notes (LINK-LIST)](../articles/2021/2021-04-06-openbci-eeg-headset-notes-LINK-LIST.md) (2021-04-06)

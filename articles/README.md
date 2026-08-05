@@ -17,6 +17,7 @@ preserved historical work.
 - [APIs and Social Platforms](topics/apis-and-social-platforms.md)
 - [AWS and Cloud Workflows](topics/aws-cloud.md)
 - [Computer Vision](topics/computer-vision.md)
+- [Data Augmentation](topics/data-augmentation.md)
 - [Data Engineering](topics/data-engineering.md)
 - [Data Leakage and Model Validation](topics/data-leakage.md)
 - [Deep Learning](topics/deep-learning.md)
@@ -264,6 +265,10 @@ preserved historical work.
 - [2020-01-27] [Intel at the Edge (Deploying an Edge App)](2020/2020-01-27-Intel-at-the-Edge-Deploying-an-Edge-App.md)
 - [2020-02-05] [IoT and Embedded Systems Notes](2020/2020-02-05-iot-and-embedded-systems-notes.md)
 - [2020-02-13] [A Few Thoughts on Enabling the Data Scientist](2020/2020-02-13-A-Few-Thoughts-on-Enabling-the-Data-Scientist.md)
+- [2020-07-13] [Nudged Box-Cox Time-Series Augmentation](2020/2020-07-13-nudged-box-cox-time-series-augmentation.md)
+- [2020-07-15] [Homotopic Time-Series Augmentations](2020/2020-07-15-homotopic-time-series-augmentations.md)
+- [2020-07-16] [Realistic Noise Injection For Time Series](2020/2020-07-16-realistic-noise-injection-for-time-series.md)
+- [2020-07-17] [Time-Series Data Augmentation Research Notes](2020/2020-07-17-time-series-data-augmentation-research-notes.md)
 - [2020-10-01] [Are Wearables Worth the Hype?](2020/2020-10-01-Are-Wearables-Worth-the-Hype.md)
 - [2020-12-07] [OpenCV Webcam Display and Canny Edge Detection](2020/2020-12-07-opencv-webcam-display-and-canny-edge-detection.md)
 

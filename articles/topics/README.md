@@ -13,6 +13,7 @@ The full chronological archive remains in [Historical Articles](../README.md).
 - [APIs and Social Platforms](apis-and-social-platforms.md)
 - [AWS and Cloud Workflows](aws-cloud.md)
 - [Computer Vision](computer-vision.md)
+- [Data Augmentation](data-augmentation.md)
 - [Data Engineering](data-engineering.md)
 - [Data Leakage and Model Validation](data-leakage.md)
 - [Deep Learning](deep-learning.md)
