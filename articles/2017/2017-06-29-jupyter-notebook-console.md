@@ -22,6 +22,13 @@ I actually found a good solution, but it's a bit different than how I was origin
 8. vim  
 ```
 
+<img src="../assets/images/aws-jupyter-console.png" alt="Tmux session with Vim beside a Jupyter console connected to a notebook kernel on AWS" width="900" />
+
+The screenshot above captures the basic idea: Vim in one tmux pane, a Jupyter
+console in another pane, and a notebook/browser session available for plots and
+longer-form work. The small but useful realization was that these could all be
+interfaces into the same running Python kernel.
+
 This allows me to:
 1. develop python scripts, functions, libraries in Vim
 2. interact w/ ipython kernel in jupyter console
