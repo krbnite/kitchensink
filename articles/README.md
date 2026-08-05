@@ -4,19 +4,6 @@ This folder is the canonical archive for selected historical blog articles impor
 
 The articles keep their original dated filenames and were imported with filtered Git history rather than copied as fresh 2026 files. Topic folders elsewhere in `kitchensink` link back here instead of duplicating articles into multiple places.
 
-## Curation Notes
-
-- Clear placeholder/link-only posts were omitted.
-- The raw 2024 FastSAM markdown export was omitted because the cleaned `vision/fastsam2024` folder already preserves that work more usefully.
-- Some lower-priority technical notes were included because they help document the older working trail around automation, databases, R, Jupyter, AWS, and related tooling.
-- Historical image assets that existed in the old website repo were imported under `articles/assets/images/` and article links were rewritten to point there.
-- Two CUDA screenshots referenced by one 2017 post were already missing from the website repo; the article now includes import notes in their place.
-- The Instagraph strategy article originally had no date prefix; its 2018-05-09 date was inferred from its Git history and used to standardize the filename.
-- In-progress article drafts from `_in_progress` were imported with filtered Git history, then curated into dated `articles/YYYY/` artifacts.
-- Draft link-list artifacts are marked with `LINK-LIST` in their filenames and index titles.
-- Three placeholder-level `_in_progress` drafts were omitted, and the untracked 2023 nonstationary-learning draft was left out because it had no Git history in the website repo.
-- Historical `_notes` files were imported with filtered Git history, then curated into standalone deep-learning notes, an IoT/embedded-systems note, and one clearly marked deep-learning resource link list.
-
 ## Archive Index
 
 ### 2014
