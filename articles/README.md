@@ -21,216 +21,216 @@ The articles keep their original dated filenames and were imported with filtered
 
 ### 2014
 
-- [2014-11-20] [Riometer Movies with ImageMagick and FFMPEG](2014/2014-11-20-Riometer-Movies-with-ImageMagick-and-FFMPEG.md) - score 3
+- [2014-11-20] [Riometer Movies with ImageMagick and FFMPEG](2014/2014-11-20-Riometer-Movies-with-ImageMagick-and-FFMPEG.md)
 
 ### 2015
 
-- [2015-09-02] [Hydrologists be Gettin all Epistemological](2015/2015-09-02-epistemological-hydrology.md) - score 3
-- [2015-09-03] [Wave Polarization: Some Basics](2015/2015-09-03-wave-polarization-1.md) - score 3
-- [2015-09-21] [Early characterizations of the mid-latitude, dayside hydromagnetic response to upstream solar wind conditions: 1980](2015/2015-09-21-early-characterizations-of-the-mid-latitude-dayside-hydromagnetic-response-to-upstream-solar-wind-conditions.md) - score 3
-- [2015-09-30] [Early characterizations of the mid-latitude, dayside hydromagnetic response to upstream solar wind conditions: 1981-82](2015/2015-09-30-early-characterizations-of-the-mid-latitude-dayside-hydromagnetic-response-to-upstream-solar-wind-conditions-1981-82.md) - score 3
-- [2015-10-14] [The Angle Between Two Data Sets](2015/2015-10-14-the-angle-between-two-data-sets.md) - score 4
-- [2015-10-14] [The Near-Earth Mass Flux of the Solar Wind: Constant, Capricious, or Both?](2015/2015-10-14-the-near-earth-mass-flux-of-the-solar-wind.md) - score 3
+- [2015-09-02] [Hydrologists be Gettin all Epistemological](2015/2015-09-02-epistemological-hydrology.md)
+- [2015-09-03] [Wave Polarization: Some Basics](2015/2015-09-03-wave-polarization-1.md)
+- [2015-09-21] [Early characterizations of the mid-latitude, dayside hydromagnetic response to upstream solar wind conditions: 1980](2015/2015-09-21-early-characterizations-of-the-mid-latitude-dayside-hydromagnetic-response-to-upstream-solar-wind-conditions.md)
+- [2015-09-30] [Early characterizations of the mid-latitude, dayside hydromagnetic response to upstream solar wind conditions: 1981-82](2015/2015-09-30-early-characterizations-of-the-mid-latitude-dayside-hydromagnetic-response-to-upstream-solar-wind-conditions-1981-82.md)
+- [2015-10-14] [The Angle Between Two Data Sets](2015/2015-10-14-the-angle-between-two-data-sets.md)
+- [2015-10-14] [The Near-Earth Mass Flux of the Solar Wind: Constant, Capricious, or Both?](2015/2015-10-14-the-near-earth-mass-flux-of-the-solar-wind.md)
 
 ### 2016
 
-- [2016-08-16] [What is CouchDB?](2016/2016-08-16-What-is-CouchDB.md) - score 3
-- [2016-08-24] [Introduction to Databases (Notes)](2016/2016-08-24-Introduction-to-Databases.md) - score 3
-- [2016-12-22] [Connect to Redshift from R with RPosgreSQL](2016/2016-12-22-Connect-to-Redshift-from-R-with-RPosgreSQL.md) - score 2
+- [2016-08-16] [What is CouchDB?](2016/2016-08-16-What-is-CouchDB.md)
+- [2016-08-24] [Introduction to Databases (Notes)](2016/2016-08-24-Introduction-to-Databases.md)
+- [2016-12-22] [Connect to Redshift from R with RPosgreSQL](2016/2016-12-22-Connect-to-Redshift-from-R-with-RPosgreSQL.md)
 
 ### 2017
 
-- [2017-01-18] [Running with Redshift](2017/2017-01-18-Running-with-Redshift.md) - score 2
-- [2017-02-04] [Conda Quick Guide](2017/2017-02-04-Conda-Quick-Guide.md) - score 2
-- [2017-02-04] [Jupyter Jumpstart](2017/2017-02-04-Jupyter-Jumpstart.md) - score 3
-- [2017-03-17] [Singular Spectrum Analysis in R](2017/2017-03-17-Singular-Spectrum-Analysis-in-R.md) - score 3
-- [2017-03-20] [Linear Regression in Tensorflow](2017/2017-03-20-Linear-Regression-in-Tensorflow.md) - score 3
-- [2017-03-20] [Logistic Regression in Tensorflow](2017/2017-03-20-Logistic-Regression-in-Tensorflow.md) - score 3
-- [2017-04-11] [Conditional Aggregation in {dplyr} and Redshift](2017/2017-04-11-Conditional-Aggregation-in-dplyr-and-Redshift.md) - score 3
-- [2017-04-20] [Better Jupyter Notebook](2017/2017-04-20-Better-Jupyter-Notebooks.md) - score 3
-- [2017-05-11] [Accessing Jupyter Notebooks and TensorBoard on AWS](2017/2017-05-11-Accessing-Jupyter-Notebooks-and-TensorBoard-on-AWS.md) - score 3
-- [2017-05-12] [The Perils of PCA](2017/2017-05-12-the-perils-of-pca.md) - score 3
-- [2017-05-22] [ReLU vs Sigmoid vs Tanh](2017/2017-05-22-ReLU-vs-Sigmoid-vs-Tanh.md) - score 3
-- [2017-06-09] [Customing R with .RProfile](2017/2017-06-09-Customizing-R-with-RProfile.md) - score 2
-- [2017-06-15] [Exploring and Exploiting Markovia (Notes on Reinforcement Learning)](2017/2017-06-15-Deep-Learning-Nanodegre-Notes-on-Reinforcement-Learning.md) - score 3
-- [2017-06-21] [Character Encoding Craziness](2017/2017-06-21-Character-Encoding-Craziness.md) - score 3
-- [2017-06-21] [TMux + Vim + AWS](2017/2017-06-21-Tmux-Vim-AWS.md) - score 3
-- [2017-06-26] [Notes on Autoencoders (Decoded into English)](2017/2017-06-26-Deep-Learning-Nanodegree-Notes-on-Autoencoders.md) - score 4
-- [2017-06-29] [Jupyter Notebook + Console](2017/2017-06-29-jupyter-notebook-console.md) - score 2
-- [2017-06-29] [Remote Jupyter Kernels, QTConsole, and Tmux](2017/2017-06-29-Remote-Jupyter-Kernels-QTConsole-and-Tmux.md) - score 3
-- [2017-07-14] [Notes on XGBoost](2017/2017-07-14-Notes-on-XGBoost.md) - score 3
-- [2017-07-21] [Make an Ailing AWS EC2 Tensorial and Serpentine Once Again](2017/2017-07-21-Make-an-Ailing-AWS-EC2-Tensorial-and-Serpentine-Once-Again.md) - score 3
-- [2017-07-22] [Wrapping Up Udacity's Deep Learning Nanodegree](2017/2017-07-22-Wrapping-Up-Udacitys-Deep-Learning-Nanodegree.md) - score 3
-- [2017-07-23] [Scraping YouTube with Requests and Beautiful Soup](2017/2017-07-23-Scraping-YouTube-with-Requests-and-Beautiful-Soup.md) - score 2
-- [2017-07-28] [Notes on Calling R from Python](2017/2017-07-28-Notes-on-Calling-R-From-Python.md) - score 3
-- [2017-07-31] [Imbalanced Classes](2017/2017-07-31-Imbalanced-Classes.md) - score 3
-- [2017-08-03] [Treebeard and the Fungus Amongus: Exploring Decision Trees in Scikit Learn](2017/2017-08-03-Treebeard-and-the-Fungus-Amongus.md) - score 2
-- [2017-08-08] [The Selenium Webdriver](2017/2017-08-08-The-Selenium-Webdriver.md) - score 3
-- [2017-08-10] [Scraping YouTube Playlists with Selenium and Beautiful Soup](2017/2017-08-10-Scraping-YouTube-Playlists-with-Selenium-and-Beautiful-Soup.md) - score 2
-- [2017-08-11] [Scraping Playlist IDs from a YouTube Channel](2017/2017-08-11-Scraping-Playlist-IDs-from-a-YouTube-Channel.md) - score 2
-- [2017-08-12] [Signing in with Selenium](2017/2017-08-12-Signing-In-with-Selenium.md) - score 2
-- [2017-08-23] [Data Shepherd](2017/2017-08-23-Data-Shepherd.md) - score 2
-- [2017-08-24] [Downloading Files with Selenium](2017/2017-08-24-Downloading-Files-with-Selenium.md) - score 2
-- [2017-08-25] [Selenium: Swapping Out PhantomJS for Headless Chrome](2017/2017-08-25-Selenium-Swapping-Out-PhantomJS-for-Headless-Chrome.md) - score 3
-- [2017-09-15] [The YouTube Reporting API](2017/2017-09-15-The-YouTube-Reporting-API.md) - score 4
-- [2017-09-18] [The Google Client API](2017/2017-09-18-The-Google-Client-API-for-Python.md) - score 3
-- [2017-09-19] [The YouTube Data API](2017/2017-09-19-The-YouTube-Data-API.md) - score 3
-- [2017-09-20] [YouTube's Reporting API Revisited](2017/2017-09-20-YouTubes-Reporting-API-Revisited.md) - score 4
-- [2017-09-24] [First Foray into FaceBook's Graph API](2017/2017-09-24-First-Foray-Into-the-FaceBook-API.md) - score 4
-- [2017-09-26] [SQLAlchemy Requires Commitment (for Granting Public Access)](2017/2017-09-26-SQLAlchemy-Requires-Commitment.md) - score 2
-- [2017-09-27] [Boto3 -- the AWS API](2017/2017-09-27-Boto3-the-AWS-API.md) - score 2
-- [2017-09-27] [Nixing for Data in iPython](2017/2017-09-27-Nixing-for-Data-in-iPython.md) - score 2
-- [2017-09-29] [Revisiting YouTube's Data API for Content Owners](2017/2017-09-29-Revisiting-YouTubes-Data-API-for-Content-Owners.md) - score 3
-- [2017-10-03] [Scheduling Jobs with Cron](2017/2017-10-03-Scheduling-Jobs-with-Cron.md) - score 3
-- [2017-10-03] [Sending Email Notifications from the Command Line](2017/2017-10-03-Sending-Email-Notifications-from-the-Command-Line.md) - score 2
-- [2017-10-03] [Which Pip is Right for You on Corporate EC2?](2017/2017-10-03-Which-Pip-is-Right-for-You-on-Corporate-EC2.md) - score 2
-- [2017-10-04] [Driving Headless Chrome with Selenium on AWS EC2](2017/2017-10-04-Driving-Headless-Chrome-with-Selenium-on-AWS-EC2.md) - score 3
-- [2017-10-11] [Connecting to a SAMBA Server from Mac and Ubuntu](2017/2017-10-11-Connecting-to-a-Samba-Server-from-Mac-and-Ubuntu.md) - score 2
-- [2017-10-17] [Multithreading in Python (Take One)](2017/2017-10-17-Multithreading-in-Python-Take-One.md) - score 3
-- [2017-10-18] [Multi-Processing in Python (the Multiprocessing Module)](2017/2017-10-18-Multi-Processing-in-Python-the-Multiprocessing-Module.md) - score 3
-- [2017-10-26] [Blue Collar Data Science](2017/2017-10-26-Blue-Collar-Data-Science.md) - score 3
-- [2017-10-26] [The Indefinitive Guide to Email in Python](2017/2017-10-26-The-Indefinitive-Guide-to-Email-in-Python.md) - score 2
-- [2017-10-27] [A 2nd Foray into the FB API](2017/2017-10-27-A-2nd-Foray-into-the-Facebook-API.md) - score 3
-- [2017-11-01] [Pretty Tables in Pythonic Emails](2017/2017-11-01-pretty-tables-in-pythonic-emails.md) - score 3
-- [2017-11-01] [Python in Parallel](2017/2017-11-01-Python-in-Parallel.md) - score 3
-- [2017-11-03] [Web Frameworks and Spark Learning Links (LINK-LIST)](2017/2017-11-03-web-frameworks-and-spark-learning-links-LINK-LIST.md) - score 2
-- [2017-11-07] [Course Backlog (LINK-LIST)](2017/2017-11-07-course-backlog-LINK-LIST.md) - score 3
-- [2017-11-07] [Hive-Minded Big Data](2017/2017-11-07-Hive-Minded-Big-Data.md) - score 3
-- [2017-11-09] [Some CUDA AWS/Ubuntu Notes](2017/2017-11-09-Some-CUDA-AWS-Ubuntu-Notes.md) - score 3
-- [2017-11-16] [Rebrewing PostgreSQL](2017/2017-11-16-Rebrewing-PostgreSQL.md) - score 2
-- [2017-12-01] [Comments on GraphQL](2017/2017-12-01-Comments-on-GraphQL.md) - score 3
-- [2017-12-07] [The Skeletal Structure of HTML Reports](2017/2017-12-07-The-Skeletal-Structure-of-HTML-Reports.md) - score 2
-- [2017-12-12] [Digging Deep with the Data API](2017/2017-12-12-Digging-Deep-with-the-Data-API.md) - score 3
-- [2017-12-17] [Keeping the Pulse on Facebook Live with the Graph API](2017/2017-12-17-Keeping-the-Pulse-on-Facebook-Live-with-the-Graph-API.md) - score 2
-- [2017-12-18] [Messing Around with Boto3: S3 Clients and Resources](2017/2017-12-18-Messing-Around-with-Boto3-S3-Clients-and-Resources.md) - score 3
+- [2017-01-18] [Running with Redshift](2017/2017-01-18-Running-with-Redshift.md)
+- [2017-02-04] [Conda Quick Guide](2017/2017-02-04-Conda-Quick-Guide.md)
+- [2017-02-04] [Jupyter Jumpstart](2017/2017-02-04-Jupyter-Jumpstart.md)
+- [2017-03-17] [Singular Spectrum Analysis in R](2017/2017-03-17-Singular-Spectrum-Analysis-in-R.md)
+- [2017-03-20] [Linear Regression in Tensorflow](2017/2017-03-20-Linear-Regression-in-Tensorflow.md)
+- [2017-03-20] [Logistic Regression in Tensorflow](2017/2017-03-20-Logistic-Regression-in-Tensorflow.md)
+- [2017-04-11] [Conditional Aggregation in {dplyr} and Redshift](2017/2017-04-11-Conditional-Aggregation-in-dplyr-and-Redshift.md)
+- [2017-04-20] [Better Jupyter Notebook](2017/2017-04-20-Better-Jupyter-Notebooks.md)
+- [2017-05-11] [Accessing Jupyter Notebooks and TensorBoard on AWS](2017/2017-05-11-Accessing-Jupyter-Notebooks-and-TensorBoard-on-AWS.md)
+- [2017-05-12] [The Perils of PCA](2017/2017-05-12-the-perils-of-pca.md)
+- [2017-05-22] [ReLU vs Sigmoid vs Tanh](2017/2017-05-22-ReLU-vs-Sigmoid-vs-Tanh.md)
+- [2017-06-09] [Customing R with .RProfile](2017/2017-06-09-Customizing-R-with-RProfile.md)
+- [2017-06-15] [Exploring and Exploiting Markovia (Notes on Reinforcement Learning)](2017/2017-06-15-Deep-Learning-Nanodegre-Notes-on-Reinforcement-Learning.md)
+- [2017-06-21] [Character Encoding Craziness](2017/2017-06-21-Character-Encoding-Craziness.md)
+- [2017-06-21] [TMux + Vim + AWS](2017/2017-06-21-Tmux-Vim-AWS.md)
+- [2017-06-26] [Notes on Autoencoders (Decoded into English)](2017/2017-06-26-Deep-Learning-Nanodegree-Notes-on-Autoencoders.md)
+- [2017-06-29] [Jupyter Notebook + Console](2017/2017-06-29-jupyter-notebook-console.md)
+- [2017-06-29] [Remote Jupyter Kernels, QTConsole, and Tmux](2017/2017-06-29-Remote-Jupyter-Kernels-QTConsole-and-Tmux.md)
+- [2017-07-14] [Notes on XGBoost](2017/2017-07-14-Notes-on-XGBoost.md)
+- [2017-07-21] [Make an Ailing AWS EC2 Tensorial and Serpentine Once Again](2017/2017-07-21-Make-an-Ailing-AWS-EC2-Tensorial-and-Serpentine-Once-Again.md)
+- [2017-07-22] [Wrapping Up Udacity's Deep Learning Nanodegree](2017/2017-07-22-Wrapping-Up-Udacitys-Deep-Learning-Nanodegree.md)
+- [2017-07-23] [Scraping YouTube with Requests and Beautiful Soup](2017/2017-07-23-Scraping-YouTube-with-Requests-and-Beautiful-Soup.md)
+- [2017-07-28] [Notes on Calling R from Python](2017/2017-07-28-Notes-on-Calling-R-From-Python.md)
+- [2017-07-31] [Imbalanced Classes](2017/2017-07-31-Imbalanced-Classes.md)
+- [2017-08-03] [Treebeard and the Fungus Amongus: Exploring Decision Trees in Scikit Learn](2017/2017-08-03-Treebeard-and-the-Fungus-Amongus.md)
+- [2017-08-08] [The Selenium Webdriver](2017/2017-08-08-The-Selenium-Webdriver.md)
+- [2017-08-10] [Scraping YouTube Playlists with Selenium and Beautiful Soup](2017/2017-08-10-Scraping-YouTube-Playlists-with-Selenium-and-Beautiful-Soup.md)
+- [2017-08-11] [Scraping Playlist IDs from a YouTube Channel](2017/2017-08-11-Scraping-Playlist-IDs-from-a-YouTube-Channel.md)
+- [2017-08-12] [Signing in with Selenium](2017/2017-08-12-Signing-In-with-Selenium.md)
+- [2017-08-23] [Data Shepherd](2017/2017-08-23-Data-Shepherd.md)
+- [2017-08-24] [Downloading Files with Selenium](2017/2017-08-24-Downloading-Files-with-Selenium.md)
+- [2017-08-25] [Selenium: Swapping Out PhantomJS for Headless Chrome](2017/2017-08-25-Selenium-Swapping-Out-PhantomJS-for-Headless-Chrome.md)
+- [2017-09-15] [The YouTube Reporting API](2017/2017-09-15-The-YouTube-Reporting-API.md)
+- [2017-09-18] [The Google Client API](2017/2017-09-18-The-Google-Client-API-for-Python.md)
+- [2017-09-19] [The YouTube Data API](2017/2017-09-19-The-YouTube-Data-API.md)
+- [2017-09-20] [YouTube's Reporting API Revisited](2017/2017-09-20-YouTubes-Reporting-API-Revisited.md)
+- [2017-09-24] [First Foray into FaceBook's Graph API](2017/2017-09-24-First-Foray-Into-the-FaceBook-API.md)
+- [2017-09-26] [SQLAlchemy Requires Commitment (for Granting Public Access)](2017/2017-09-26-SQLAlchemy-Requires-Commitment.md)
+- [2017-09-27] [Boto3 -- the AWS API](2017/2017-09-27-Boto3-the-AWS-API.md)
+- [2017-09-27] [Nixing for Data in iPython](2017/2017-09-27-Nixing-for-Data-in-iPython.md)
+- [2017-09-29] [Revisiting YouTube's Data API for Content Owners](2017/2017-09-29-Revisiting-YouTubes-Data-API-for-Content-Owners.md)
+- [2017-10-03] [Scheduling Jobs with Cron](2017/2017-10-03-Scheduling-Jobs-with-Cron.md)
+- [2017-10-03] [Sending Email Notifications from the Command Line](2017/2017-10-03-Sending-Email-Notifications-from-the-Command-Line.md)
+- [2017-10-03] [Which Pip is Right for You on Corporate EC2?](2017/2017-10-03-Which-Pip-is-Right-for-You-on-Corporate-EC2.md)
+- [2017-10-04] [Driving Headless Chrome with Selenium on AWS EC2](2017/2017-10-04-Driving-Headless-Chrome-with-Selenium-on-AWS-EC2.md)
+- [2017-10-11] [Connecting to a SAMBA Server from Mac and Ubuntu](2017/2017-10-11-Connecting-to-a-Samba-Server-from-Mac-and-Ubuntu.md)
+- [2017-10-17] [Multithreading in Python (Take One)](2017/2017-10-17-Multithreading-in-Python-Take-One.md)
+- [2017-10-18] [Multi-Processing in Python (the Multiprocessing Module)](2017/2017-10-18-Multi-Processing-in-Python-the-Multiprocessing-Module.md)
+- [2017-10-26] [Blue Collar Data Science](2017/2017-10-26-Blue-Collar-Data-Science.md)
+- [2017-10-26] [The Indefinitive Guide to Email in Python](2017/2017-10-26-The-Indefinitive-Guide-to-Email-in-Python.md)
+- [2017-10-27] [A 2nd Foray into the FB API](2017/2017-10-27-A-2nd-Foray-into-the-Facebook-API.md)
+- [2017-11-01] [Pretty Tables in Pythonic Emails](2017/2017-11-01-pretty-tables-in-pythonic-emails.md)
+- [2017-11-01] [Python in Parallel](2017/2017-11-01-Python-in-Parallel.md)
+- [2017-11-03] [Web Frameworks and Spark Learning Links (LINK-LIST)](2017/2017-11-03-web-frameworks-and-spark-learning-links-LINK-LIST.md)
+- [2017-11-07] [Course Backlog (LINK-LIST)](2017/2017-11-07-course-backlog-LINK-LIST.md)
+- [2017-11-07] [Hive-Minded Big Data](2017/2017-11-07-Hive-Minded-Big-Data.md)
+- [2017-11-09] [Some CUDA AWS/Ubuntu Notes](2017/2017-11-09-Some-CUDA-AWS-Ubuntu-Notes.md)
+- [2017-11-16] [Rebrewing PostgreSQL](2017/2017-11-16-Rebrewing-PostgreSQL.md)
+- [2017-12-01] [Comments on GraphQL](2017/2017-12-01-Comments-on-GraphQL.md)
+- [2017-12-07] [The Skeletal Structure of HTML Reports](2017/2017-12-07-The-Skeletal-Structure-of-HTML-Reports.md)
+- [2017-12-12] [Digging Deep with the Data API](2017/2017-12-12-Digging-Deep-with-the-Data-API.md)
+- [2017-12-17] [Keeping the Pulse on Facebook Live with the Graph API](2017/2017-12-17-Keeping-the-Pulse-on-Facebook-Live-with-the-Graph-API.md)
+- [2017-12-18] [Messing Around with Boto3: S3 Clients and Resources](2017/2017-12-18-Messing-Around-with-Boto3-S3-Clients-and-Resources.md)
 
 ### 2018
 
-- [2018-01-04] [Crontab Script Sequences](2018/2018-01-04-Crontab-Script-Sequences.md) - score 2
-- [2018-01-12] [Google Developer Scholarship](2018/2018-01-12-Google-Developer-Scholarship.md) - score 3
-- [2018-01-12] [Pandas Remote Crash Prevention](2018/2018-01-12-Pandas-Remote-Crash-Prevention.md) - score 2
-- [2018-01-17] [HTML Reports: Highlight on Hover](2018/2018-01-17-HTML-Reports-Highlight-on-Hover.md) - score 2
-- [2018-01-17] [HTML Reports: Those Numbers Need Commas!](2018/2018-01-17-HTML-Reports-Those-Numbers-Need-Commas.md) - score 3
-- [2018-01-17] [Weighing in on Facebook Watch](2018/2018-01-17-Weighing-in-on-Facebook-Watch.md) - score 3
-- [2018-01-22] [Selenium Still Hangin' Round!](2018/2018-01-22-Selenium-Still-Hanging-Round.md) - score 3
-- [2018-01-23] [Facebook Instant Articles](2018/2018-01-23-Facebook-Instant-Articles.md) - score 4
-- [2018-01-26] [Google Developer Scholarship: Back to the Basics of JavaScript](2018/2018-01-26-Google-Developer-Scholarship-Back-to-the-Basics-of-JavaScript.md) - score 3
-- [2018-01-26] [Querying Hive or Presto Remotely in Python](2018/2018-01-26-Querying-Hive-or-Presto-Remotely-in-Python.md) - score 2
-- [2018-01-28] [Grabbing Facebook Tokens with Selenium and the Graph API](2018/2018-01-28-Grabbing-Facebook-Tokens-with-Selenium-and-the-Graph-API.md) - score 3
-- [2018-01-29] [Scraping Instabilities](2018/2018-01-29-Scraping-Instabilities.md) - score 2
-- [2018-01-30] [Some Basic Hive Commands for Sanity's Sake](2018/2018-01-30-Some-Basic-Hive-Commands-for-Sanitys-Sake.md) - score 2
-- [2018-02-01] [Facebook Graph: The Page Node](2018/2018-02-01-Facebook-Graph-The-Page-Node.md) - score 4
-- [2018-02-02] [Google Developer Scholarship: Back to the Basics of HTML and CSS](2018/2018-02-02-Google-Developer-Scholarship-Back-to-the-Basics-of-HTML-and-CSS.md) - score 3
-- [2018-02-07] [Facebook Graph: The Page/Album Edge](2018/2018-02-07-Facebook-Graph-The-Page-Album-Edge.md) - score 3
-- [2018-02-08] [Crontab Backups](2018/2018-02-08-Crontab-Backups.md) - score 2
-- [2018-02-08] [Facebook Graph: Page/Album Edge Recap](2018/2018-02-08-Facebook-Graph-Page-Album-Edge-Recap.md) - score 2
-- [2018-02-09] [Gittn' a Grip on Merging Git Repositories](2018/2018-02-09-Gittn-a-Grip-on-Merging-Git-Repositories.md) - score 4
-- [2018-02-14] [Facebook Graph: Data Collection Strategy (and Miscellaneous Updates)](2018/2018-02-14-Facebook-Graph-Data-Collection-Strategy-and-Miscellaneous-Updates.md) - score 4
-- [2018-02-15] [How to Import a Python Module from an Arbitrary Path](2018/2018-02-15-How-to-Import-a-Python-Module-from-an-Arbitrary-Path.md) - score 2
-- [2018-02-16] [Gittn on the Diff Train](2018/2018-02-16-Gittn-on-the-Diff-Train.md) - score 3
-- [2018-02-20] [My Daily Git](2018/2018-02-20-My-Daily-Git.md) - score 3
-- [2018-03-06] [Google Developer Scholarship: Asynchronous JavaScript Requests](2018/2018-03-06-Google-Developer-Scholarship-Asynchronous-JavaScript-Requests.md) - score 4
-- [2018-03-15] [Google Developer Scholarship: JavaScript Promises](2018/2018-03-15-Google-Developer-Scholarship-Javascript-Promises.md) - score 3
-- [2018-03-16] [Hello, Node.js!](2018/2018-03-16-Hello-Node-JS.md) - score 3
-- [2018-03-22] [Setting Up RStudio Server on Linux Ubuntu](2018/2018-03-22-Setting-Up-RStudio-Server-on-Linux-Ubuntu.md) - score 2
-- [2018-03-26] [Updating ChromeDriver on Linux Ubuntu EC2 Instance](2018/2018-03-26-Updating-Chromedriver-on-Linux-Ubuntu-EC2-Instance.md) - score 2
-- [2018-04-10] [Trouble, Tributlation, and Triumph: Automating a Cross-Platform Live Stream Report](2018/2018-04-10-Automating-a-Cross-Platform-Live-Stream-Report.md) - score 5
-- [2018-04-12] [AWS: Identity and Access Management](2018/2018-04-12-AWS-Identity-and-Access-Management.md) - score 3
-- [2018-05-01] [Investigating the Instagram Graph](2018/2018-05-01-Investigating-the-Instagram-Graph.md) - score 3
-- [2018-05-08] [Metrics on the Instagraph](2018/2018-05-08-Metrics-on-the-Instagraph.md) - score 3
-- [2018-05-09] [Instagraph Strategy (Part 1): Everything But the Webhooks](2018/2018-05-09-Instagraph-Strategy-Part-1-Everything-But-the-Webhooks.md) - score 3
-- [2018-05-15] [What's What When Selenium Crashes](2018/2018-05-15-Whats-What-When-Selenium-Crashes.md) - score 4
-- [2018-09-26] [Getting Started with MySQL Software](2018/2018-09-26-Getting-Started-with-MySQL-Software.md) - score 3
-- [2018-10-01] [First Foray into Data Modeling with Entity Relationship Diagrams](2018/2018-10-01-First-Foray-into-Data-Modeling-With-Entity-Relationship-Diagrams.md) - score 4
-- [2018-10-05] [First Foray into Data Modeling with Graphs](2018/2018-10-05-First-Foray-into-Data-Modeling-with-Graphs.md) - score 2
-- [2018-10-16] [Accessing CloudWatch with Boto3](2018/2018-10-16-Accessing-CloudWatch-with-Boto3.md) - score 3
-- [2018-10-17] [Navigating the NoSQL Landscape](2018/2018-10-17-Navigating-the-NoSQL-Landscape.md) - score 5
-- [2018-10-20] [NoSQL and Neo4j Notes](2018/2018-10-20-nosql-and-neo4j-notes.md) - score 5
-- [2018-11-13] [Printing Pretty Paths in Neo4j](2018/2018-11-13-Printing-Pretty-Paths-in-Neo4j.md) - score 3
-- [2018-11-20] [Getting off the Ground with Neo4j Browser and LOAD CSV](2018/2018-11-20-Getting-off-the-Ground-with-Neo4j-Browser-and-LOAD-CSV.md) - score 4
-- [2018-11-28] [Query Performance in Neo4j](2018/2018-11-28-Query-Performance-in-Neo4j.md) - score 4
-- [2018-12-18] [WTF is a Marginal Structural Model](2018/2018-12-18-WTF-is-a-Marginal-Structural-Model.md) - score 4
-- [2018-12-19] [Causal Inference, Missing Data, and Predictive Modeling Notes](2018/2018-12-19-causal-inference-missing-data-and-predictive-modeling-notes.md) - score 4
+- [2018-01-04] [Crontab Script Sequences](2018/2018-01-04-Crontab-Script-Sequences.md)
+- [2018-01-12] [Google Developer Scholarship](2018/2018-01-12-Google-Developer-Scholarship.md)
+- [2018-01-12] [Pandas Remote Crash Prevention](2018/2018-01-12-Pandas-Remote-Crash-Prevention.md)
+- [2018-01-17] [HTML Reports: Highlight on Hover](2018/2018-01-17-HTML-Reports-Highlight-on-Hover.md)
+- [2018-01-17] [HTML Reports: Those Numbers Need Commas!](2018/2018-01-17-HTML-Reports-Those-Numbers-Need-Commas.md)
+- [2018-01-17] [Weighing in on Facebook Watch](2018/2018-01-17-Weighing-in-on-Facebook-Watch.md)
+- [2018-01-22] [Selenium Still Hangin' Round!](2018/2018-01-22-Selenium-Still-Hanging-Round.md)
+- [2018-01-23] [Facebook Instant Articles](2018/2018-01-23-Facebook-Instant-Articles.md)
+- [2018-01-26] [Google Developer Scholarship: Back to the Basics of JavaScript](2018/2018-01-26-Google-Developer-Scholarship-Back-to-the-Basics-of-JavaScript.md)
+- [2018-01-26] [Querying Hive or Presto Remotely in Python](2018/2018-01-26-Querying-Hive-or-Presto-Remotely-in-Python.md)
+- [2018-01-28] [Grabbing Facebook Tokens with Selenium and the Graph API](2018/2018-01-28-Grabbing-Facebook-Tokens-with-Selenium-and-the-Graph-API.md)
+- [2018-01-29] [Scraping Instabilities](2018/2018-01-29-Scraping-Instabilities.md)
+- [2018-01-30] [Some Basic Hive Commands for Sanity's Sake](2018/2018-01-30-Some-Basic-Hive-Commands-for-Sanitys-Sake.md)
+- [2018-02-01] [Facebook Graph: The Page Node](2018/2018-02-01-Facebook-Graph-The-Page-Node.md)
+- [2018-02-02] [Google Developer Scholarship: Back to the Basics of HTML and CSS](2018/2018-02-02-Google-Developer-Scholarship-Back-to-the-Basics-of-HTML-and-CSS.md)
+- [2018-02-07] [Facebook Graph: The Page/Album Edge](2018/2018-02-07-Facebook-Graph-The-Page-Album-Edge.md)
+- [2018-02-08] [Crontab Backups](2018/2018-02-08-Crontab-Backups.md)
+- [2018-02-08] [Facebook Graph: Page/Album Edge Recap](2018/2018-02-08-Facebook-Graph-Page-Album-Edge-Recap.md)
+- [2018-02-09] [Gittn' a Grip on Merging Git Repositories](2018/2018-02-09-Gittn-a-Grip-on-Merging-Git-Repositories.md)
+- [2018-02-14] [Facebook Graph: Data Collection Strategy (and Miscellaneous Updates)](2018/2018-02-14-Facebook-Graph-Data-Collection-Strategy-and-Miscellaneous-Updates.md)
+- [2018-02-15] [How to Import a Python Module from an Arbitrary Path](2018/2018-02-15-How-to-Import-a-Python-Module-from-an-Arbitrary-Path.md)
+- [2018-02-16] [Gittn on the Diff Train](2018/2018-02-16-Gittn-on-the-Diff-Train.md)
+- [2018-02-20] [My Daily Git](2018/2018-02-20-My-Daily-Git.md)
+- [2018-03-06] [Google Developer Scholarship: Asynchronous JavaScript Requests](2018/2018-03-06-Google-Developer-Scholarship-Asynchronous-JavaScript-Requests.md)
+- [2018-03-15] [Google Developer Scholarship: JavaScript Promises](2018/2018-03-15-Google-Developer-Scholarship-Javascript-Promises.md)
+- [2018-03-16] [Hello, Node.js!](2018/2018-03-16-Hello-Node-JS.md)
+- [2018-03-22] [Setting Up RStudio Server on Linux Ubuntu](2018/2018-03-22-Setting-Up-RStudio-Server-on-Linux-Ubuntu.md)
+- [2018-03-26] [Updating ChromeDriver on Linux Ubuntu EC2 Instance](2018/2018-03-26-Updating-Chromedriver-on-Linux-Ubuntu-EC2-Instance.md)
+- [2018-04-10] [Trouble, Tributlation, and Triumph: Automating a Cross-Platform Live Stream Report](2018/2018-04-10-Automating-a-Cross-Platform-Live-Stream-Report.md)
+- [2018-04-12] [AWS: Identity and Access Management](2018/2018-04-12-AWS-Identity-and-Access-Management.md)
+- [2018-05-01] [Investigating the Instagram Graph](2018/2018-05-01-Investigating-the-Instagram-Graph.md)
+- [2018-05-08] [Metrics on the Instagraph](2018/2018-05-08-Metrics-on-the-Instagraph.md)
+- [2018-05-09] [Instagraph Strategy (Part 1): Everything But the Webhooks](2018/2018-05-09-Instagraph-Strategy-Part-1-Everything-But-the-Webhooks.md)
+- [2018-05-15] [What's What When Selenium Crashes](2018/2018-05-15-Whats-What-When-Selenium-Crashes.md)
+- [2018-09-26] [Getting Started with MySQL Software](2018/2018-09-26-Getting-Started-with-MySQL-Software.md)
+- [2018-10-01] [First Foray into Data Modeling with Entity Relationship Diagrams](2018/2018-10-01-First-Foray-into-Data-Modeling-With-Entity-Relationship-Diagrams.md)
+- [2018-10-05] [First Foray into Data Modeling with Graphs](2018/2018-10-05-First-Foray-into-Data-Modeling-with-Graphs.md)
+- [2018-10-16] [Accessing CloudWatch with Boto3](2018/2018-10-16-Accessing-CloudWatch-with-Boto3.md)
+- [2018-10-17] [Navigating the NoSQL Landscape](2018/2018-10-17-Navigating-the-NoSQL-Landscape.md)
+- [2018-10-20] [NoSQL and Neo4j Notes](2018/2018-10-20-nosql-and-neo4j-notes.md)
+- [2018-11-13] [Printing Pretty Paths in Neo4j](2018/2018-11-13-Printing-Pretty-Paths-in-Neo4j.md)
+- [2018-11-20] [Getting off the Ground with Neo4j Browser and LOAD CSV](2018/2018-11-20-Getting-off-the-Ground-with-Neo4j-Browser-and-LOAD-CSV.md)
+- [2018-11-28] [Query Performance in Neo4j](2018/2018-11-28-Query-Performance-in-Neo4j.md)
+- [2018-12-18] [WTF is a Marginal Structural Model](2018/2018-12-18-WTF-is-a-Marginal-Structural-Model.md)
+- [2018-12-19] [Causal Inference, Missing Data, and Predictive Modeling Notes](2018/2018-12-19-causal-inference-missing-data-and-predictive-modeling-notes.md)
 
 ### 2019
 
-- [2019-01-02] [Zero-Shot Learning Notes](2019/2019-01-02-zero-shot-learning-notes.md) - score 4
-- [2019-01-07] [Statistics and Health Learning Resources (LINK-LIST)](2019/2019-01-07-statistics-and-health-learning-resources-LINK-LIST.md) - score 3
-- [2019-01-18] [Robotics Learning Resources (LINK-LIST)](2019/2019-01-18-robotics-learning-resources-LINK-LIST.md) - score 2
-- [2019-01-22] [Deep Learning Research Paper Links (LINK-LIST)](2019/2019-01-22-deep-learning-research-paper-links-LINK-LIST.md) - score 3
-- [2019-01-25] [Crash Course in Causality (Take 1)](2019/2019-01-25-Crash-Course-in-Causality-Take-1.md) - score 4
-- [2019-02-02] [Healthcare IT Notes](2019/2019-02-02-healthcare-it-notes.md) - score 4
-- [2019-02-05] [Accuracy is not so Accurate](2019/2019-02-05-Accuracy-is-not-so-Accurate.md) - score 4
-- [2019-02-12] [Emfit QS Data Streams](2019/2019-02-12-Emfit-QS-Data-Streams.md) - score 4
-- [2019-02-19] [Semi-Colon-Separated Queries in Neo4j Desktop](2019/2019-02-19-Semi-Colon-Separated-Queries-in-Neo4j-Desktop.md) - score 2
-- [2019-02-20] [On Neo4j and the Conservation of Database Complexity](2019/2019-02-20-On-Neo4j-and-the-Conservation-of-Database-Complexity.md) - score 4
-- [2019-02-28] [Refresher on AWS CLI](2019/2019-02-28-Refresher-on-AWS-CLI.md) - score 3
-- [2019-03-01] [Cool Unix One-Liners](2019/2019-03-01-cool-unix-one-liners.md) - score 3
-- [2019-03-06] [deeplearning.ai's Intro to TensorFlow (Week 1)](2019/2019-03-06-Deep-Learning-AI-Intro-to-TensorFlow-Week-1.md) - score 3
-- [2019-03-14] [Exploring Google Colab (Part 1 of N)](2019/2019-03-14-Exploring-Google-Colab-Part-1-of-N.md) - score 3
-- [2019-03-19] [Cookiecutter Data Science](2019/2019-03-19-Cookiecutter-Data-Science.md) - score 4
-- [2019-03-23] [deeplearning.ai's Intro to TensorFlow (Week 2)](2019/2019-03-23-Deep-Learning-AI-Intro-to-TensorFlow-Week2.md) - score 3
-- [2019-03-25] [Notes on Treatments for Categorical Variables with Missing Values for Predictive Models in Production (Take 1)](2019/2019-03-25-Notes-on-Treatments-for-Categorical-Variables-with-Missing-Values-for-Predictive-Models-in-Production-Take-1.md) - score 4
-- [2019-03-29] [Missing Values in a Live Prediction Model (Take 2)](2019/2019-03-29-Missing-Values-in-a-Live-Prediction-Model-Take-2.md) - score 4
-- [2019-03-29] [Random Forests and Tree Ensemble Research Notes](2019/2019-03-29-random-forests-and-tree-ensemble-research-notes.md) - score 5
-- [2019-04-03] [On the Fly Neo4j Exercise](2019/2019-04-03-On-the-Fly-Neo4j-Exercise.md) - score 3
-- [2019-04-16] [2019-04-16-Data-Science-Outside-the-White-Collar](2019/2019-04-16-Data-Science-Outside-the-White-Collar.md) - score 4
-- [2019-04-22] [More Notes on Missing Data for Statistical Inference](2019/2019-04-22-More-Notes-on-Missing-Data-for-Statistical-Inference.md) - score 5
-- [2019-05-03] [Memory-Efficient Windowing of Time Series Data in Python: 1. Memory Strides in NumPy](2019/2019-05-03-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-Memory-Strides-in-NumPy.md) - score 5
-- [2019-05-06] [Memory-Efficient Windowing of Time Series Data in Python: 2. NumPy Arrays vs Pandas DataFrames](2019/2019-05-06-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-2--NumPy-Arrays-vs-Pandas-DataFrames.md) - score 5
-- [2019-05-06] [Memory-Efficient Windowing of Time Series Data in Python: 3. Memory Strides in Pandas](2019/2019-05-06-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-3--Memory-Strides-in-Pandas.md) - score 4
-- [2019-05-30] [Creating and Modifying CookieCutter Project Templates](2019/2019-05-30-Creating-and-Modifying-CookieCutter-Project-Templates.md) - score 4
-- [2019-06-06] [Probabilistic Graphical Models Notes](2019/2019-06-06-probabilistic-graphical-models-notes.md) - score 3
-- [2019-06-12] [The Quest for Blackbox Interpretability](2019/2019-06-12-the-quest-for-blackbox-interpretability.md) - score 4
-- [2019-06-21] [The Quest for Blackbox Interpretability (Take 1, Random Forests and Feature Importances)](2019/2019-06-21-The-Quest-for-Blackbox-Interpretability-Take-1.md) - score 5
-- [2019-06-25] [Machine Learning Plumber](2019/2019-06-25-machine-learning-plumber.md) - score 3
-- [2019-06-26] [The Many Faces of Data Leakage](2019/2019-06-26-The-Many-Faces-of-Data-Leakage.md) - score 4
-- [2019-08-09] [Keeping Your SSH Session Alive](2019/2019-08-09-Keeping-Your-SSH-Session-Alive.md) - score 2
-- [2019-08-16] [Advanced Machine Learning Specialization Notes](2019/2019-08-16-advanced-machine-learning-specialization-notes.md) - score 3
-- [2019-08-20] [Playing with Hyperparameters](2019/2019-08-20-playing-with-hyperparameters.md) - score 3
-- [2019-09-01] [Conda Best Practices](2019/2019-09-01-conda-best-practices.md) - score 3
-- [2019-09-13] [Time Series Forecasting with a Random Forest (1 of N)](2019/2019-09-13-Time-Series-Forecasting-with-Random-Forests-1-of-N.md) - score 3
-- [2019-09-13] [Variable Importance Assessment in Random Forest Regressions](2019/2019-09-13-Variable-Importance-Assessment-in-Random-Forest-Regressions.md) - score 4
-- [2019-09-25] [Experimenting with Random Forests on UCI ML Data Sets](2019/2019-09-25-Experimenting-with-Random-Forests-on-UCI-ML-Data-Sets.md) - score 4
-- [2019-09-25] [Human Activity Recognition Data and Models (LINK-LIST)](2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md) - score 4
-- [2019-09-26] [Time Series Forecasting and DSP Notes](2019/2019-09-26-time-series-forecasting-and-dsp-notes.md) - score 3
-- [2019-10-02] [Face Recognition Notes](2019/2019-10-02-face-recognition-notes.md) - score 4
-- [2019-10-18] [Attaching an EBS Volume to an Existing EC2 Instance](2019/2019-10-18-attaching-an-ebs-volume-to-an-existing-ec2-instance.md) - score 3
-- [2019-10-18] [Resume Advice for Data Science Roles](2019/2019-10-18-resume-advice-for-data-science-roles.md) - score 2
-- [2019-10-18] [What are AWS Skills?](2019/2019-10-18-What-are-AWS-skills.md) - score 3
-- [2019-10-22] [Deep Unsupervised Learning Notes](2019/2019-10-22-deep-unsupervised-learning-notes.md) - score 5
-- [2019-10-25] [Deep Learning Course and Research Links (LINK-LIST)](2019/2019-10-25-deep-learning-course-and-research-links-LINK-LIST.md) - score 3
-- [2019-10-29] [Paper References from "Deep Learning School 2016](2019/2019-10-29-Paper-References-from-Deep-Learning-School-2016.md) - score 3
-- [2019-11-06] [Full Stack Deep Learning Notes](2019/2019-11-06-full-stack-deep-learning-notes.md) - score 4
-- [2019-11-08] [Hello, Static Duck! (A Pythonic Type Tale.)](2019/2019-11-08-Hello-Static-Duck-a-Pythonic-Type-Tale.md) - score 3
-- [2019-11-11] [Ai4 Healthcare](2019/2019-11-11-Ai4-Healthcare.md) - score 4
-- [2019-11-12] [Hyde and Search: Jekyll Notes](2019/2019-11-12-hyde-and-search-jekyll-notes.md) - score 3
-- [2019-11-21] [Wearables Weekly (W1)](2019/2019-11-21-Wearables-Weekly-W1.md) - score 3
-- [2019-11-27] [Preserving History While Merging Two Repos](2019/2019-11-27-Preserving-History-While-Merging-Two-Repos.md) - score 4
-- [2019-12-16] [Intel at the Edge (Udacity Scholarship)](2019/2019-12-16-Intel-at-the-Edge-Udacity-Scholarship.md) - score 3
-- [2019-12-20] [Intel at the Edge (Getting Started)](2019/2019-12-20-Intel-at-the-Edge-Getting-Started.md) - score 4
-- [2019-12-20] [Pitting Pandas vs Postgres (a Refresher)](2019/2019-12-20-Pitting-Pandas-vs-Postgres-a-Refresher.md) - score 4
-- [2019-12-27] [Intel at the Edge (Installing Intel's OpenVINO on MacBook w/ 4th Generation Intel Core i7)](2019/2019-12-27-Intel-at-the-Edge-Installing-Intels-OpenVINO-on-MacBook-with-4th-Generation-Intel-Core-i7.md) - score 4
-- [2019-12-30] [Intel at the Edge (OpenVINO on a Linux Docker)](2019/2019-12-30-Intel-at-the-Edge-OpenVINO-on-a-Linux-Docker.md) - score 4
-- [2019-12-31] [Intel at the Edge (Leveraging Pre-Trained Models)](2019/2019-12-31-Intel-at-the-Edge-Leveraging-Pre-Trained-Models.md) - score 4
-- [2019-12-31] [Intel at the Edge: OpenVINO on the Neural Compute Stick 2](2019/2019-12-31-intel-at-the-edge-openvino-on-the-neural-compute-stick-2.md) - score 4
+- [2019-01-02] [Zero-Shot Learning Notes](2019/2019-01-02-zero-shot-learning-notes.md)
+- [2019-01-07] [Statistics and Health Learning Resources (LINK-LIST)](2019/2019-01-07-statistics-and-health-learning-resources-LINK-LIST.md)
+- [2019-01-18] [Robotics Learning Resources (LINK-LIST)](2019/2019-01-18-robotics-learning-resources-LINK-LIST.md)
+- [2019-01-22] [Deep Learning Research Paper Links (LINK-LIST)](2019/2019-01-22-deep-learning-research-paper-links-LINK-LIST.md)
+- [2019-01-25] [Crash Course in Causality (Take 1)](2019/2019-01-25-Crash-Course-in-Causality-Take-1.md)
+- [2019-02-02] [Healthcare IT Notes](2019/2019-02-02-healthcare-it-notes.md)
+- [2019-02-05] [Accuracy is not so Accurate](2019/2019-02-05-Accuracy-is-not-so-Accurate.md)
+- [2019-02-12] [Emfit QS Data Streams](2019/2019-02-12-Emfit-QS-Data-Streams.md)
+- [2019-02-19] [Semi-Colon-Separated Queries in Neo4j Desktop](2019/2019-02-19-Semi-Colon-Separated-Queries-in-Neo4j-Desktop.md)
+- [2019-02-20] [On Neo4j and the Conservation of Database Complexity](2019/2019-02-20-On-Neo4j-and-the-Conservation-of-Database-Complexity.md)
+- [2019-02-28] [Refresher on AWS CLI](2019/2019-02-28-Refresher-on-AWS-CLI.md)
+- [2019-03-01] [Cool Unix One-Liners](2019/2019-03-01-cool-unix-one-liners.md)
+- [2019-03-06] [deeplearning.ai's Intro to TensorFlow (Week 1)](2019/2019-03-06-Deep-Learning-AI-Intro-to-TensorFlow-Week-1.md)
+- [2019-03-14] [Exploring Google Colab (Part 1 of N)](2019/2019-03-14-Exploring-Google-Colab-Part-1-of-N.md)
+- [2019-03-19] [Cookiecutter Data Science](2019/2019-03-19-Cookiecutter-Data-Science.md)
+- [2019-03-23] [deeplearning.ai's Intro to TensorFlow (Week 2)](2019/2019-03-23-Deep-Learning-AI-Intro-to-TensorFlow-Week2.md)
+- [2019-03-25] [Notes on Treatments for Categorical Variables with Missing Values for Predictive Models in Production (Take 1)](2019/2019-03-25-Notes-on-Treatments-for-Categorical-Variables-with-Missing-Values-for-Predictive-Models-in-Production-Take-1.md)
+- [2019-03-29] [Missing Values in a Live Prediction Model (Take 2)](2019/2019-03-29-Missing-Values-in-a-Live-Prediction-Model-Take-2.md)
+- [2019-03-29] [Random Forests and Tree Ensemble Research Notes](2019/2019-03-29-random-forests-and-tree-ensemble-research-notes.md)
+- [2019-04-03] [On the Fly Neo4j Exercise](2019/2019-04-03-On-the-Fly-Neo4j-Exercise.md)
+- [2019-04-16] [2019-04-16-Data-Science-Outside-the-White-Collar](2019/2019-04-16-Data-Science-Outside-the-White-Collar.md)
+- [2019-04-22] [More Notes on Missing Data for Statistical Inference](2019/2019-04-22-More-Notes-on-Missing-Data-for-Statistical-Inference.md)
+- [2019-05-03] [Memory-Efficient Windowing of Time Series Data in Python: 1. Memory Strides in NumPy](2019/2019-05-03-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-Memory-Strides-in-NumPy.md)
+- [2019-05-06] [Memory-Efficient Windowing of Time Series Data in Python: 2. NumPy Arrays vs Pandas DataFrames](2019/2019-05-06-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-2--NumPy-Arrays-vs-Pandas-DataFrames.md)
+- [2019-05-06] [Memory-Efficient Windowing of Time Series Data in Python: 3. Memory Strides in Pandas](2019/2019-05-06-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-3--Memory-Strides-in-Pandas.md)
+- [2019-05-30] [Creating and Modifying CookieCutter Project Templates](2019/2019-05-30-Creating-and-Modifying-CookieCutter-Project-Templates.md)
+- [2019-06-06] [Probabilistic Graphical Models Notes](2019/2019-06-06-probabilistic-graphical-models-notes.md)
+- [2019-06-12] [The Quest for Blackbox Interpretability](2019/2019-06-12-the-quest-for-blackbox-interpretability.md)
+- [2019-06-21] [The Quest for Blackbox Interpretability (Take 1, Random Forests and Feature Importances)](2019/2019-06-21-The-Quest-for-Blackbox-Interpretability-Take-1.md)
+- [2019-06-25] [Machine Learning Plumber](2019/2019-06-25-machine-learning-plumber.md)
+- [2019-06-26] [The Many Faces of Data Leakage](2019/2019-06-26-The-Many-Faces-of-Data-Leakage.md)
+- [2019-08-09] [Keeping Your SSH Session Alive](2019/2019-08-09-Keeping-Your-SSH-Session-Alive.md)
+- [2019-08-16] [Advanced Machine Learning Specialization Notes](2019/2019-08-16-advanced-machine-learning-specialization-notes.md)
+- [2019-08-20] [Playing with Hyperparameters](2019/2019-08-20-playing-with-hyperparameters.md)
+- [2019-09-01] [Conda Best Practices](2019/2019-09-01-conda-best-practices.md)
+- [2019-09-13] [Time Series Forecasting with a Random Forest (1 of N)](2019/2019-09-13-Time-Series-Forecasting-with-Random-Forests-1-of-N.md)
+- [2019-09-13] [Variable Importance Assessment in Random Forest Regressions](2019/2019-09-13-Variable-Importance-Assessment-in-Random-Forest-Regressions.md)
+- [2019-09-25] [Experimenting with Random Forests on UCI ML Data Sets](2019/2019-09-25-Experimenting-with-Random-Forests-on-UCI-ML-Data-Sets.md)
+- [2019-09-25] [Human Activity Recognition Data and Models (LINK-LIST)](2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md)
+- [2019-09-26] [Time Series Forecasting and DSP Notes](2019/2019-09-26-time-series-forecasting-and-dsp-notes.md)
+- [2019-10-02] [Face Recognition Notes](2019/2019-10-02-face-recognition-notes.md)
+- [2019-10-18] [Attaching an EBS Volume to an Existing EC2 Instance](2019/2019-10-18-attaching-an-ebs-volume-to-an-existing-ec2-instance.md)
+- [2019-10-18] [Resume Advice for Data Science Roles](2019/2019-10-18-resume-advice-for-data-science-roles.md)
+- [2019-10-18] [What are AWS Skills?](2019/2019-10-18-What-are-AWS-skills.md)
+- [2019-10-22] [Deep Unsupervised Learning Notes](2019/2019-10-22-deep-unsupervised-learning-notes.md)
+- [2019-10-25] [Deep Learning Course and Research Links (LINK-LIST)](2019/2019-10-25-deep-learning-course-and-research-links-LINK-LIST.md)
+- [2019-10-29] [Paper References from "Deep Learning School 2016](2019/2019-10-29-Paper-References-from-Deep-Learning-School-2016.md)
+- [2019-11-06] [Full Stack Deep Learning Notes](2019/2019-11-06-full-stack-deep-learning-notes.md)
+- [2019-11-08] [Hello, Static Duck! (A Pythonic Type Tale.)](2019/2019-11-08-Hello-Static-Duck-a-Pythonic-Type-Tale.md)
+- [2019-11-11] [Ai4 Healthcare](2019/2019-11-11-Ai4-Healthcare.md)
+- [2019-11-12] [Hyde and Search: Jekyll Notes](2019/2019-11-12-hyde-and-search-jekyll-notes.md)
+- [2019-11-21] [Wearables Weekly (W1)](2019/2019-11-21-Wearables-Weekly-W1.md)
+- [2019-11-27] [Preserving History While Merging Two Repos](2019/2019-11-27-Preserving-History-While-Merging-Two-Repos.md)
+- [2019-12-16] [Intel at the Edge (Udacity Scholarship)](2019/2019-12-16-Intel-at-the-Edge-Udacity-Scholarship.md)
+- [2019-12-20] [Intel at the Edge (Getting Started)](2019/2019-12-20-Intel-at-the-Edge-Getting-Started.md)
+- [2019-12-20] [Pitting Pandas vs Postgres (a Refresher)](2019/2019-12-20-Pitting-Pandas-vs-Postgres-a-Refresher.md)
+- [2019-12-27] [Intel at the Edge (Installing Intel's OpenVINO on MacBook w/ 4th Generation Intel Core i7)](2019/2019-12-27-Intel-at-the-Edge-Installing-Intels-OpenVINO-on-MacBook-with-4th-Generation-Intel-Core-i7.md)
+- [2019-12-30] [Intel at the Edge (OpenVINO on a Linux Docker)](2019/2019-12-30-Intel-at-the-Edge-OpenVINO-on-a-Linux-Docker.md)
+- [2019-12-31] [Intel at the Edge (Leveraging Pre-Trained Models)](2019/2019-12-31-Intel-at-the-Edge-Leveraging-Pre-Trained-Models.md)
+- [2019-12-31] [Intel at the Edge: OpenVINO on the Neural Compute Stick 2](2019/2019-12-31-intel-at-the-edge-openvino-on-the-neural-compute-stick-2.md)
 
 ### 2020
 
-- [2020-01-12] [Intel at the Edge (The Model Optimizer)](2020/2020-01-12-Intel-at-the-Edge-The-Model-Optimizer.md) - score 4
-- [2020-01-17] [Intel at the Edge (The Inference Engine)](2020/2020-01-17-Intel-at-the-Edge-The-Inference-Engine.md) - score 4
-- [2020-01-27] [Intel at the Edge (Deploying an Edge App)](2020/2020-01-27-Intel-at-the-Edge-Deploying-an-Edge-App.md) - score 4
-- [2020-02-05] [IoT and Embedded Systems Notes](2020/2020-02-05-iot-and-embedded-systems-notes.md) - score 5
-- [2020-02-13] [A Few Thoughts on Enabling the Data Scientist](2020/2020-02-13-A-Few-Thoughts-on-Enabling-the-Data-Scientist.md) - score 4
-- [2020-10-01] [Are Wearables Worth the Hype?](2020/2020-10-01-Are-Wearables-Worth-the-Hype.md) - score 4
+- [2020-01-12] [Intel at the Edge (The Model Optimizer)](2020/2020-01-12-Intel-at-the-Edge-The-Model-Optimizer.md)
+- [2020-01-17] [Intel at the Edge (The Inference Engine)](2020/2020-01-17-Intel-at-the-Edge-The-Inference-Engine.md)
+- [2020-01-27] [Intel at the Edge (Deploying an Edge App)](2020/2020-01-27-Intel-at-the-Edge-Deploying-an-Edge-App.md)
+- [2020-02-05] [IoT and Embedded Systems Notes](2020/2020-02-05-iot-and-embedded-systems-notes.md)
+- [2020-02-13] [A Few Thoughts on Enabling the Data Scientist](2020/2020-02-13-A-Few-Thoughts-on-Enabling-the-Data-Scientist.md)
+- [2020-10-01] [Are Wearables Worth the Hype?](2020/2020-10-01-Are-Wearables-Worth-the-Hype.md)
 
 ### 2021
 
-- [2021-03-12] [Convert your Markdown to Beautiful Presentations with Markdown Slides](2021/2021-03-12-convert-your-markdown-to-beautiful-presentations-with-markdown-slides.md) - score 4
-- [2021-04-06] [OpenBCI EEG Headset Notes (LINK-LIST)](2021/2021-04-06-openbci-eeg-headset-notes-LINK-LIST.md) - score 3
-- [2021-07-01] [Python Package Best Practices: Using Type Hints](2021/2021-07-01-python-package-best-practices-using-type-hints.md) - score 3
-- [2021-07-22] [Multi-GPU Training with TensorFlow Estimators](2021/2021-07-22-multi-gpu-training-with-tensorflow-estimators.md) - score 3
+- [2021-03-12] [Convert your Markdown to Beautiful Presentations with Markdown Slides](2021/2021-03-12-convert-your-markdown-to-beautiful-presentations-with-markdown-slides.md)
+- [2021-04-06] [OpenBCI EEG Headset Notes (LINK-LIST)](2021/2021-04-06-openbci-eeg-headset-notes-LINK-LIST.md)
+- [2021-07-01] [Python Package Best Practices: Using Type Hints](2021/2021-07-01-python-package-best-practices-using-type-hints.md)
+- [2021-07-22] [Multi-GPU Training with TensorFlow Estimators](2021/2021-07-22-multi-gpu-training-with-tensorflow-estimators.md)
 
 ### 2024
 
-- [2024-08-28] [2024-08-28-Data-Leakage-Is-Everywhere](2024/2024-08-28-Data-Leakage-Is-Everywhere.md) - score 4
+- [2024-08-28] [2024-08-28-Data-Leakage-Is-Everywhere](2024/2024-08-28-Data-Leakage-Is-Everywhere.md)
