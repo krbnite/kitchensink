@@ -4,6 +4,61 @@ This folder is the canonical archive for selected historical blog articles impor
 
 The articles keep their original dated filenames and were imported with filtered Git history rather than copied as fresh 2026 files. Topic folders elsewhere in `kitchensink` link back here instead of duplicating articles into multiple places.
 
+## Browse By Topic
+
+Use the article topic guides for skill and keyword-based browsing. The broader
+repo sections include related projects, notebooks, environment files, and
+preserved historical work.
+
+### Article Topic Guides
+
+- [All Article Topic Guides](topics/README.md)
+- [Automation](topics/automation.md)
+- [APIs and Social Platforms](topics/apis-and-social-platforms.md)
+- [AWS and Cloud Workflows](topics/aws-cloud.md)
+- [Computer Vision](topics/computer-vision.md)
+- [Data Engineering](topics/data-engineering.md)
+- [Data Leakage and Model Validation](topics/data-leakage.md)
+- [Deep Learning](topics/deep-learning.md)
+- [Git and Repository History](topics/git-and-repo-history.md)
+- [Health and Digital Biomarkers](topics/health.md)
+- [IoT and Edge AI](topics/iot-and-edge-ai.md)
+- [JavaScript and Web Development](topics/javascript-and-web.md)
+- [Learning Resources](topics/learning-resources.md)
+- [NLP](topics/nlp.md)
+- [Presentations and Technical Writing](topics/presentations-and-writing.md)
+- [Project Structure](topics/project-structure.md)
+- [Python and Workflow](topics/python-workflow.md)
+- [R and Statistical Computing](topics/r-and-statistical-computing.md)
+- [Robotics and Edge AI](topics/robotics.md)
+- [Scientific Computing](topics/scientific-computing.md)
+- [Sensors](topics/sensors.md)
+- [Statistics](topics/statistics.md)
+- [TensorFlow](topics/tensorflow.md)
+- [Time Series](topics/time-series.md)
+- [Tree Ensembles](topics/tree-ensembles.md)
+- [Wearables](topics/wearables.md)
+- [Web Scraping](topics/web-scraping.md)
+
+### Broader Repo Sections
+
+- [Deep Learning](../deep-learning/README.md)
+- [Health and Digital Biomarkers](../health/README.md)
+- [NLP](../nlp/README.md)
+- [Notebooks](../notebooks/README.md)
+- [Publications](../publications/README.md)
+- [Robotics](../robotics/README.md)
+- [Statistics](../statistics/README.md)
+- [Time Series](../time-series/README.md)
+- [Trees and Tree Ensembles](../trees/README.md)
+- [Vision](../vision/README.md)
+- [Automation](../misc/automation/README.md)
+- [Data Engineering](../misc/data-engineering/README.md)
+- [Dev Notes](../misc/dev-notes/README.md)
+- [Git History](../misc/git-history/README.md)
+- [Project Structure](../misc/project-structure/README.md)
+- [Research Notes](../misc/research-notes/README.md)
+
 ## Archive Index
 
 ### 2014
