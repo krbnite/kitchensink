@@ -8,6 +8,7 @@ and [Time Series](../../time-series/README.md).
 
 ## Articles
 
+- [First Wearable Data Exploration with Empatica and Physilog](../2018/2018-09-05-first-wearable-data-exploration-with-empatica-and-physilog.md) (2018-09-05)
 - [Emfit QS Data Streams](../2019/2019-02-12-Emfit-QS-Data-Streams.md) (2019-02-12)
 - [Human Activity Recognition Data and Models (LINK-LIST)](../2019/2019-09-25-human-activity-recognition-data-and-models-LINK-LIST.md) (2019-09-25)
 - [Wearables Weekly (W1)](../2019/2019-11-21-Wearables-Weekly-W1.md) (2019-11-21)

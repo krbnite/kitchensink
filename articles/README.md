@@ -184,6 +184,7 @@ preserved historical work.
 - [2018-05-08] [Metrics on the Instagraph](2018/2018-05-08-Metrics-on-the-Instagraph.md)
 - [2018-05-09] [Instagraph Strategy (Part 1): Everything But the Webhooks](2018/2018-05-09-Instagraph-Strategy-Part-1-Everything-But-the-Webhooks.md)
 - [2018-05-15] [What's What When Selenium Crashes](2018/2018-05-15-Whats-What-When-Selenium-Crashes.md)
+- [2018-09-05] [First Wearable Data Exploration with Empatica and Physilog](2018/2018-09-05-first-wearable-data-exploration-with-empatica-and-physilog.md)
 - [2018-09-26] [Getting Started with MySQL Software](2018/2018-09-26-Getting-Started-with-MySQL-Software.md)
 - [2018-10-01] [First Foray into Data Modeling with Entity Relationship Diagrams](2018/2018-10-01-First-Foray-into-Data-Modeling-With-Entity-Relationship-Diagrams.md)
 - [2018-10-05] [First Foray into Data Modeling with Graphs](2018/2018-10-05-First-Foray-into-Data-Modeling-with-Graphs.md)

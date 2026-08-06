@@ -8,6 +8,7 @@ For broader repo context, see [Time Series](../../time-series/README.md).
 ## Articles
 
 - [Singular Spectrum Analysis in R](../2017/2017-03-17-Singular-Spectrum-Analysis-in-R.md) (2017-03-17)
+- [First Wearable Data Exploration with Empatica and Physilog](../2018/2018-09-05-first-wearable-data-exploration-with-empatica-and-physilog.md) (2018-09-05)
 - [Emfit QS Data Streams](../2019/2019-02-12-Emfit-QS-Data-Streams.md) (2019-02-12)
 - [Memory-Efficient Windowing of Time Series Data in Python: 1. Memory Strides in NumPy](../2019/2019-05-03-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-Memory-Strides-in-NumPy.md) (2019-05-03)
 - [Memory-Efficient Windowing of Time Series Data in Python: 2. NumPy Arrays vs Pandas DataFrames](../2019/2019-05-06-Memory-Efficient-Windowing-of-Time-Series-Data-in-Python-2--NumPy-Arrays-vs-Pandas-DataFrames.md) (2019-05-06)

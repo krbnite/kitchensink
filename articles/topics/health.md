@@ -7,6 +7,8 @@ For broader repo context, see [Health and Digital Biomarkers](../../health/READM
 
 ## Articles
 
+- [First Wearable Data Exploration with Empatica and Physilog](../2018/2018-09-05-first-wearable-data-exploration-with-empatica-and-physilog.md) (2018-09-05)
+- [Causal Inference, Missing Data, and Predictive Modeling Notes](../2018/2018-12-19-causal-inference-missing-data-and-predictive-modeling-notes.md) (2018-12-19)
 - [Healthcare IT Notes](../2019/2019-02-02-healthcare-it-notes.md) (2019-02-02)
 - [Accuracy is not so Accurate](../2019/2019-02-05-Accuracy-is-not-so-Accurate.md) (2019-02-05)
 - [Emfit QS Data Streams](../2019/2019-02-12-Emfit-QS-Data-Streams.md) (2019-02-12)
@@ -21,4 +23,3 @@ For broader repo context, see [Health and Digital Biomarkers](../../health/READM
 - [Time-Series Data Augmentation Research Notes](../2020/2020-07-17-time-series-data-augmentation-research-notes.md) (2020-07-17)
 - [Are Wearables Worth the Hype?](../2020/2020-10-01-Are-Wearables-Worth-the-Hype.md) (2020-10-01)
 - [OpenBCI EEG Headset Notes (LINK-LIST)](../2021/2021-04-06-openbci-eeg-headset-notes-LINK-LIST.md) (2021-04-06)
-- [Causal Inference, Missing Data, and Predictive Modeling Notes](../2018/2018-12-19-causal-inference-missing-data-and-predictive-modeling-notes.md) (2018-12-19)

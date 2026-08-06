@@ -18,6 +18,7 @@ Health AI, wearables, sensor data, and related historical notes.
 
 Health, healthcare-AI, wearables, and sensor-data articles. Some are preserved as historical context and would benefit from polish before being portfolio-facing.
 
+- [First Wearable Data Exploration with Empatica and Physilog](../articles/2018/2018-09-05-first-wearable-data-exploration-with-empatica-and-physilog.md) (2018-09-05)
 - [Causal Inference, Missing Data, and Predictive Modeling Notes](../articles/2018/2018-12-19-causal-inference-missing-data-and-predictive-modeling-notes.md) (2018-12-19)
 - [Statistics and Health Learning Resources (LINK-LIST)](../articles/2019/2019-01-07-statistics-and-health-learning-resources-LINK-LIST.md) (2019-01-07)
 - [Healthcare IT Notes](../articles/2019/2019-02-02-healthcare-it-notes.md) (2019-02-02)
