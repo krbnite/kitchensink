@@ -2,6 +2,12 @@
 
 Just a stash for a splish splash of mish mash that ain't squish 'n ain't trash, but ain't this n' ain't that n' ain't pish n' ain't pash.
 
+## Start Here
+
+- [Browse by article topic](articles/topics/README.md): skill and keyword guides for quick discovery.
+- [Historical article archive](articles/README.md): full dated article list by year.
+- [Project and notebook map](#map): broader archive sections with projects, notebooks, environment notes, and supporting READMEs.
+
 ## Map
 
 - [Historical articles](articles/README.md): selected blog articles imported with filtered Git history and organized by year.

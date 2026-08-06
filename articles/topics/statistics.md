@@ -19,3 +19,4 @@ For broader repo context, see [Statistics](../../statistics/README.md).
 - [More Notes on Missing Data for Statistical Inference](../2019/2019-04-22-More-Notes-on-Missing-Data-for-Statistical-Inference.md) (2019-04-22)
 - [Probabilistic Graphical Models Notes](../2019/2019-06-06-probabilistic-graphical-models-notes.md) (2019-06-06)
 - [The Many Faces of Data Leakage](../2019/2019-06-26-The-Many-Faces-of-Data-Leakage.md) (2019-06-26)
+- [Nonstationary Learning Environments](../2023/2023-02-28-nonstationary-learning-environments.md) (2023-02-28)

@@ -36,4 +36,5 @@ Selected historical articles around statistical modeling, causal inference, miss
 - [The Quest for Blackbox Interpretability](../articles/2019/2019-06-12-the-quest-for-blackbox-interpretability.md) (2019-06-12)
 - [The Many Faces of Data Leakage](../articles/2019/2019-06-26-The-Many-Faces-of-Data-Leakage.md) (2019-06-26)
 - [Time Series Forecasting and DSP Notes](../articles/2019/2019-09-26-time-series-forecasting-and-dsp-notes.md) (2019-09-26)
+- [Nonstationary Learning Environments](../articles/2023/2023-02-28-nonstationary-learning-environments.md) (2023-02-28)
 - [2024-08-28-Data-Leakage-Is-Everywhere](../articles/2024/2024-08-28-Data-Leakage-Is-Everywhere.md) (2024-08-28)
