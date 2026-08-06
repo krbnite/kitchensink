@@ -12,7 +12,9 @@ One instrument on the Van Allen Probes is the Radiation Belt Storm Probes Ion Co
 Example: Below is a global-scale animation of a geomagnetic event that I reconstructed using dozens of internationally-distributed magnetometers and the Van Allen Probes at Earth, mapping the spacecraft's orbital trajectory into a magnetic footpoint trajectory. The animation shows the global distribution of ULF wave activity during "zebra strip events" with the Van Allen Probes' footpoint trajectory overlaid. The color scale represents the amplitude of the ULF waves, with red indicating higher power and gray indicating lower power.
 
 
-https://github.com/krbnite/kitchensink/blob/main/articles/assets/video/spatiotemporal-evolution-of-energetic-electron-events-in-the-context-of-global-ULF-observations.mp4
+
+https://github.com/user-attachments/assets/f6ea8a58-ecd8-4051-873a-f74e4827cb1f
+
 
 
 With the ability to locate magnetic conjunctions between the VAP spacecraft and ground-based magnetometers, it is then possible to identify ULF signatures in the RBSPICE data, compare with the ground-based records, and subsequently track via other available ground stations. Such comparisons can potentially allow researchers to study radial diffusion (the outward or inward movement of trapped plasma particles) in the inner and outer magnetosphere simultaneously.
@@ -30,11 +32,3 @@ The peculiar feature of the ULF activity recorded by RBSPICE is the cascade of e
 In the past, my group at the [Center for Solar-Terrestrial Research](https://research.njit.edu/cstr/) at NJIT have used magnetometers stationed at Jenny Jump State Forest, NJ, and Rothera, Antarctica, to look at toroidal ULF waves (specifically Pc5 waves) driven by CIRs. The L-value at Jenny Jump is 2.5--that is, the outer boundary of the inner radiation belt, magnetically speaking. To compute power spectral density (PSD) estimates, our technique is to implement the [multitaper method](https://en.wikipedia.org/wiki/Multitaper) a discrete prolate spheroidal sequence (DPSS) and the [maximum entropy method (MEM)](https://en.wikipedia.org/wiki/Maximum_entropy_spectral_estimation) for cross validation. The DPSS is a set of orthogonal sequences that are used to estimate the power spectral density of a signal. To compute the PSD using the multitaper method, we apply multiple DPSS tapers to the signal and average the resulting spectral estimates. The MEM is a method for estimating the power spectral density that maximizes the entropy of the estimated spectrum, subject to certain constraints. By using both methods, we can obtain more reliable estimates of the power spectral density and identify the presence of ULF waves in the magnetometer data.
 
 In the December 2 event, we analyzed data from many more magnetometers, finding that such PSD estimates show Pc5 energy in the poloidal magnetic field component only. Furthermore, the wave power is found at some ground stations, but not others. It is our goal to figure out why. 
-
-
-
-
-
-
- 
-
