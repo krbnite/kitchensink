@@ -11,4 +11,4 @@ short papers.
 ## Ideas
 
 - [Time-Series Augmentation And Local Variation](2026-08-05-time-series-augmentation-local-variation.md)
-
+- [Wearable Domain Adaptation And Introspective Learning](2026-08-05-wearable-domain-adaptation-and-introspective-learning.md)
